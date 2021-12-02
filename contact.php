@@ -110,7 +110,7 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 								<div class="elementor-element elementor-element-d89ff4e elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="d89ff4e" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="theme-site-logo.default">
 				<div class="elementor-widget-container">
 																<a href="https://elementorpress.com/templatekit-pro/layout17">
-							<img width="154" height="59" src="wp-content/uploads/2021/07/Logo.png" class="attachment-large size-large" alt="" loading="lazy" />								</a>
+							<img src="wp-content/uploads/2021/07/Logo.png" class="attachment-large size-large" alt="" loading="lazy" />								</a>
 															</div>
 				</div>
 					</div>
@@ -119,35 +119,39 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-e42d0a7 elementor-nav-menu__align-right elementor-absolute elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="e42d0a7" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;fas fa-caret-down&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
-						<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none"><ul id="menu-1-e42d0a7" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-84"><a href="../index.html" class="elementor-item">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884"><a href="../about/index.html" class="elementor-item">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033"><a href="../blog/index.html" class="elementor-item">Blog</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-837 current_page_item menu-item-883"><a href="index.html" aria-current="page" class="elementor-item elementor-item-active">Contact</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="../shop-2/index.html" class="elementor-item">Shop</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-87"><a href="#" class="elementor-item elementor-item-anchor">Pages</a>
-<ul class="sub-menu elementor-nav-menu--dropdown">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1423"><a href="../our-service/index.html" class="elementor-sub-item">Our Service</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1424"><a href="../our-team/index.html" class="elementor-sub-item">Our Team</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426"><a href="../testimonials/index.html" class="elementor-sub-item">Testimonials</a></li>
-</ul>
-</li>
+	<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+    <ul id="menu-1-e42d0a7" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-84">
+    <a href="index.php" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884">
+<a href="about.php" class="elementor-item">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033">
+  <a href="blog.php" class="elementor-item">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-837 current_page_item menu-item-883">
+<a href="contact" aria-current="page" class="elementor-item elementor-item-active">Contact</a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+<a href="shop.php" class="elementor-item">Shop</a></li>
+
 </ul></nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
 			<i class="eicon-menu-bar" aria-hidden="true" role="presentation"></i>
 			<span class="elementor-screen-only">Menu</span>
 		</div>
-			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true"><ul id="menu-2-e42d0a7" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-84"><a href="../index.html" class="elementor-item" tabindex="-1">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884"><a href="../about/index.html" class="elementor-item" tabindex="-1">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033"><a href="../blog/index.html" class="elementor-item" tabindex="-1">Blog</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-837 current_page_item menu-item-883"><a href="index.html" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Contact</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="../shop-2/index.html" class="elementor-item" tabindex="-1">Shop</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-87"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Pages</a>
-<ul class="sub-menu elementor-nav-menu--dropdown">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1423"><a href="../our-service/index.html" class="elementor-sub-item" tabindex="-1">Our Service</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1424"><a href="../our-team/index.html" class="elementor-sub-item" tabindex="-1">Our Team</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426"><a href="../testimonials/index.html" class="elementor-sub-item" tabindex="-1">Testimonials</a></li>
-</ul>
-</li>
+	<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
+    <ul id="menu-2-e42d0a7" class="elementor-nav-menu">
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-84">
+    <a href="index.php" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884">
+<a href="about.php" class="elementor-item" tabindex="-1">About</a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033">
+<a href="blog.php" class="elementor-item" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-837 current_page_item menu-item-883">
+<a href="contact.php" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Contact</a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+<a href="shop.php" class="elementor-item" tabindex="-1">Shop</a></li>
+
 </ul></nav>
 				</div>
 				</div>
@@ -157,7 +161,7 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-1b471a6 elementor-search-form--skin-full_screen elementor-widget__width-auto elementor-widget elementor-widget-search-form" data-id="1b471a6" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;full_screen&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="search-form.default">
 				<div class="elementor-widget-container">
-					<form class="elementor-search-form" role="search" action="https://elementorpress.com/templatekit-pro/layout17" method="get">
+					<form class="elementor-search-form" role="search" action="#" method="get">
 									<div class="elementor-search-form__toggle">
 				<i aria-hidden="true" class="fas fa-search"></i>				<span class="elementor-screen-only">Search</span>
 			</div>
@@ -214,7 +218,7 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 				</div>
 		</div>
 		
-<main class="site-main post-837 page type-page status-publish hentry" role="main">
+<main class="site-main post-837 page type-page status-publish hentry" role="main" style="margin: 0 0 5rem 0;">
 		<div class="page-content">
 				<div data-elementor-type="wp-page" data-elementor-id="837" class="elementor elementor-837" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
@@ -229,7 +233,7 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-39511ca8 elementor-widget elementor-widget-woocommerce-breadcrumb" data-id="39511ca8" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="woocommerce-breadcrumb.default">
 				<div class="elementor-widget-container">
-			<nav class="woocommerce-breadcrumb"><a href="https://elementorpress.com/templatekit-pro/layout17">Home</a>&nbsp;&#47;&nbsp;Contact</nav>		</div>
+			<nav class="woocommerce-breadcrumb"><a href="index.php">Home</a>&nbsp;&#47;&nbsp;Contact</nav>		</div>
 				</div>
 				<div class="elementor-element elementor-element-3b843dea elementor-widget elementor-widget-heading" data-id="3b843dea" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -299,7 +303,7 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 				<div class="elementor-element elementor-element-8e89dfd elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="8e89dfd" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img">
-            <img width="42" height="75" src="wp-content/uploads/2021/07/Location-icon-2.png" class="attachment-full size-full" alt="" loading="lazy" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Location</h3><p class="elementor-image-box-description">121 King Street Melbourne, 3000, Australia</p></div></div>		</div>
+            <img width="42" height="75" src="wp-content/uploads/2021/07/Location-icon-2.png" class="attachment-full size-full" alt="" loading="lazy" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Location</h3><p class="elementor-image-box-description">M&D Pecanland Mexico Privada Andrés López 100 Zona Centro Aramberri, Nuevo León Mexico, CP 67940</p></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-850d0bf elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="850d0bf" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
@@ -312,8 +316,9 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper">
             <figure class="elementor-image-box-img">
-            <img width="48" height="60" src="wp-content/uploads/2021/07/email-icon2.png" class="attachment-full size-full" alt="" loading="lazy" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Email</h3><p class="elementor-image-box-description">Groxistore@gmail.com
-info@groxistore.com</p></div></div>		</div>
+            <img width="48" height="60" src="wp-content/uploads/2021/07/email-icon2.png" class="attachment-full size-full" alt="" loading="lazy" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Email</h3><p class="elementor-image-box-description">
+            DanielRD@mdpecanland.com
+            MaryA@mdpecanland.com</p></div></div>		</div>
 				</div>
 					</div>
 		</div>
@@ -327,10 +332,12 @@ info@groxistore.com</p></div></div>		</div>
 				<div class="elementor-widget-container">
 					<div class="elementor-custom-embed">
 			<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-					src="https://maps.google.com/maps?q=%20Level%201%2C%20121%20King%20Street%20Melbourne%2C%203000%2C%20Australia&amp;t=m&amp;z=20&amp;output=embed&amp;iwloc=near"
+
+			src="https://maps.google.com/maps?q=Nuevo%20Le%C3%B3n%20Mexico&t=&z=13&ie=UTF8&iwloc=&output=embed"
 					title=" Level 1, 121 King Street Melbourne, 3000, Australia"
 					aria-label=" Level 1, 121 King Street Melbourne, 3000, Australia"
 			></iframe>
+        
 		</div>
 				</div>
 				</div>
@@ -354,89 +361,14 @@ info@groxistore.com</p></div></div>		</div>
 
 			<div data-elementor-type="footer" data-elementor-id="533" class="elementor elementor-533 elementor-location-footer" data-elementor-settings="[]">
 		<div class="elementor-section-wrap">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-c6ecabd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c6ecabd" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-55a3963" data-id="55a3963" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-e0c9f6e elementor-invisible elementor-widget elementor-widget-heading" data-id="e0c9f6e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">Testimonials</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-fc83e29 elementor-invisible elementor-widget elementor-widget-heading" data-id="fc83e29" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">What Our Customers Saying</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-e1be67f elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-eael-testimonial" data-id="e1be67f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="eael-testimonial.default">
-				<div class="elementor-widget-container">
-			
-	<div id="eael-testimonial-e1be67f" class="eael-testimonial-item clearfix  default-style rating-five">
-
 		
-		
-								<div class="eael-testimonial-image">
-									<figure><img width="84" height="67" src="wp-content/uploads/2021/07/Comma.png" class="attachment-full size-full" alt="" loading="lazy" /></figure>
-							</div>
-						<div class="eael-testimonial-content">
-				<div class="eael-testimonial-text"><p>”Quisquam est, qui dolorem ipsum quia dolor sit<br />consectetur adipisci velit sed quia non numqua<br />eius modi tempora incidunt ut labore et dolore <br />magnam aliquam quaerat voluptatem repudia<br />sint et molestiae”</p>
-</div>		<ul class="testimonial-star-rating">
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-		</ul>
-		<p class="eael-testimonial-user">Alina Parker</p><p class="eael-testimonial-user-company">CEO, GTD</p>			</div>
-		
-		
-		
-		
-		
-		<span class="eael-testimonial-quote"></span>
-	</div>
-
-			</div>
-				</div>
-				<div class="elementor-element elementor-element-f99811c elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-eael-testimonial" data-id="f99811c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="eael-testimonial.default">
-				<div class="elementor-widget-container">
-			
-	<div id="eael-testimonial-f99811c" class="eael-testimonial-item clearfix  default-style rating-five">
-
-		
-		
-								<div class="eael-testimonial-image">
-									<figure><img width="84" height="67" src="wp-content/uploads/2021/07/Comma.png" class="attachment-full size-full" alt="" loading="lazy" /></figure>
-							</div>
-						<div class="eael-testimonial-content">
-				<div class="eael-testimonial-text"><p>”Quisquam est, qui dolorem ipsum quia dolor sit<br />consectetur adipisci velit sed quia non numqua<br />eius modi tempora incidunt ut labore et dolore <br />magnam aliquam quaerat voluptatem repudia<br />sint et molestiae”</p>
-</div>		<ul class="testimonial-star-rating">
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-		</ul>
-		<p class="eael-testimonial-user">Kevin Andrew</p><p class="eael-testimonial-user-company">Manager, Rex</p>			</div>
-		
-		
-		
-		
-		
-		<span class="eael-testimonial-quote"></span>
-	</div>
-
-			</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-7a5b998 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7a5b998" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-61ab10f" data-id="61ab10f" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-56245e2 elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image" data-id="56245e2" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="152" height="73" src="wp-content/uploads/2021/07/Brand-logo-1.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://elementorpress.com/templatekit-pro/layout17/wp-content/uploads/2021/07/Brand-logo-1.png 152w, https://elementorpress.com/templatekit-pro/layout17/wp-content/uploads/2021/07/Brand-logo-1-150x73.png 150w" sizes="(max-width: 152px) 100vw, 152px" />															</div>
+				<img width="152" height="73" src="wp-content/uploads/2021/07/Brand-logo-1.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://elementorpress.com/templatekit-pro/layout17/wp-content/uploads/2021/07/Brand-logo-1.png 152w, https://elementorpress.com/templatekit-pro/layout17/wp-content/uploads/2021/07/Brand-logo-1-150x73.png 150w" sizes="(max-width: 152px) 100vw, 152px" />															</div>
 				</div>
 					</div>
 		</div>
@@ -476,7 +408,7 @@ info@groxistore.com</p></div></div>		</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-fc9ac17 elementor-widget__width-initial elementor-absolute elementor-hidden-tablet elementor-hidden-phone elementor-invisible elementor-widget elementor-widget-image" data-id="fc9ac17" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="542" height="486" src="wp-content/uploads/2021/07/Footer-Img.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://elementorpress.com/templatekit-pro/layout17/wp-content/uploads/2021/07/Footer-Img.png 542w, https://elementorpress.com/templatekit-pro/layout17/wp-content/uploads/2021/07/Footer-Img-300x269.png 300w" sizes="(max-width: 542px) 100vw, 542px" />															</div>
+			<img width="542" height="486" src="wp-content/uploads/2021/07/Footer-Img.png" class="attachment-full size-full" alt="" loading="lazy" sizes="(max-width: 542px) 100vw, 542px" />															</div>
 				</div>
 					</div>
 		</div>
@@ -519,149 +451,124 @@ info@groxistore.com</p></div></div>		</div>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-66a17a8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66a17a8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8374783 elementor-invisible" data-id="8374783" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-c5e3561 elementor-widget elementor-widget-heading" data-id="c5e3561" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">Store Location</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-802eae0 elementor-widget elementor-widget-text-editor" data-id="802eae0" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p><strong>Address:</strong></p><p>121 King Street Melbourne,3000, Australia</p><p><strong>Email:</strong></p><p>info@groxistore.com</p><p><strong>Phone:</strong></p><p>+1 23 45 6789</p>						</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-06c3970 elementor-hidden-phone elementor-invisible" data-id="06c3970" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-4f18b52 elementor-widget elementor-widget-heading" data-id="4f18b52" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">Useful Links</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-a00eeab elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="a00eeab" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-					<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">About us</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Blog</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Check out</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Contact</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Service</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Shop</span>
-									</li>
-						</ul>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6ca03d2 elementor-hidden-phone elementor-invisible" data-id="6ca03d2" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-8c86a00 elementor-widget elementor-widget-heading" data-id="8c86a00" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">Categories</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-0a997dd elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="0a997dd" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-					<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Fruits & Vegetables</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Dairy Products</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Package Foods</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Beverage</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Health & Wellness</span>
-									</li>
-								<li class="elementor-icon-list-item">
-										<span class="elementor-icon-list-text">Meat Varieties</span>
-									</li>
-						</ul>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-f3c9385 elementor-hidden-phone elementor-invisible" data-id="f3c9385" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-70d6e6a elementor-widget elementor-widget-heading" data-id="70d6e6a" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">Opening Hours</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-d61244c elementor-widget elementor-widget-text-editor" data-id="d61244c" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p><strong>Monday &#8211; Saturday</strong></p><p>12.00 – 14.45</p><p><strong>Sunday – Thursday</strong></p><p>17.30 – 00.00</p><p>Friday – Saturday</p><p>17.30 – 00.00</p>						</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-41fff29 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="41fff29" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a3cd047" data-id="a3cd047" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-6f71d5e elementor-invisible elementor-widget elementor-widget-text-editor" data-id="6f71d5e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p>Copyright 2021, Groxi Store. All Rights Reserved.</p>						</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-56f61b4 elementor-invisible" data-id="56f61b4" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-cfade51 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="cfade51" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p>Follow Us:</p>						</div>
-				</div>
-				<div class="elementor-element elementor-element-6ea7109 elementor-widget__width-auto elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="6ea7109" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="social-icons.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-social-icons-wrapper elementor-grid">
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-b0498a2" target="_blank">
-						<span class="elementor-screen-only">Facebook-f</span>
-						<i class="fab fa-facebook-f"></i>					</a>
-				</span>
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-d8047c0" target="_blank">
-						<span class="elementor-screen-only">Twitter</span>
-						<i class="fab fa-twitter"></i>					</a>
-				</span>
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-2a52a48" target="_blank">
-						<span class="elementor-screen-only">Linkedin-in</span>
-						<i class="fab fa-linkedin-in"></i>					</a>
-				</span>
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-repeater-item-481fb7a" target="_blank">
-						<span class="elementor-screen-only">Pinterest</span>
-						<i class="fab fa-pinterest"></i>					</a>
-				</span>
-							<span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-b154fd6" target="_blank">
-						<span class="elementor-screen-only">Instagram</span>
-						<i class="fab fa-instagram"></i>					</a>
-				</span>
-					</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
+
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-66a17a8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66a17a8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+   <div class="elementor-container elementor-column-gap-no">
+    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8374783 elementor-invisible" data-id="8374783" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-c5e3561 elementor-widget elementor-widget-heading" data-id="c5e3561" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
+       <div class="elementor-widget-container">
+        <h3 class="elementor-heading-title elementor-size-default">Store Location</h3>
+       </div>
+      </div>
+      <div class="elementor-element elementor-element-802eae0 elementor-widget elementor-widget-text-editor" data-id="802eae0" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
+       <div class="elementor-widget-container">
+        <p><strong>Address:</strong></p>
+        <p>M&D Pecanland Mexico
+Privada Andrés López 100
+Zona Centro
+Aramberri, Nuevo León
+Mexico, <br>CP 67940</p>
+        <p><strong>Email:</strong></p>
+        <p><a href="mailto:DanielRD@mdpecanland.com" class="clchng">DanielRD@mdpecanland.com</a></p>
+        <p><strong>Email:</strong></p>
+        <p><a href="mailto:MaryA@mdpecanland.com" class="clchng">MaryA@mdpecanland.com</a></p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-06c3970 elementor-hidden-phone elementor-invisible" data-id="06c3970" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-4f18b52 elementor-widget elementor-widget-heading" data-id="4f18b52" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
+       <div class="elementor-widget-container">
+        <h3 class="elementor-heading-title elementor-size-default">Useful Links</h3>
+       </div>
+      </div>
+      <div class="elementor-element elementor-element-a00eeab elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="a00eeab" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="icon-list.default">
+       <div class="elementor-widget-container">
+        <ul class="elementor-icon-list-items">
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">About us</span> </li>
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Blog</span> </li>
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Check out</span> </li>
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Contact</span> </li>
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Service</span> </li>
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Shop</span> </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6ca03d2 elementor-hidden-phone elementor-invisible" data-id="6ca03d2" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-8c86a00 elementor-widget elementor-widget-heading" data-id="8c86a00" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
+       <div class="elementor-widget-container">
+        <h3 class="elementor-heading-title elementor-size-default">Categories</h3>
+       </div>
+      </div>
+      <div class="elementor-element elementor-element-0a997dd elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="0a997dd" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="icon-list.default">
+       <div class="elementor-widget-container">
+        <ul class="elementor-icon-list-items">
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Fruits & Vegetables</span> </li>
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Dairy Products</span> </li>
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Package Foods</span> </li>
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Beverage</span> </li>
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Health & Wellness</span> </li>
+         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Meat Varieties</span> </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-f3c9385 elementor-hidden-phone elementor-invisible" data-id="f3c9385" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-70d6e6a elementor-widget elementor-widget-heading" data-id="70d6e6a" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
+       <div class="elementor-widget-container">
+        <h3 class="elementor-heading-title elementor-size-default">Opening Hours</h3>
+       </div>
+      </div>
+      <div class="elementor-element elementor-element-d61244c elementor-widget elementor-widget-text-editor" data-id="d61244c" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
+       <div class="elementor-widget-container">
+        <p><strong>Monday &#8211; Saturday</strong></p>
+        <p>12.00 – 14.45</p>
+        <p><strong>Sunday – Thursday</strong></p>
+        <p>17.30 – 00.00</p>
+        <p>Friday – Saturday</p>
+        <p>17.30 – 00.00</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-41fff29 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="41fff29" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+   <div class="elementor-container elementor-column-gap-default">
+    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a3cd047" data-id="a3cd047" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-6f71d5e elementor-invisible elementor-widget elementor-widget-text-editor" data-id="6f71d5e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
+       <div class="elementor-widget-container">
+        <p>Copyright 2021. All Rights Reserved.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-56f61b4 elementor-invisible" data-id="56f61b4" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-cfade51 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="cfade51" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
+       <div class="elementor-widget-container">
+        <p>Follow Us:</p>
+       </div>
+      </div>
+      <div class="elementor-element elementor-element-6ea7109 elementor-widget__width-auto elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="6ea7109" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="social-icons.default">
+       <div class="elementor-widget-container">
+        <div class="elementor-social-icons-wrapper elementor-grid"> <span class="elementor-grid-item"> <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-b0498a2" target="_blank"> <span class="elementor-screen-only">Facebook-f</span> <i class="fab fa-facebook-f"></i> </a> </span> <span class="elementor-grid-item"> <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-d8047c0" target="_blank"> <span class="elementor-screen-only">Twitter</span> <i class="fab fa-twitter"></i> </a> </span> <span class="elementor-grid-item"> <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-2a52a48" target="_blank"> <span class="elementor-screen-only">Linkedin-in</span> <i class="fab fa-linkedin-in"></i> </a> </span> <span class="elementor-grid-item"> <a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-repeater-item-481fb7a" target="_blank"> <span class="elementor-screen-only">Pinterest</span> <i class="fab fa-pinterest"></i> </a> </span> <span class="elementor-grid-item"> <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-b154fd6" target="_blank"> <span class="elementor-screen-only">Instagram</span> <i class="fab fa-instagram"></i> </a> </span> </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+
 				</div>
 		</div>
 		
