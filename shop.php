@@ -119,11 +119,21 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 								<div class="elementor-element elementor-element-e42d0a7 elementor-nav-menu__align-right elementor-absolute elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="e42d0a7" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;fas fa-caret-down&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 						<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
-                            <ul id="menu-1-e42d0a7" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-84"><a href="index.php" class="elementor-item">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884"><a href="about.php" class="elementor-item">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033"><a href="blog.php" class="elementor-item">Blog</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"><a href="contact.php" class="elementor-item">Contact</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item menu-item-1425"><a href="shop.php" aria-current="page" class="elementor-item elementor-item-active">Shop</a></li>
+                            <ul id="menu-1-e42d0a7" class="elementor-nav-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-84">
+	<a href="index.php" class="elementor-item">Home</a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884">
+<a href="about.php" class="elementor-item">About</a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033">
+<a href="blog.php" class="elementor-item">Blog</a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883">
+<a href="contact.php" class="elementor-item">Contact</a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item menu-item-1425">
+<a href="shop.php" aria-current="page" class="elementor-item">Shop</a></li>
 <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-87"><a href="#" class="elementor-item elementor-item-anchor">Pages</a>
 <ul class="sub-menu elementor-nav-menu--dropdown">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1423"><a href="../our-service/index.html" class="elementor-sub-item">Our Service</a></li>
@@ -141,7 +151,9 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884"><a href="about.php" class="elementor-item" tabindex="-1">About</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033"><a href="blog.php" class="elementor-item" tabindex="-1">Blog</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"><a href="contact.php" class="elementor-item" tabindex="-1">Contact</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item menu-item-1425"><a href="shop.php" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Shop</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"><a href="contact.php" class="elementor-item" tabindex="-1">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item menu-item-1425">
+<a href="shop.php" aria-current="page" tabindex="-1">Shop</a></li>
 <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-87"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Pages</a>
 <ul class="sub-menu elementor-nav-menu--dropdown">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1423"><a href="../our-service/index.html" class="elementor-sub-item" tabindex="-1">Our Service</a></li>
@@ -345,7 +357,7 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 		</div>
 				<div data-elementor-type="footer" data-elementor-id="533" class="elementor elementor-533 elementor-location-footer" data-elementor-settings="[]">
 		<div class="elementor-section-wrap">
-					<
+				
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-7a5b998 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7a5b998" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-61ab10f" data-id="61ab10f" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">

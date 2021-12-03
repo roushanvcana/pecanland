@@ -31,7 +31,7 @@
 		</div>
 							</div>
 		</section>
-		
+
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-eae2b7b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eae2b7b" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-daab3b7 elementor-invisible" data-id="daab3b7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
@@ -51,15 +51,28 @@
 			
 			<div class="elementor-form-fields-wrapper elementor-labels-">
 								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
-					<label for="form-field-name" class="elementor-field-label elementor-screen-only">Name</label><input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Name">				</div>
-								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
-					<label for="form-field-email" class="elementor-field-label elementor-screen-only">Email</label><input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Email" required="required" aria-required="true">				</div>
-								<div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_f058bb6 elementor-col-50 elementor-field-required">
+					<label for="form-field-name" class="elementor-field-label elementor-screen-only">First Name</label>
+				<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="First Name">		
+					</div>
+
+					<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
+					<label for="form-field-name" class="elementor-field-label elementor-screen-only">Last Name</label>
+				<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Last Name">		
+					</div>
+								
+				<div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_f058bb6 elementor-col-50 elementor-field-required">
 					<label for="form-field-field_f058bb6" class="elementor-field-label elementor-screen-only">Phone</label><input size="1" type="tel" name="form_fields[field_f058bb6]" id="form-field-field_f058bb6" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Phone" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">				</div>
-								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_12bafb5 elementor-col-50 elementor-field-required">
-					<label for="form-field-field_12bafb5" class="elementor-field-label elementor-screen-only">Address</label><input size="1" type="text" name="form_fields[field_12bafb5]" id="form-field-field_12bafb5" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Address" required="required" aria-required="true">				</div>
+								<!-- <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_12bafb5 elementor-col-50 elementor-field-required">
+					<label for="form-field-field_12bafb5" class="elementor-field-label elementor-screen-only">Address</label>
+
+				<input size="1" type="text" name="form_fields[field_12bafb5]" id="form-field-field_12bafb5" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Address" required="required" aria-required="true">			
+			</div>
+			 -->
+			 <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
+					<label for="form-field-email" class="elementor-field-label elementor-screen-only">Email</label><input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Email" required="required" aria-required="true">				
+			</div>
 								<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
-					<label for="form-field-message" class="elementor-field-label elementor-screen-only">Message</label><textarea class="elementor-field-textual elementor-field  elementor-size-lg" name="form_fields[message]" id="form-field-message" rows="6" placeholder="Message"></textarea>				</div>
+					<label for="form-field-message" class="elementor-field-label elementor-screen-only">Subject</label><textarea class="elementor-field-textual elementor-field  elementor-size-lg" name="form_fields[message]" id="form-field-message" rows="6" placeholder="Subject"></textarea>				</div>
 								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
 					<button type="submit" class="elementor-button elementor-size-sm">
 						<span >

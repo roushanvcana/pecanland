@@ -461,7 +461,7 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
         <nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
          <ul id="menu-1-e42d0a7" class="elementor-nav-menu">
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-75 current_page_item menu-item-84">
-            <a href="index.php" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
+            <a href="index.php" aria-current="page" class="elementor-item">Home</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884">
           <a href="about.php" class="elementor-item">About</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033">

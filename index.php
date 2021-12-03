@@ -80,7 +80,7 @@
         <nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
          <ul id="menu-1-e42d0a7" class="elementor-nav-menu">
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-75 current_page_item menu-item-84">
-      <a href="index.php" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
+      <a href="index.php" aria-current="page" class="elementor-item">Home</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884">
         <a href="about.php" class="elementor-item">About</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033"><a href="blog.php" class="elementor-item">Blog</a></li>
@@ -544,6 +544,7 @@
 
 <div data-elementor-type="footer" data-elementor-id="533" class="elementor elementor-533 elementor-location-footer" data-elementor-settings="[]">
  <div class="elementor-section-wrap">
+
   <section class="elementor-section elementor-top-section elementor-element elementor-element-c6ecabd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c6ecabd" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
    <div class="elementor-container elementor-column-gap-default">
     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-55a3963" data-id="55a3963" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
@@ -616,7 +617,47 @@
     </div>
    </div>
   </section>
-  <section style="height:170px;">&nbsp;</section>
+
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-7a5b998 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7a5b998" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+   <div class="elementor-container elementor-column-gap-no">
+     <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-61ab10f" data-id="61ab10f" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-56245e2 elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image" data-id="56245e2" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
+       <div class="elementor-widget-container"> 
+   <img width="152" height="73" src="wp-content/uploads/2021/07/Brand-logo-1.png" alt="brand-logo" class="attachment-full size-full" alt="" loading="lazy" sizes="(max-width: 152px) 100vw, 152px" /> </div>
+      </div>
+     </div>
+    </div> 
+
+
+    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6ebd1eb" data-id="6ebd1eb" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-48754ee elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image" data-id="48754ee" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
+       <div class="elementor-widget-container"> 
+        <img width="165" height="55" src="wp-content/uploads/2021/07/Brand-logo-2.png" class="attachment-large size-large" alt="" loading="lazy" /> </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2556ba0" data-id="2556ba0" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-bd5fe1a elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image" data-id="bd5fe1a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
+       <div class="elementor-widget-container"> 
+    <img width="144" height="70" src="wp-content/uploads/2021/07/Brand-logo-3.png" class="attachment-large size-large" alt="" loading="lazy" /> </div>
+      </div>
+     </div>
+    </div>
+    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-b931524" data-id="b931524" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-a66b034 elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image" data-id="a66b034" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
+       <div class="elementor-widget-container"> 
+        <img width="108" height="88" src="wp-content/uploads/2021/07/Brand-logo-4.png" class="attachment-large size-large" alt="" loading="lazy" /> </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+
   <section class="elementor-section elementor-top-section elementor-element elementor-element-d627889 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d627889" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
    <div class="elementor-container elementor-column-gap-no">
     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2b26321" data-id="2b26321" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
@@ -626,7 +667,8 @@
         <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2337618" data-id="2337618" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
          <div class="elementor-widget-wrap elementor-element-populated">
           <div class="elementor-element elementor-element-fc9ac17 elementor-widget__width-initial elementor-absolute elementor-hidden-tablet elementor-hidden-phone elementor-invisible elementor-widget elementor-widget-image" data-id="fc9ac17" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
-           <div class="elementor-widget-container"> <img width="542" height="486" src="wp-content/uploads/2021/07/Footer-Img.png" class="attachment-full size-full" alt="" loading="lazy" srcset="wp-content/uploads/2021/07/Footer-Img.png 542w, wp-content/uploads/2021/07/Footer-Img.png 300w" sizes="(max-width: 542px) 100vw, 542px" /> </div>
+           <div class="elementor-widget-container"> 
+            <img width="542" height="486" src="wp-content/uploads/2021/07/Footer-Img.png" class="attachment-full size-full" alt="" loading="lazy" srcset="wp-content/uploads/2021/07/Footer-Img.png 542w, wp-content/uploads/2021/07/Footer-Img.png 300w" sizes="(max-width: 542px) 100vw, 542px" /> </div>
           </div>
          </div>
         </div>
@@ -664,6 +706,7 @@
     </div>
    </div>
   </section>
+
   <section class="elementor-section elementor-top-section elementor-element elementor-element-66a17a8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66a17a8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
    <div class="elementor-container elementor-column-gap-no">
     <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8374783 elementor-invisible" data-id="8374783" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
@@ -677,13 +720,13 @@
        <div class="elementor-widget-container">
         <p><strong>Address:</strong></p>
         <p>M&D Pecanland Mexico
-Privada Andrés López 100
-Zona Centro
-Aramberri, Nuevo León
-Mexico, <br>CP 67940</p>
+               Privada Andrés López 100
+            Zona Centro
+            Aramberri, Nuevo León
+           Mexico, <br>CP 67940</p>
         <p><strong>Email:</strong></p>
         <p><a href="mailto:DanielRD@mdpecanland.com" class="clchng">DanielRD@mdpecanland.com</a></p>
-        <p><strong>Email:</strong></p>
+        <!-- <p><strong>Email:</strong></p> -->
         <p><a href="mailto:MaryA@mdpecanland.com" class="clchng">MaryA@mdpecanland.com</a></p>
        </div>
       </div>
@@ -699,12 +742,12 @@ Mexico, <br>CP 67940</p>
       <div class="elementor-element elementor-element-a00eeab elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="a00eeab" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="icon-list.default">
        <div class="elementor-widget-container">
         <ul class="elementor-icon-list-items">
-         <li class="elementor-icon-list-item"><a href="about.php"><span class="elementor-icon-list-text">About us</span> </a></li>
-         <li class="elementor-icon-list-item"><a href="blog.php"><span class="elementor-icon-list-text">Blog</span></a></li>
+         <li class="elementor-icon-list-item"> <a href="about.php"><span class="elementor-icon-list-text">About us</span> </a></li>
+         <li class="elementor-icon-list-item"> <a href="blog.php"><span class="elementor-icon-list-text">Blog</span></a> </li>
          <!-- <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Check out</span> </li> -->
-         <li class="elementor-icon-list-item"> <a href="contact.php"><span class="elementor-icon-list-text">Contact</span> </a></li>
-         <!-- <li class="elementor-icon-list-item"> <a href=""><span class="elementor-icon-list-text">Service</span></a> </li> -->
-         <li class="elementor-icon-list-item"> <a href="shop.php"><span class="elementor-icon-list-text">Shop</span></a> </li>
+         <li class="elementor-icon-list-item"> <a href="contact.php"><span class="elementor-icon-list-text">Contact</span></a> </li>
+         <!-- <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Service</span> </li> -->
+         <li class="elementor-icon-list-item"> <a href="shop.php"><span class="elementor-icon-list-text">Shop</span> </a></li>
         </ul>
        </div>
       </div>
@@ -781,8 +824,8 @@ Mexico, <br>CP 67940</p>
    </div>
   </section>
 
-				</div>
-		</div>
+ </div>
+</div>
 <!--<script type="text/javascript">
 		(function () {
 			var c = document.body.className;

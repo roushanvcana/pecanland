@@ -1,7 +1,7 @@
 
 <?php include "common/header.php";?>
 		
-<main class="site-main post-723 page type-page status-publish hentry" role="main">
+<main class="site-main post-723 page type-page status-publish hentry" role="main" style="margin: 0 0 3rem 0;">
 		<div class="page-content">
 				<div data-elementor-type="wp-page" data-elementor-id="723" class="elementor elementor-723" data-elementor-settings="[]">
 		<div class="elementor-section-wrap">
@@ -36,7 +36,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-4ddfc1c elementor-widget__width-initial elementor-absolute elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-image" data-id="4ddfc1c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;_position&quot;:&quot;absolute&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-			<img width="685" height="674" src="wp-content/uploads/2021/07/three-walnuts.jpg" class="attachment-full size-full" alt="" loading="lazy" sizes="(max-width: 685px) 100vw, 685px" />															</div>
+			<img src="wp-content/uploads/2021/07/fresh-walnut (1).jpg" class="attachment-full size-full" alt="" loading="lazy" sizes="(max-width: 685px) 100vw, 685px" />															</div>
 				</div>
 					</div>
 		</div>
@@ -48,7 +48,13 @@
 				</div>
 				<div class="elementor-element elementor-element-e28ca1c elementor-invisible elementor-widget elementor-widget-text-editor" data-id="e28ca1c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Neque porro quisquam est aui dolorem iesum ruia dolor sit amet, consectetur, adipisci velit, sed quia non numua eius modi tempora incidunt ut labore et dolore magnam volutatem exercitationem ullam.</p><p>Quis autem vel eum iure reprehenderit aui in ea voluptae velit esse quam nihil molestiae consequatur, vel illum rui dolorem eum fugiat quo voluptas excepteur deserunt veniam adipisicing do adipisicing adipisicing proident esse aud irure commodo mollit voluptate irure alorem consequat ullamco do laboris.</p>						</div>
+							<p>Neque porro quisquam est aui dolorem iesum ruia dolor sit amet, consectetur, 
+						adipisci velit, sed quia non numua eius modi tempora incidunt ut labore et dolore magnam 
+					volutatem exercitationem ullam.</p>
+				<p>
+					Quis autem vel eum iure reprehenderit aui in ea voluptae velit esse quam nihil molestiae consequatur, 
+				vel illum rui dolorem eum fugiat quo voluptas excepteur.</p>						
+			</div>
 				</div>
 					</div>
 		</div>
@@ -70,7 +76,8 @@
 				<div class="elementor-widget-container">
 			<p>Neque porro quisquam est aui dolorem iesum ruia sit amet, consectetur, adipisci velit, sed quia non eius modi tempora incidunt ut labore et dolore ma volutatem exercitationem ullam.</p>						</div>
 				</div>
-				<div class="elementor-element elementor-element-0ac5471 elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="0ac5471" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
+
+				<!-- <div class="elementor-element elementor-element-0ac5471 elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="0ac5471" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
 			<a href="shop.php" class="elementor-button-link elementor-button elementor-size-sm" role="button">
@@ -80,7 +87,8 @@
 					</a>
 		</div>
 				</div>
-				</div>
+				</div> -->
+
 					</div>
 		</div>
 				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1050207" data-id="1050207" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
@@ -97,7 +105,8 @@
 				<div class="elementor-widget-container">
 							<p>Neque porro quisquam est aui dolorem iesum ruia sit amet, consectetur, adipisci velit, sed quia non eius modi tempora incidunt ut labore et dolore ma volutatem exercitationem ullam.</p>						</div>
 				</div>
-				<div class="elementor-element elementor-element-ce9ac9f elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="ce9ac9f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
+
+				<!-- <div class="elementor-element elementor-element-ce9ac9f elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="ce9ac9f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
 			<a href="shop.php" class="elementor-button-link elementor-button elementor-size-sm" role="button">
@@ -107,7 +116,8 @@
 					</a>
 		</div>
 				</div>
-				</div>
+				</div> -->
+
 					</div>
 		</div>
 							</div>

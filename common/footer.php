@@ -182,7 +182,7 @@
            Mexico, <br>CP 67940</p>
         <p><strong>Email:</strong></p>
         <p><a href="mailto:DanielRD@mdpecanland.com" class="clchng">DanielRD@mdpecanland.com</a></p>
-        <p><strong>Email:</strong></p>
+        <!-- <p><strong>Email:</strong></p> -->
         <p><a href="mailto:MaryA@mdpecanland.com" class="clchng">MaryA@mdpecanland.com</a></p>
        </div>
       </div>
