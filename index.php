@@ -56,10 +56,10 @@
 <script type='text/javascript' src='wp-content/plugins/master-elements/assets/js/myscript080f.js?ver=5.8.2' id='slider_script-js'></script>
 <script type='text/javascript' src='wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min365c.js?ver=1.0.21' id='template-kit-export-js'></script>
 
-<link rel="icon" href="wp-content/uploads/2021/07/cropped-Logo-32x32.png" sizes="32x32" />
-<link rel="icon" href="wp-content/uploads/2021/07/cropped-Logo-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="wp-content/uploads/2021/07/cropped-Logo-180x180.png" />
-<meta name="msapplication-TileImage" content="wp-content/uploads/2021/07/cropped-Logo-270x270.png" />
+<link rel="icon" href="wp-content/uploads/2021/07/Logo.png" sizes="32x32" />
+<link rel="icon" href="wp-content/uploads/2021/07/Logo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="wp-content/uploads/2021/07/Logo.png" />
+<meta name="msapplication-TileImage" content="wp-content/uploads/2021/07/Logo.png" />
 </head>
 <body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-75 wp-custom-logo theme-hello-elementor woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-75">
 <div data-elementor-type="header" data-elementor-id="83" class="elementor elementor-83 elementor-location-header" data-elementor-settings="[]">
@@ -546,176 +546,128 @@
 </div>
 
 <div data-elementor-type="footer" data-elementor-id="533" class="elementor elementor-533 elementor-location-footer" data-elementor-settings="[]">
-		<div class="elementor-section-wrap">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-c6ecabd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c6ecabd" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-55a3963" data-id="55a3963" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-e0c9f6e elementor-invisible elementor-widget elementor-widget-heading" data-id="e0c9f6e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">Testimonials</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-fc83e29 elementor-invisible elementor-widget elementor-widget-heading" data-id="fc83e29" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">What Our Customers Saying</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-e1be67f elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-eael-testimonial" data-id="e1be67f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="eael-testimonial.default">
-				<div class="elementor-widget-container">
-			
-	<div id="eael-testimonial-e1be67f" class="eael-testimonial-item clearfix  default-style rating-five">
-
-		
-		
-								<div class="eael-testimonial-image">
-									<figure>
-				<img width="84" height="67" src="wp-content/uploads/2021/07/Comma.png" class="attachment-full size-full" alt="" loading="lazy" /></figure>
-							</div>
-						<div class="eael-testimonial-content">
-				<div class="eael-testimonial-text"><p>”Quisquam est, qui dolorem ipsum quia dolor sit<br />consectetur adipisci velit sed quia non numqua<br />eius modi tempora incidunt ut labore et dolore <br />magnam aliquam quaerat voluptatem repudia<br />sint et molestiae”</p>
-</div>		<ul class="testimonial-star-rating">
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-		</ul>
-		<p class="eael-testimonial-user">Alina Parker</p><p class="eael-testimonial-user-company">CEO, GTD</p>			</div>
-		
-		
-		
-		
-		
-		<span class="eael-testimonial-quote"></span>
-	</div>
-
-			</div>
-				</div>
-				<div class="elementor-element elementor-element-f99811c elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-eael-testimonial" data-id="f99811c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="eael-testimonial.default">
-				<div class="elementor-widget-container">
-			
-	<div id="eael-testimonial-f99811c" class="eael-testimonial-item clearfix  default-style rating-five">
-
-		
-		
-								<div class="eael-testimonial-image">
-									<figure>
-			<img width="84" height="67" src="wp-content/uploads/2021/07/Comma.png" class="attachment-full size-full" alt="" loading="lazy" /></figure>
-							</div>
-						<div class="eael-testimonial-content">
-				<div class="eael-testimonial-text"><p>”Quisquam est, qui dolorem ipsum quia dolor sit<br />consectetur adipisci velit sed quia non numqua<br />eius modi tempora incidunt ut labore et dolore <br />magnam aliquam quaerat voluptatem repudia<br />sint et molestiae”</p>
-</div>		<ul class="testimonial-star-rating">
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-			<li><i class="fas fa-star" aria-hidden="true"></i></li>
-		</ul>
-		<p class="eael-testimonial-user">Kevin Andrew</p><p class="eael-testimonial-user-company">Manager, Rex</p>			</div>
-		
-		
-		
-		
-		
-		<span class="eael-testimonial-quote"></span>
-	</div>
-
-			</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-7a5b998 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7a5b998" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-61ab10f" data-id="61ab10f" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-56245e2 elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image" data-id="56245e2" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-				<img width="152" height="73" src="wp-content/uploads/2021/07/Brand-logo-1.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://elementorpress.com/templatekit-pro/layout17/wp-content/uploads/2021/07/Brand-logo-1.png 152w, https://elementorpress.com/templatekit-pro/layout17/wp-content/uploads/2021/07/Brand-logo-1-150x73.png 150w" sizes="(max-width: 152px) 100vw, 152px" />															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6ebd1eb" data-id="6ebd1eb" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-48754ee elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image" data-id="48754ee" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-			<img width="165" height="55" src="wp-content/uploads/2021/07/Brand-logo-2.png" class="attachment-large size-large" alt="" loading="lazy" />															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2556ba0" data-id="2556ba0" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-bd5fe1a elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image" data-id="bd5fe1a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-				<img width="144" height="70" src="wp-content/uploads/2021/07/Brand-logo-3.png" class="attachment-large size-large" alt="" loading="lazy" />															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-b931524" data-id="b931524" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-a66b034 elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image" data-id="a66b034" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-		  <img width="108" height="88" src="wp-content/uploads/2021/07/Brand-logo-4.png" class="attachment-large size-large" alt="" loading="lazy" />															</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-d627889 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d627889" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2b26321" data-id="2b26321" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-cf832a6 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="cf832a6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2337618" data-id="2337618" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-fc9ac17 elementor-widget__width-initial elementor-absolute elementor-hidden-tablet elementor-hidden-phone elementor-invisible elementor-widget elementor-widget-image" data-id="fc9ac17" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-			<img width="542" height="486" src="wp-content/uploads/2021/07/Footer-Img.png" class="attachment-full size-full" alt="" loading="lazy" srcset="wp-content/uploads/2021/07/Footer-Img.png 542w, wp-content/uploads/2021/07/Footer-Img.png 300w" sizes="(max-width: 542px) 100vw, 542px" />	</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-854280d" data-id="854280d" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-629c154 elementor-invisible elementor-widget elementor-widget-heading" data-id="629c154" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Subscribe To Newsletter</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-c50610c elementor-button-align-start elementor-tablet-button-align-start elementor-mobile-button-align-stretch elementor-invisible elementor-widget elementor-widget-form" data-id="c50610c" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;30&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width_tablet&quot;:&quot;40&quot;,&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="form.default">
-				<div class="elementor-widget-container">
-					<form class="elementor-form" method="post" name="New Form">
-			<input type="hidden" name="post_id" value="533"/>
-			<input type="hidden" name="form_id" value="c50610c"/>
-			<input type="hidden" name="referer_title" value="About" />
-
-							<input type="hidden" name="queried_id" value="723"/>
-			
-			<div class="elementor-form-fields-wrapper elementor-labels-">
-								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-70 elementor-md-60 elementor-field-required">
-					<label for="form-field-email" class="elementor-field-label elementor-screen-only">Email</label><input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Enter Your Email Address" required="required" aria-required="true">				</div>
-								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-30 e-form__buttons elementor-md-40">
-					<button type="submit" class="elementor-button elementor-size-md">
-						<span >
-															<span class=" elementor-button-icon">
-																										</span>
-																						<span class="elementor-button-text">Subscribe Now</span>
-													</span>
-					</button>
-				</div>
-			</div>
-		</form>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section>
-
-    <section class="elementor-section elementor-top-section elementor-element elementor-element-66a17a8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66a17a8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+ <div class="elementor-section-wrap">
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-c6ecabd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c6ecabd" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+   <div class="elementor-container elementor-column-gap-default">
+    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-55a3963" data-id="55a3963" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <div class="elementor-element elementor-element-e0c9f6e elementor-invisible elementor-widget elementor-widget-heading" data-id="e0c9f6e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
+       <div class="elementor-widget-container">
+        <h3 class="elementor-heading-title elementor-size-default">Testimonials</h3>
+       </div>
+      </div>
+      <div class="elementor-element elementor-element-fc83e29 elementor-invisible elementor-widget elementor-widget-heading" data-id="fc83e29" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
+       <div class="elementor-widget-container">
+        <h2 class="elementor-heading-title elementor-size-default">What Our Customers Saying</h2>
+       </div>
+      </div>
+      <div class="elementor-element elementor-element-e1be67f elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-eael-testimonial" data-id="e1be67f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="eael-testimonial.default">
+       <div class="elementor-widget-container">
+        <div id="eael-testimonial-e1be67f" class="eael-testimonial-item clearfix  default-style rating-five">
+         <div class="eael-testimonial-image">
+          <figure><img width="84" height="67" src="wp-content/uploads/2021/07/Comma.png" class="attachment-full size-full" alt="" loading="lazy" /></figure>
+         </div>
+         <div class="eael-testimonial-content">
+          <div class="eael-testimonial-text">
+           <p>”Quisquam est, qui dolorem ipsum quia dolor sit<br />
+            consectetur adipisci velit sed quia non numqua<br />
+            eius modi tempora incidunt ut labore et dolore <br />
+            magnam aliquam quaerat voluptatem repudia<br />
+            sint et molestiae”</p>
+          </div>
+          <ul class="testimonial-star-rating">
+           <li><i class="fas fa-star" aria-hidden="true"></i></li>
+           <li><i class="fas fa-star" aria-hidden="true"></i></li>
+           <li><i class="fas fa-star" aria-hidden="true"></i></li>
+           <li><i class="fas fa-star" aria-hidden="true"></i></li>
+           <li><i class="fas fa-star" aria-hidden="true"></i></li>
+          </ul>
+          <p class="eael-testimonial-user">Alina Parker</p>
+          <p class="eael-testimonial-user-company">CEO, GTD</p>
+         </div>
+         <span class="eael-testimonial-quote"></span> </div>
+       </div>
+      </div>
+      <div class="elementor-element elementor-element-f99811c elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-eael-testimonial" data-id="f99811c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="eael-testimonial.default">
+       <div class="elementor-widget-container">
+        <div id="eael-testimonial-f99811c" class="eael-testimonial-item clearfix  default-style rating-five">
+         <div class="eael-testimonial-image">
+          <figure><img width="84" height="67" src="wp-content/uploads/2021/07/Comma.png" class="attachment-full size-full" alt="" loading="lazy" /></figure>
+         </div>
+         <div class="eael-testimonial-content">
+          <div class="eael-testimonial-text">
+           <p>”Quisquam est, qui dolorem ipsum quia dolor sit<br />
+            consectetur adipisci velit sed quia non numqua<br />
+            eius modi tempora incidunt ut labore et dolore <br />
+            magnam aliquam quaerat voluptatem repudia<br />
+            sint et molestiae”</p>
+          </div>
+          <ul class="testimonial-star-rating">
+           <li><i class="fas fa-star" aria-hidden="true"></i></li>
+           <li><i class="fas fa-star" aria-hidden="true"></i></li>
+           <li><i class="fas fa-star" aria-hidden="true"></i></li>
+           <li><i class="fas fa-star" aria-hidden="true"></i></li>
+           <li><i class="fas fa-star" aria-hidden="true"></i></li>
+          </ul>
+          <p class="eael-testimonial-user">Kevin Andrew</p>
+          <p class="eael-testimonial-user-company">Manager, Rex</p>
+         </div>
+         <span class="eael-testimonial-quote"></span> </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section style="height:170px;">&nbsp;</section>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-d627889 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d627889" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+   <div class="elementor-container elementor-column-gap-no">
+    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2b26321" data-id="2b26321" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated">
+      <section class="elementor-section elementor-inner-section elementor-element elementor-element-cf832a6 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="cf832a6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+       <div class="elementor-container elementor-column-gap-no">
+        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2337618" data-id="2337618" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+         <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-fc9ac17 elementor-widget__width-initial elementor-absolute elementor-hidden-tablet elementor-hidden-phone elementor-invisible elementor-widget elementor-widget-image" data-id="fc9ac17" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
+           <div class="elementor-widget-container"> <img width="542" height="486" src="wp-content/uploads/2021/07/Footer-Img.png" class="attachment-full size-full" alt="" loading="lazy" srcset="wp-content/uploads/2021/07/Footer-Img.png 542w, wp-content/uploads/2021/07/Footer-Img.png 300w" sizes="(max-width: 542px) 100vw, 542px" /> </div>
+          </div>
+         </div>
+        </div>
+        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-854280d" data-id="854280d" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+         <div class="elementor-widget-wrap elementor-element-populated">
+          <div class="elementor-element elementor-element-629c154 elementor-invisible elementor-widget elementor-widget-heading" data-id="629c154" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
+           <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default">Subscribe To Newsletter</h2>
+           </div>
+          </div>
+          <div class="elementor-element elementor-element-c50610c elementor-button-align-start elementor-tablet-button-align-start elementor-mobile-button-align-stretch elementor-invisible elementor-widget elementor-widget-form" data-id="c50610c" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;30&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width_tablet&quot;:&quot;40&quot;,&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="form.default">
+           <div class="elementor-widget-container">
+            <form class="elementor-form" method="post" name="New Form">
+             <input type="hidden" name="post_id" value="533"/>
+             <input type="hidden" name="form_id" value="c50610c"/>
+             <input type="hidden" name="referer_title" value="" />
+             <input type="hidden" name="queried_id" value="75"/>
+             <div class="elementor-form-fields-wrapper elementor-labels-">
+              <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-70 elementor-md-60 elementor-field-required">
+               <label for="form-field-email" class="elementor-field-label elementor-screen-only">Email</label>
+               <input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Enter Your Email Address" required="required" aria-required="true">
+              </div>
+              <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-30 e-form__buttons elementor-md-40">
+               <button type="submit" class="elementor-button elementor-size-md"> <span > <span class=" elementor-button-icon"> </span> <span class="elementor-button-text">Subscribe Now</span> </span> </button>
+              </div>
+             </div>
+            </form>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </section>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-66a17a8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66a17a8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
    <div class="elementor-container elementor-column-gap-no">
     <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8374783 elementor-invisible" data-id="8374783" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
      <div class="elementor-widget-wrap elementor-element-populated">
