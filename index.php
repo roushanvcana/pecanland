@@ -16,7 +16,7 @@
 <!--<link rel='stylesheet' id='template-kit-export-css'  href='wp-content/plugins/template-kit-export/public/assets/css/template-kit-export-public.min365c.css?ver=1.0.21' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-layout-css'  href='wp-content/plugins/woocommerce/assets/css/woocommerce-layoutad76.css?ver=5.9.0' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreenad76.css?ver=5.9.0' type='text/css' media='only screen and (max-width: 768px)' />-->
-<link rel='stylesheet' id='woocommerce-general-css'  href='wp-content/plugins/woocommerce/assets/css/woocommercead76.css?ver=5.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-general-css' href='wp-content/plugins/woocommerce/assets/css/woocommercead76.css?ver=5.9.0' type='text/css' media='all' />
 <!--
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required {
@@ -24,18 +24,15 @@
 }
 </style>
 -->
-<link rel='stylesheet' id='cb70d11b8-css'  href='wp-content/uploads/essential-addons-elementor/cb70d11b8.mine957.css?ver=1637233755' type='text/css' media='all' />
-<link rel='stylesheet' id='hello-elementor-css'  href='wp-content/themes/hello-elementor/style.min8066.css?ver=2.4.1' type='text/css' media='all' />
-<link rel='stylesheet' id='hello-elementor-theme-style-css'  href='wp-content/themes/hello-elementor/theme.min8066.css?ver=2.4.1' type='text/css' media='all' />
+
+
+<link href="//db.onlinewebfonts.com/c/84ad68dec7abcb4d87a97c105ad56a46?family=ITC+Flora+Std" rel="stylesheet" type="text/css"/>
+<link rel='stylesheet' id='cb70d11b8-css' href='wp-content/uploads/essential-addons-elementor/cb70d11b8.mine957.css?ver=1637233755' type='text/css' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='wp-content/themes/hello-elementor/style.min8066.css?ver=2.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='wp-content/themes/hello-elementor/theme.min8066.css?ver=2.4.1' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css'  href='wp-content/plugins/elementor/assets/css/frontend.minb045.css?ver=3.4.8' type='text/css' media='all' />
+<!-- <link rel="stylesheet" href="wp-content/uploads/elementor/font-css/font-css.css"> -->
 <style id='elementor-frontend-inline-css' type='text/css'>
-@font-face {
-	font-family: eicons;
-	src: url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons0b93.eot?5.10.0);
-	src: url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"), url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"), url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"), url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"), url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");
-	font-weight: 400;
-	font-style: normal
-}
 </style>
 <link rel='stylesheet' id='elementor-post-10-css'  href='wp-content/uploads/elementor/css/post-10baf3.css?ver=1627644542' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-icons-css'  href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min05c8.css?ver=5.13.0' type='text/css' media='all' />
@@ -61,7 +58,7 @@
 <link rel="apple-touch-icon" href="wp-content/uploads/2021/07/Logo.png" />
 <meta name="msapplication-TileImage" content="wp-content/uploads/2021/07/Logo.png" />
 </head>
-<body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-75 wp-custom-logo theme-hello-elementor woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-75">
+<body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-75 wp-custom-logo theme-hello-elementor woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-75 main-font">
 <div data-elementor-type="header" data-elementor-id="83" class="elementor elementor-83 elementor-location-header" data-elementor-settings="[]">
  <div class="elementor-section-wrap">
   
@@ -870,6 +867,5 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.minad76.js?ver=5.9.0' id='wc-add-to-cart-variation-js'></script> 
 
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/single-product.minad76.js?ver=5.9.0' id='wc-single-product-js'></script>
 </body>
 </html>

@@ -1,1 +1,361 @@
-.elementor-kit-10{--e-global-color-primary:#9FCB22;--e-global-color-secondary:#252932;--e-global-color-text:#14462E;--e-global-color-accent:#FFFFFF;--e-global-color-3564bdd:#F5F9FA;--e-global-color-bb58bf8:#D9485B;--e-global-color-e23be75:#FFFC01;--e-global-color-dbdc090:#6EA68B;--e-global-color-737f73f:#92DDD8;--e-global-color-3645dda:#FA9421;--e-global-color-497193b:#FFFFFF00;--e-global-color-310c18b:#FCCC42;--e-global-color-bb18acf:#6C6C6C;--e-global-color-8a18bd2:#DEECF0;--e-global-color-c44ac5d:#BDBDBD;--e-global-color-7766354:#E8EDEF;--e-global-color-cc98247:#042918;--e-global-color-a8d5a57:#37624D;--e-global-typography-primary-font-family:"Barlow";--e-global-typography-secondary-font-family:"Jost";--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;--e-global-typography-09726c1-font-family:"Barlow";--e-global-typography-09726c1-font-size:19px;--e-global-typography-09726c1-font-weight:500;--e-global-typography-09726c1-line-height:1.1em;--e-global-typography-a37c3c9-font-family:"Barlow";--e-global-typography-a37c3c9-font-size:24px;--e-global-typography-a37c3c9-font-weight:400;--e-global-typography-a37c3c9-line-height:1.5em;--e-global-typography-98ea1db-font-family:"Jost";--e-global-typography-98ea1db-font-size:25px;--e-global-typography-98ea1db-font-weight:500;--e-global-typography-98ea1db-line-height:1.5em;--e-global-typography-56c6164-font-family:"Jost";--e-global-typography-56c6164-font-size:17px;--e-global-typography-56c6164-font-weight:500;--e-global-typography-55643be-font-family:"Jost";--e-global-typography-55643be-font-size:16px;--e-global-typography-17c6c02-font-family:"Jost";--e-global-typography-17c6c02-font-size:46px;--e-global-typography-17c6c02-font-weight:500;--e-global-typography-17c6c02-line-height:1.1em;--e-global-typography-8ab0c3c-font-family:"Jost";--e-global-typography-8ab0c3c-font-size:60px;--e-global-typography-8ab0c3c-font-weight:500;--e-global-typography-8ab0c3c-line-height:1.1em;--e-global-typography-f14ab1d-font-family:"Jost";--e-global-typography-f14ab1d-font-size:26px;--e-global-typography-f14ab1d-font-weight:600;--e-global-typography-f14ab1d-line-height:1.1em;--e-global-typography-1f329d0-font-family:"Barlow";--e-global-typography-1f329d0-font-size:20px;--e-global-typography-1f329d0-font-weight:400;--e-global-typography-1f329d0-line-height:1.5em;--e-global-typography-82b4489-font-family:"Barlow";--e-global-typography-82b4489-font-size:22px;--e-global-typography-82b4489-font-weight:500;--e-global-typography-82b4489-line-height:1.1em;--e-global-typography-64b331e-font-family:"Jost";--e-global-typography-64b331e-font-size:22px;--e-global-typography-64b331e-font-weight:500;--e-global-typography-64b331e-line-height:1.1em;--e-global-typography-81eec07-font-family:"Jost";--e-global-typography-81eec07-font-size:16px;--e-global-typography-81eec07-font-weight:500;--e-global-typography-4bbaf15-font-family:"Barlow";--e-global-typography-4bbaf15-font-size:23px;--e-global-typography-4bbaf15-font-weight:400;--e-global-typography-4bbaf15-font-style:italic;--e-global-typography-4bbaf15-line-height:1.5em;--e-global-typography-78b4420-font-family:"Barlow";--e-global-typography-78b4420-font-size:18px;--e-global-typography-78b4420-line-height:2.3em;--e-global-typography-f8d70a0-font-family:"Barlow";--e-global-typography-f8d70a0-font-size:16px;--e-global-typography-f8d70a0-font-weight:600;--e-global-typography-f8d70a0-text-transform:uppercase;--e-global-typography-f8d70a0-line-height:1.5em;--e-global-typography-018274b-font-family:"Barlow";--e-global-typography-018274b-font-size:18px;--e-global-typography-018274b-font-weight:300;--e-global-typography-018274b-line-height:1.1em;--e-global-typography-6568fcc-font-family:"Barlow";--e-global-typography-6568fcc-font-size:18px;--e-global-typography-6568fcc-font-weight:400;--e-global-typography-6568fcc-line-height:1.5em;--e-global-typography-55123aa-font-family:"Jost";--e-global-typography-55123aa-font-size:18px;--e-global-typography-55123aa-font-weight:500;--e-global-typography-55123aa-line-height:1.1em;--e-global-typography-ceab1cb-font-family:"Jost";--e-global-typography-ceab1cb-font-size:60px;--e-global-typography-ceab1cb-font-weight:600;--e-global-typography-ceab1cb-line-height:1.1em;--e-global-typography-262f65f-font-family:"Barlow";--e-global-typography-262f65f-font-size:14px;--e-global-typography-262f65f-font-weight:600;--e-global-typography-262f65f-text-transform:uppercase;--e-global-typography-262f65f-line-height:1.1em;--e-global-typography-6c754af-font-family:"Jost";--e-global-typography-6c754af-font-size:24px;--e-global-typography-6c754af-font-weight:600;--e-global-typography-87e9451-font-family:"Jost";--e-global-typography-87e9451-font-size:22px;--e-global-typography-87e9451-font-weight:500;--e-global-typography-87e9451-line-height:1.1em;--e-global-typography-a9ecbd0-font-family:"Jost";--e-global-typography-a9ecbd0-font-size:45px;--e-global-typography-a9ecbd0-font-weight:600;--e-global-typography-a9ecbd0-line-height:1.1em;--e-global-typography-bc57340-font-family:"Barlow";--e-global-typography-bc57340-font-size:30px;--e-global-typography-bc57340-font-weight:300;--e-global-typography-bd10083-font-family:"Barlow";--e-global-typography-bd10083-font-size:40px;--e-global-typography-bd10083-font-weight:600;--e-global-typography-439e35c-font-family:"Barlow";--e-global-typography-439e35c-font-size:20px;--e-global-typography-439e35c-font-weight:300;--e-global-typography-439e35c-line-height:1.5em;--e-global-typography-7404157-font-family:"Jost";--e-global-typography-7404157-font-size:38px;--e-global-typography-7404157-font-weight:600;--e-global-typography-7404157-line-height:1.1em;--e-global-typography-f507de4-font-family:"Barlow";--e-global-typography-f507de4-font-size:18px;--e-global-typography-f507de4-font-weight:300;--e-global-typography-c0d35e7-font-family:"Jost";--e-global-typography-c0d35e7-font-size:24px;--e-global-typography-c0d35e7-font-weight:400;--e-global-typography-c0d35e7-line-height:0.1em;--e-global-typography-b34b1e9-font-family:"Jost";--e-global-typography-b34b1e9-font-size:200px;--e-global-typography-b34b1e9-font-weight:600;--e-global-typography-b34b1e9-line-height:1.1em;--e-global-typography-e51a33a-font-family:"Barlow";--e-global-typography-e51a33a-font-size:20px;--e-global-typography-e51a33a-font-weight:300;--e-global-typography-e51a33a-line-height:1.5em;--e-global-typography-e4a8fee-font-family:"Jost";--e-global-typography-e4a8fee-font-size:24px;--e-global-typography-e4a8fee-font-weight:600;--e-global-typography-e4a8fee-line-height:1.1em;--e-global-typography-135ce33-font-family:"Barlow";--e-global-typography-135ce33-font-size:14px;--e-global-typography-135ce33-font-weight:600;--e-global-typography-fbd2431-font-family:"Jost";--e-global-typography-fbd2431-font-size:24px;--e-global-typography-fbd2431-font-weight:600;--e-global-typography-fbd2431-line-height:1.5em;--e-global-typography-169cbe5-font-family:"Barlow";--e-global-typography-169cbe5-font-size:16px;--e-global-typography-169cbe5-font-weight:300;--e-global-typography-77c8f53-font-family:"Barlow";--e-global-typography-77c8f53-font-size:20px;--e-global-typography-77c8f53-font-weight:300;--e-global-typography-77c8f53-line-height:1.5em;--e-global-typography-f1d2b32-font-family:"Barlow";--e-global-typography-f1d2b32-font-size:14px;--e-global-typography-f1d2b32-font-weight:600;--e-global-typography-f1d2b32-line-height:1.1em;--e-global-typography-ff7f5f9-font-family:"Barlow";--e-global-typography-ff7f5f9-font-size:18px;--e-global-typography-ff7f5f9-font-weight:300;--e-global-typography-ff7f5f9-line-height:1.1em;--e-global-typography-95214e6-font-family:"Barlow";--e-global-typography-95214e6-font-size:18px;--e-global-typography-95214e6-font-weight:300;--e-global-typography-95214e6-line-height:1.1em;--e-global-typography-601a310-font-family:"Jost";--e-global-typography-601a310-font-size:26px;--e-global-typography-601a310-font-weight:600;--e-global-typography-601a310-line-height:1.1em;--e-global-typography-1f73e89-font-family:"Barlow";--e-global-typography-1f73e89-font-size:23px;--e-global-typography-1f73e89-font-weight:600;--e-global-typography-1f73e89-line-height:1.1em;--e-global-typography-06915f4-font-family:"Barlow";--e-global-typography-06915f4-font-size:23px;--e-global-typography-06915f4-font-weight:400;--e-global-typography-f6b9237-font-family:"Barlow";--e-global-typography-f6b9237-font-size:14px;--e-global-typography-f6b9237-font-weight:600;--e-global-typography-f6b9237-text-transform:uppercase;--e-global-typography-d63369e-font-family:"Barlow";--e-global-typography-d63369e-font-size:18px;--e-global-typography-d63369e-font-weight:500;--e-global-typography-91a6738-font-family:"Jost";--e-global-typography-91a6738-font-size:85px;--e-global-typography-91a6738-font-weight:500;--e-global-typography-91a6738-line-height:1.1em;--e-global-typography-e5dedcf-font-family:"Barlow";--e-global-typography-e5dedcf-font-size:18px;--e-global-typography-e5dedcf-font-weight:400;--e-global-typography-e5dedcf-line-height:1.5em;--e-global-typography-66d1f9e-font-family:"Jost";--e-global-typography-66d1f9e-font-size:18px;--e-global-typography-66d1f9e-font-weight:400;--e-global-typography-66d1f9e-font-style:italic;--e-global-typography-66d1f9e-line-height:1.5em;font-family:"Barlow", Sans-serif;font-size:20px;font-weight:300;line-height:1.5em;}.elementor-kit-10 a{color:var( --e-global-color-text );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;}.elementor-kit-10 h1{font-size:70px;font-weight:600;line-height:1.1em;}.elementor-kit-10 h2{font-size:45px;font-weight:600;text-transform:capitalize;line-height:1.1em;}.elementor-kit-10 h3{font-size:22px;font-weight:500;text-transform:capitalize;line-height:1.1em;}.elementor-kit-10 h4{font-size:28px;font-weight:300;line-height:1.3em;}.elementor-kit-10 button,.elementor-kit-10 input[type="button"],.elementor-kit-10 input[type="submit"],.elementor-kit-10 .elementor-button{font-family:"Barlow", Sans-serif;font-size:16px;font-weight:600;line-height:1.1em;border-style:solid;border-width:1px 1px 1px 1px;border-radius:0px 0px 0px 0px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header{padding-right:0px;padding-left:0px;}@media(max-width:1024px){.elementor-kit-10{--e-global-typography-a37c3c9-font-size:18px;--e-global-typography-98ea1db-font-size:20px;--e-global-typography-98ea1db-line-height:1.1em;--e-global-typography-56c6164-font-size:16px;--e-global-typography-17c6c02-font-size:35px;--e-global-typography-8ab0c3c-font-size:45px;--e-global-typography-f14ab1d-font-size:18px;--e-global-typography-f14ab1d-line-height:1.1em;--e-global-typography-1f329d0-font-size:14px;--e-global-typography-55123aa-font-size:16px;--e-global-typography-ceab1cb-font-size:40px;--e-global-typography-6c754af-font-size:16px;--e-global-typography-bc57340-font-size:20px;--e-global-typography-bd10083-font-size:25px;--e-global-typography-439e35c-font-size:16px;--e-global-typography-7404157-font-size:30px;--e-global-typography-b34b1e9-font-size:150px;--e-global-typography-e51a33a-font-size:16px;--e-global-typography-e4a8fee-font-size:20px;--e-global-typography-e4a8fee-line-height:1.1em;--e-global-typography-601a310-font-size:24px;--e-global-typography-1f73e89-font-size:18px;--e-global-typography-06915f4-font-size:18px;--e-global-typography-f6b9237-font-size:12px;--e-global-typography-91a6738-font-size:35px;--e-global-typography-e5dedcf-font-size:16px;font-size:16px;}.elementor-kit-10 h1{font-size:50px;}.elementor-kit-10 h2{font-size:36px;}.elementor-kit-10 h3{font-size:20px;}.elementor-kit-10 h4{font-size:18px;}.elementor-kit-10 button,.elementor-kit-10 input[type="button"],.elementor-kit-10 input[type="submit"],.elementor-kit-10 .elementor-button{font-size:14px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-kit-10{--e-global-typography-a37c3c9-font-size:14px;--e-global-typography-98ea1db-font-size:16px;--e-global-typography-8ab0c3c-font-size:35px;--e-global-typography-f14ab1d-font-size:18px;--e-global-typography-1f329d0-font-size:15px;--e-global-typography-82b4489-font-size:16px;--e-global-typography-64b331e-font-size:18px;--e-global-typography-81eec07-font-size:14px;--e-global-typography-4bbaf15-font-size:16px;--e-global-typography-55123aa-font-size:12px;--e-global-typography-ceab1cb-font-size:40px;--e-global-typography-87e9451-font-size:16px;--e-global-typography-bc57340-font-size:20px;--e-global-typography-bd10083-font-size:30px;--e-global-typography-7404157-font-size:25px;--e-global-typography-b34b1e9-font-size:50px;--e-global-typography-e51a33a-font-size:14px;--e-global-typography-e4a8fee-font-size:16px;--e-global-typography-601a310-font-size:22px;--e-global-typography-1f73e89-font-size:20px;--e-global-typography-06915f4-font-size:20px;--e-global-typography-66d1f9e-font-size:16px;}.elementor-kit-10 h1{font-size:35px;line-height:1.1em;}.elementor-kit-10 h2{font-size:30px;}.elementor-kit-10 h3{font-size:18px;}.elementor-kit-10 button,.elementor-kit-10 input[type="button"],.elementor-kit-10 input[type="submit"],.elementor-kit-10 .elementor-button{font-size:12px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}
+.elementor-kit-10 {
+  --e-global-color-primary: #9fcb22;
+  --e-global-color-secondary: #252932;
+  --e-global-color-text: #14462e;
+  --e-global-color-accent: #ffffff;
+  --e-global-color-3564bdd: #f5f9fa;
+  --e-global-color-bb58bf8: #d9485b;
+  --e-global-color-e23be75: #fffc01;
+  --e-global-color-dbdc090: #6ea68b;
+  --e-global-color-737f73f: #92ddd8;
+  --e-global-color-3645dda: #fa9421;
+  --e-global-color-497193b: #ffffff00;
+  --e-global-color-310c18b: #fccc42;
+  --e-global-color-bb18acf: #6c6c6c;
+  --e-global-color-8a18bd2: #deecf0;
+  --e-global-color-c44ac5d: #bdbdbd;
+  --e-global-color-7766354: #e8edef;
+  --e-global-color-cc98247: #042918;
+  --e-global-color-a8d5a57: #37624d;
+  --e-global-typography-primary-font-family: "Barlow"; 
+
+  --e-global-typography-secondary-font-family: "ITC Flora Std";
+  --e-global-typography-text-font-family: "Roboto";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Roboto";
+  --e-global-typography-accent-font-weight: 500;
+  --e-global-typography-09726c1-font-family: "Barlow";
+  --e-global-typography-09726c1-font-size: 19px;
+  --e-global-typography-09726c1-font-weight: 500;
+  --e-global-typography-09726c1-line-height: 1.1em;
+  --e-global-typography-a37c3c9-font-family: "Barlow";
+
+  --e-global-typography-a37c3c9-font-size: 24px;
+  --e-global-typography-a37c3c9-font-weight: 400;
+  --e-global-typography-a37c3c9-line-height: 1.5em;
+  --e-global-typography-98ea1db-font-family: "ITC Flora Std";
+  --e-global-typography-98ea1db-font-size: 25px;
+  --e-global-typography-98ea1db-font-weight: 500;
+  --e-global-typography-98ea1db-line-height: 1.5em;
+  --e-global-typography-56c6164-font-family: "Barlow";
+  --e-global-typography-56c6164-font-size: 17px;
+  --e-global-typography-56c6164-font-weight: 500;
+  --e-global-typography-55643be-font-family: "Barlow";
+  --e-global-typography-55643be-font-size: 16px;
+  --e-global-typography-17c6c02-font-family: "ITC Flora Std";
+  --e-global-typography-17c6c02-font-size: 46px;
+  --e-global-typography-17c6c02-font-weight: 500;
+  --e-global-typography-17c6c02-line-height: 1.1em;
+  --e-global-typography-8ab0c3c-font-family: "Barlow";
+  --e-global-typography-8ab0c3c-font-size: 60px;
+  --e-global-typography-8ab0c3c-font-weight: 500;
+  --e-global-typography-8ab0c3c-line-height: 1.1em;
+  --e-global-typography-f14ab1d-font-family: "Barlow";
+  --e-global-typography-f14ab1d-font-size: 26px;
+  --e-global-typography-f14ab1d-font-weight: 600;
+  --e-global-typography-f14ab1d-line-height: 1.1em;
+  --e-global-typography-1f329d0-font-family: "Barlow";
+  --e-global-typography-1f329d0-font-size: 20px;
+  --e-global-typography-1f329d0-font-weight: 400;
+  --e-global-typography-1f329d0-line-height: 1.5em;
+  --e-global-typography-82b4489-font-family: "Barlow";
+  --e-global-typography-82b4489-font-size: 22px;
+  --e-global-typography-82b4489-font-weight: 500;
+  --e-global-typography-82b4489-line-height: 1.1em;
+  --e-global-typography-64b331e-font-family: "Barlow";
+  --e-global-typography-64b331e-font-size: 22px;
+  --e-global-typography-64b331e-font-weight: 500;
+  --e-global-typography-64b331e-line-height: 1.1em;
+  --e-global-typography-81eec07-font-family: "Barlow";
+  --e-global-typography-81eec07-font-size: 16px;
+  --e-global-typography-81eec07-font-weight: 500;
+  --e-global-typography-4bbaf15-font-family: "Barlow";
+  --e-global-typography-4bbaf15-font-size: 23px;
+  --e-global-typography-4bbaf15-font-weight: 400;
+  --e-global-typography-4bbaf15-font-style: italic;
+  --e-global-typography-4bbaf15-line-height: 1.5em;
+  --e-global-typography-78b4420-font-family: "Barlow";
+  --e-global-typography-78b4420-font-size: 18px;
+  --e-global-typography-78b4420-line-height: 2.3em;
+  --e-global-typography-f8d70a0-font-family: "Barlow";
+  --e-global-typography-f8d70a0-font-size: 16px;
+  --e-global-typography-f8d70a0-font-weight: 600;
+  --e-global-typography-f8d70a0-text-transform: uppercase;
+  --e-global-typography-f8d70a0-line-height: 1.5em;
+  --e-global-typography-018274b-font-family: "Barlow";
+  --e-global-typography-018274b-font-size: 18px;
+  --e-global-typography-018274b-font-weight: 300;
+  --e-global-typography-018274b-line-height: 1.1em;
+  --e-global-typography-6568fcc-font-family: "Barlow";
+  --e-global-typography-6568fcc-font-size: 18px;
+  --e-global-typography-6568fcc-font-weight: 400;
+  --e-global-typography-6568fcc-line-height: 1.5em;
+  --e-global-typography-55123aa-font-family: "Barlow";
+  --e-global-typography-55123aa-font-size: 18px;
+  --e-global-typography-55123aa-font-weight: 500;
+  --e-global-typography-55123aa-line-height: 1.1em;
+  --e-global-typography-ceab1cb-font-family: "ITC Flora Std";
+  --e-global-typography-ceab1cb-font-size: 60px;
+  --e-global-typography-ceab1cb-font-weight: 600;
+  --e-global-typography-ceab1cb-line-height: 1.1em;
+  --e-global-typography-262f65f-font-family: "Barlow";
+  --e-global-typography-262f65f-font-size: 14px;
+  --e-global-typography-262f65f-font-weight: 600;
+  --e-global-typography-262f65f-text-transform: uppercase;
+  --e-global-typography-262f65f-line-height: 1.1em;
+  --e-global-typography-6c754af-font-family: "Barlow";
+  --e-global-typography-6c754af-font-size: 24px;
+  --e-global-typography-6c754af-font-weight: 600;
+  --e-global-typography-87e9451-font-family: "Barlow";
+  --e-global-typography-87e9451-font-size: 22px;
+  --e-global-typography-87e9451-font-weight: 500;
+  --e-global-typography-87e9451-line-height: 1.1em;
+  --e-global-typography-a9ecbd0-font-family: "Barlow";
+  --e-global-typography-a9ecbd0-font-size: 45px;
+  --e-global-typography-a9ecbd0-font-weight: 600;
+  --e-global-typography-a9ecbd0-line-height: 1.1em;
+  --e-global-typography-bc57340-font-family: "Barlow";
+  --e-global-typography-bc57340-font-size: 30px;
+  --e-global-typography-bc57340-font-weight: 300;
+  --e-global-typography-bd10083-font-family: "Barlow";
+  --e-global-typography-bd10083-font-size: 40px;
+  --e-global-typography-bd10083-font-weight: 600;
+  --e-global-typography-439e35c-font-family: "Barlow";
+  --e-global-typography-439e35c-font-size: 20px;
+  --e-global-typography-439e35c-font-weight: 300;
+  --e-global-typography-439e35c-line-height: 1.5em;
+  --e-global-typography-7404157-font-family: "Barlow";
+  --e-global-typography-7404157-font-size: 38px;
+  --e-global-typography-7404157-font-weight: 600;
+  --e-global-typography-7404157-line-height: 1.1em;
+  --e-global-typography-f507de4-font-family: "Barlow";
+  --e-global-typography-f507de4-font-size: 18px;
+  --e-global-typography-f507de4-font-weight: 300;
+  --e-global-typography-c0d35e7-font-family: "Barlow";
+  --e-global-typography-c0d35e7-font-size: 24px;
+  --e-global-typography-c0d35e7-font-weight: 400;
+  --e-global-typography-c0d35e7-line-height: 0.1em;
+  --e-global-typography-b34b1e9-font-family: "Barlow";
+  --e-global-typography-b34b1e9-font-size: 200px;
+  --e-global-typography-b34b1e9-font-weight: 600;
+  --e-global-typography-b34b1e9-line-height: 1.1em;
+  --e-global-typography-e51a33a-font-family: "Barlow";
+  --e-global-typography-e51a33a-font-size: 20px;
+  --e-global-typography-e51a33a-font-weight: 300;
+  --e-global-typography-e51a33a-line-height: 1.5em;
+  --e-global-typography-e4a8fee-font-family: "Barlow";
+  --e-global-typography-e4a8fee-font-size: 24px;
+  --e-global-typography-e4a8fee-font-weight: 600;
+  --e-global-typography-e4a8fee-line-height: 1.1em;
+  --e-global-typography-135ce33-font-family: "Barlow";
+  --e-global-typography-135ce33-font-size: 14px;
+  --e-global-typography-135ce33-font-weight: 600;
+  --e-global-typography-fbd2431-font-family: "Barlow";
+  --e-global-typography-fbd2431-font-size: 24px;
+  --e-global-typography-fbd2431-font-weight: 600;
+  --e-global-typography-fbd2431-line-height: 1.5em;
+  --e-global-typography-169cbe5-font-family: "Barlow";
+  --e-global-typography-169cbe5-font-size: 16px;
+  --e-global-typography-169cbe5-font-weight: 300;
+  --e-global-typography-77c8f53-font-family: "Barlow";
+  --e-global-typography-77c8f53-font-size: 20px;
+  --e-global-typography-77c8f53-font-weight: 300;
+  --e-global-typography-77c8f53-line-height: 1.5em;
+  --e-global-typography-f1d2b32-font-family: "Barlow";
+  --e-global-typography-f1d2b32-font-size: 14px;
+  --e-global-typography-f1d2b32-font-weight: 600;
+  --e-global-typography-f1d2b32-line-height: 1.1em;
+  --e-global-typography-ff7f5f9-font-family: "Barlow";
+  --e-global-typography-ff7f5f9-font-size: 18px;
+  --e-global-typography-ff7f5f9-font-weight: 300;
+  --e-global-typography-ff7f5f9-line-height: 1.1em;
+  --e-global-typography-95214e6-font-family: "Barlow";
+  --e-global-typography-95214e6-font-size: 18px;
+  --e-global-typography-95214e6-font-weight: 300;
+  --e-global-typography-95214e6-line-height: 1.1em;
+  --e-global-typography-601a310-font-family: "Barlow";
+  --e-global-typography-601a310-font-size: 26px;
+  --e-global-typography-601a310-font-weight: 600;
+  --e-global-typography-601a310-line-height: 1.1em;
+  --e-global-typography-1f73e89-font-family: "Barlow";
+  --e-global-typography-1f73e89-font-size: 23px;
+  --e-global-typography-1f73e89-font-weight: 600;
+  --e-global-typography-1f73e89-line-height: 1.1em;
+  --e-global-typography-06915f4-font-family: "Barlow";
+  --e-global-typography-06915f4-font-size: 23px;
+  --e-global-typography-06915f4-font-weight: 400;
+  --e-global-typography-f6b9237-font-family: "Barlow";
+  --e-global-typography-f6b9237-font-size: 14px;
+  --e-global-typography-f6b9237-font-weight: 600;
+  --e-global-typography-f6b9237-text-transform: uppercase;
+  --e-global-typography-d63369e-font-family: "Barlow";
+  --e-global-typography-d63369e-font-size: 18px;
+  --e-global-typography-d63369e-font-weight: 500;
+  --e-global-typography-91a6738-font-family: "Barlow";
+  --e-global-typography-91a6738-font-size: 85px;
+  --e-global-typography-91a6738-font-weight: 500;
+  --e-global-typography-91a6738-line-height: 1.1em;
+  --e-global-typography-e5dedcf-font-family: "Barlow";
+  --e-global-typography-e5dedcf-font-size: 18px;
+  --e-global-typography-e5dedcf-font-weight: 400;
+  --e-global-typography-e5dedcf-line-height: 1.5em;
+  --e-global-typography-66d1f9e-font-family: "Barlow";
+  --e-global-typography-66d1f9e-font-size: 18px;
+  --e-global-typography-66d1f9e-font-weight: 400;
+  --e-global-typography-66d1f9e-font-style: italic;
+  --e-global-typography-66d1f9e-line-height: 1.5em;
+  font-family: "ITC Flora Std", Sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.elementor-kit-10 a {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+}
+.elementor-kit-10 h1 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+.elementor-kit-10 h2 {
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.1em;
+}
+.elementor-kit-10 h3 {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1.1em;
+}
+.elementor-kit-10 h4 {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+.elementor-kit-10 button,
+.elementor-kit-10 input[type="button"],
+.elementor-kit-10 input[type="submit"],
+.elementor-kit-10 .elementor-button {
+  font-family: "Barlow", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.1em;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 0px 0px 0px 0px;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1140px;
+}
+.elementor-widget:not(:last-child) {
+  margin-bottom: 20px;
+}
+ 
+
+h1.entry-title {
+  display: var(--page-title-display);
+}
+.site-header {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+@media (max-width: 1024px) {
+  .elementor-kit-10 {
+    --e-global-typography-a37c3c9-font-size: 18px;
+    --e-global-typography-98ea1db-font-size: 20px;
+    --e-global-typography-98ea1db-line-height: 1.1em;
+    --e-global-typography-56c6164-font-size: 16px;
+    --e-global-typography-17c6c02-font-size: 35px;
+    --e-global-typography-8ab0c3c-font-size: 45px;
+    --e-global-typography-f14ab1d-font-size: 18px;
+    --e-global-typography-f14ab1d-line-height: 1.1em;
+    --e-global-typography-1f329d0-font-size: 14px;
+    --e-global-typography-55123aa-font-size: 16px;
+    --e-global-typography-ceab1cb-font-size: 40px;
+    --e-global-typography-6c754af-font-size: 16px;
+    --e-global-typography-bc57340-font-size: 20px;
+    --e-global-typography-bd10083-font-size: 25px;
+    --e-global-typography-439e35c-font-size: 16px;
+    --e-global-typography-7404157-font-size: 30px;
+    --e-global-typography-b34b1e9-font-size: 150px;
+    --e-global-typography-e51a33a-font-size: 16px;
+    --e-global-typography-e4a8fee-font-size: 20px;
+    --e-global-typography-e4a8fee-line-height: 1.1em;
+    --e-global-typography-601a310-font-size: 24px;
+    --e-global-typography-1f73e89-font-size: 18px;
+    --e-global-typography-06915f4-font-size: 18px;
+    --e-global-typography-f6b9237-font-size: 12px;
+    --e-global-typography-91a6738-font-size: 35px;
+    --e-global-typography-e5dedcf-font-size: 16px;
+    font-size: 16px;
+  }
+  .elementor-kit-10 h1 {
+    font-size: 50px;
+  }
+  .elementor-kit-10 h2 {
+    font-size: 36px;
+  }
+  .elementor-kit-10 h3 {
+    font-size: 20px;
+  }
+  .elementor-kit-10 h4 {
+    font-size: 18px;
+  }
+  .elementor-kit-10 button,
+  .elementor-kit-10 input[type="button"],
+  .elementor-kit-10 input[type="submit"],
+  .elementor-kit-10 .elementor-button {
+    font-size: 14px;
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1024px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-kit-10 {
+    --e-global-typography-a37c3c9-font-size: 14px;
+    --e-global-typography-98ea1db-font-size: 16px;
+    --e-global-typography-8ab0c3c-font-size: 35px;
+    --e-global-typography-f14ab1d-font-size: 18px;
+    --e-global-typography-1f329d0-font-size: 15px;
+    --e-global-typography-82b4489-font-size: 16px;
+    --e-global-typography-64b331e-font-size: 18px;
+    --e-global-typography-81eec07-font-size: 14px;
+    --e-global-typography-4bbaf15-font-size: 16px;
+    --e-global-typography-55123aa-font-size: 12px;
+    --e-global-typography-ceab1cb-font-size: 40px;
+    --e-global-typography-87e9451-font-size: 16px;
+    --e-global-typography-bc57340-font-size: 20px;
+    --e-global-typography-bd10083-font-size: 30px;
+    --e-global-typography-7404157-font-size: 25px;
+    --e-global-typography-b34b1e9-font-size: 50px;
+    --e-global-typography-e51a33a-font-size: 14px;
+    --e-global-typography-e4a8fee-font-size: 16px;
+    --e-global-typography-601a310-font-size: 22px;
+    --e-global-typography-1f73e89-font-size: 20px;
+    --e-global-typography-06915f4-font-size: 20px;
+    --e-global-typography-66d1f9e-font-size: 16px;
+  }
+  .elementor-kit-10 h1 {
+    font-size: 35px;
+    line-height: 1.1em;
+  }
+  .elementor-kit-10 h2 {
+    font-size: 30px;
+  }
+  .elementor-kit-10 h3 {
+    font-size: 18px;
+  }
+  .elementor-kit-10 button,
+  .elementor-kit-10 input[type="button"],
+  .elementor-kit-10 input[type="submit"],
+  .elementor-kit-10 .elementor-button {
+    font-size: 12px;
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 767px;
+  }
+}

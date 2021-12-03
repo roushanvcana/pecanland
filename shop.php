@@ -32,6 +32,8 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
+<link href="//db.onlinewebfonts.com/c/84ad68dec7abcb4d87a97c105ad56a46?family=ITC+Flora+Std" rel="stylesheet" type="text/css"/>
+
 	<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min080f.css?ver=5.8.2' type='text/css' media='all' />
 <link rel='stylesheet' id='wc-blocks-vendors-style-css'  href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style42c6.css?ver=6.1.0' type='text/css' media='all' />
 <link rel='stylesheet' id='wc-blocks-style-css'  href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style42c6.css?ver=6.1.0' type='text/css' media='all' />
@@ -91,10 +93,10 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 <meta name="generator" content="WordPress 5.8.2" />
 <meta name="generator" content="WooCommerce 5.9.0" />
 	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	<link rel="icon" href="wp-content/uploads/2021/07/cropped-Logo-32x32.png" sizes="32x32" />
-<link rel="icon" href="wp-content/uploads/2021/07/cropped-Logo-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="wp-content/uploads/2021/07/cropped-Logo-180x180.png" />
-<meta name="msapplication-TileImage" content="https://elementorpress.com/templatekit-pro/layout17/wp-content/uploads/2021/07/cropped-Logo-270x270.png" />
+	<link rel="icon" href="wp-content/uploads/2021/07/Logo.png" sizes="32x32" />
+<link rel="icon" href="wp-content/uploads/2021/07/Logo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="wp-content/uploads/2021/07/Logo.png" />
+<meta name="msapplication-TileImage" content="https://elementorpress.com/templatekit-pro/layout17/wp-content/uploads/2021/07/Logo.png" />
 </head>
 <body data-rsssl=1 class="archive post-type-archive post-type-archive-product wp-custom-logo theme-hello-elementor woocommerce-shop woocommerce woocommerce-page woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-10 elementor-page-961">
 
@@ -212,6 +214,7 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 		</section>
 				</div>
 		</div>
+		
 				<div data-elementor-type="product-archive" data-elementor-id="961" class="elementor elementor-961 elementor-location-archive product" data-elementor-settings="[]">
 		<div class="elementor-section-wrap">
 					<section class="elementor-section elementor-top-section elementor-element elementor-element-29fd222f elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="29fd222f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
