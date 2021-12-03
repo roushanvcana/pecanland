@@ -169,20 +169,22 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-023c606 elementor-hidden-tablet elementor-hidden-phone" data-id="023c606" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-1b471a6 elementor-search-form--skin-full_screen elementor-widget__width-auto elementor-widget elementor-widget-search-form" data-id="1b471a6" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;full_screen&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="search-form.default">
-				<div class="elementor-widget-container">
+				
+								<div class="elementor-widget-container">
 					<form class="elementor-search-form" role="search" action="https://elementorpress.com/templatekit-pro/layout17" method="get">
 									<div class="elementor-search-form__toggle">
 				<i aria-hidden="true" class="fas fa-search"></i>				<span class="elementor-screen-only">Search</span>
 			</div>
-						<div class="elementor-search-form__container">
+						<!-- <div class="elementor-search-form__container">
 								<input placeholder="" class="elementor-search-form__input" type="search" name="s" title="Search" value="">
 																<div class="dialog-lightbox-close-button dialog-close-button">
 					<i class="eicon-close" aria-hidden="true"></i>
 					<span class="elementor-screen-only">Close</span>
 				</div>
-							</div>
+							</div> -->
 		</form>
 				</div>
+				
 				</div>
 				<div class="elementor-element elementor-element-c4d6fef elementor-author-box--layout-image-left elementor-widget__width-auto elementor-widget elementor-widget-author-box" data-id="c4d6fef" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="author-box.default">
 				<div class="elementor-widget-container">
@@ -201,12 +203,14 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
 				<div class="elementor-element elementor-element-d81d66f toggle-icon--cart-solid elementor-widget__width-auto elementor-menu-cart--items-indicator-bubble elementor-menu-cart--show-divider-yes elementor-menu-cart--show-remove-button-yes elementor-menu-cart--buttons-inline elementor-widget elementor-widget-woocommerce-menu-cart" data-id="d81d66f" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="woocommerce-menu-cart.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-menu-cart__wrapper">
-						<div class="elementor-menu-cart__container elementor-lightbox" aria-expanded="false">
+
+						<!-- <div class="elementor-menu-cart__container elementor-lightbox" aria-expanded="false">
 				<div class="elementor-menu-cart__main" aria-expanded="false">
 					<div class="elementor-menu-cart__close-button"></div>
 					<div class="widget_shopping_cart_content"></div>
 				</div>
-			</div>
+			</div> -->
+
 						<div class="elementor-menu-cart__toggle elementor-button-wrapper">
 			<a id="elementor-menu-cart__toggle_button" href="#" class="elementor-button elementor-size-sm">
 				<span class="elementor-button-text"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi></span></span>
