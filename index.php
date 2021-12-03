@@ -193,12 +193,12 @@
       </div>
       <div class="elementor-element elementor-element-4e60bda elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="4e60bda" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
        <div class="elementor-widget-container">
-        <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
+        <div class="elementor-button-wrapper"> <a href="shop.php" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
        </div>
       </div>
       <div class="elementor-element elementor-element-cd23b2e elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="cd23b2e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
        <div class="elementor-widget-container">
-        <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">READ MORE</span> </span> </a> </div>
+        <div class="elementor-button-wrapper"> <a href="blog.php" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">READ MORE</span> </span> </a> </div>
        </div>
       </div>
      </div>
@@ -223,7 +223,12 @@
           </div>
           <div class="elementor-element elementor-element-8d29e87 elementor-widget elementor-widget-button" data-id="8d29e87" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
            <div class="elementor-widget-container">
-            <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <i aria-hidden="true" class="fas fa-arrow-right"></i> </span> <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
+            <div class="elementor-button-wrapper"> 
+            <a href="shop.php" class="elementor-button-link elementor-button elementor-size-sm" role="button"> 
+            <span class="elementor-button-content-wrapper"> 
+            <span class="elementor-button-icon elementor-align-icon-right"> 
+            <i aria-hidden="true" class="fas fa-arrow-right"></i> </span>
+             <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
            </div>
           </div>
          </div>
@@ -252,7 +257,12 @@
           </div>
           <div class="elementor-element elementor-element-0dcf8df elementor-widget elementor-widget-button" data-id="0dcf8df" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
            <div class="elementor-widget-container">
-            <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <i aria-hidden="true" class="fas fa-arrow-right"></i> </span> <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
+            <div class="elementor-button-wrapper"> 
+            <a href="shop.php" class="elementor-button-link elementor-button elementor-size-sm" role="button"> 
+            <span class="elementor-button-content-wrapper"> 
+            <span class="elementor-button-icon elementor-align-icon-right">
+             <i aria-hidden="true" class="fas fa-arrow-right"></i> </span> 
+             <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
            </div>
           </div>
          </div>
@@ -281,7 +291,12 @@
           </div>
           <div class="elementor-element elementor-element-1af9531 elementor-widget elementor-widget-button" data-id="1af9531" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
            <div class="elementor-widget-container">
-            <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <i aria-hidden="true" class="fas fa-arrow-right"></i> </span> <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
+            <div class="elementor-button-wrapper"> 
+            <a href="shop.php" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+             <span class="elementor-button-content-wrapper"> 
+              <span class="elementor-button-icon elementor-align-icon-right"> 
+              <i aria-hidden="true" class="fas fa-arrow-right"></i> </span>
+               <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
            </div>
           </div>
          </div>
@@ -353,7 +368,9 @@
           </div>
           <div class="elementor-element elementor-element-9338fbb elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="9338fbb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
            <div class="elementor-widget-container">
-            <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">READ MORE</span> </span> </a> </div>
+            <div class="elementor-button-wrapper"> <a href="blog.php" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+             <span class="elementor-button-content-wrapper"> 
+              <span class="elementor-button-text">READ MORE</span> </span> </a> </div>
            </div>
           </div>
          </div>
@@ -427,7 +444,12 @@
           </div>
           <div class="elementor-element elementor-element-509c73a elementor-widget-mobile__width-auto elementor-widget elementor-widget-button" data-id="509c73a" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
            <div class="elementor-widget-container">
-            <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <i aria-hidden="true" class="fas fa-arrow-right"></i> </span> <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
+            <div class="elementor-button-wrapper"> 
+            <a href="shop.php" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+             <span class="elementor-button-content-wrapper"> 
+              <span class="elementor-button-icon elementor-align-icon-right"> 
+              <i aria-hidden="true" class="fas fa-arrow-right"></i> 
+            </span> <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
            </div>
           </div>
          </div>
@@ -486,7 +508,8 @@
       </div>
       <div class="elementor-element elementor-element-80bc191 elementor-widget__width-auto elementor-hidden-phone elementor-invisible elementor-widget elementor-widget-button" data-id="80bc191" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
        <div class="elementor-widget-container">
-        <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
+        <div class="elementor-button-wrapper"> <a href="shop.php" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> 
+        <span class="elementor-button-text">SHOP NOW</span> </span> </a> </div>
        </div>
       </div>
      </div>
@@ -727,12 +750,12 @@ Mexico, <br>CP 67940</p>
       <div class="elementor-element elementor-element-a00eeab elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="a00eeab" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="icon-list.default">
        <div class="elementor-widget-container">
         <ul class="elementor-icon-list-items">
-         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">About us</span> </li>
-         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Blog</span> </li>
-         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Check out</span> </li>
-         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Contact</span> </li>
-         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Service</span> </li>
-         <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Shop</span> </li>
+         <li class="elementor-icon-list-item"><a href="about.php"><span class="elementor-icon-list-text">About us</span> </a></li>
+         <li class="elementor-icon-list-item"><a href="blog.php"><span class="elementor-icon-list-text">Blog</span></a></li>
+         <!-- <li class="elementor-icon-list-item"> <span class="elementor-icon-list-text">Check out</span> </li> -->
+         <li class="elementor-icon-list-item"> <a href="contact.php"><span class="elementor-icon-list-text">Contact</span> </a></li>
+         <!-- <li class="elementor-icon-list-item"> <a href=""><span class="elementor-icon-list-text">Service</span></a> </li> -->
+         <li class="elementor-icon-list-item"> <a href="shop.php"><span class="elementor-icon-list-text">Shop</span></a> </li>
         </ul>
        </div>
       </div>
