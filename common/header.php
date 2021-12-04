@@ -471,6 +471,18 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
            <a href="shop.php" class="elementor-item">Shop</a></li>
 
+           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+           <a href="sign-up.php" class="elementor-item">Sign-Up
+           </a>
+           
+          </li>
+
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+           <a href="sign-in.php" class="elementor-item">Sign-In
+           </a>
+           
+          </li>
+
           <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-87">
           <a href="#" class="elementor-item elementor-item-anchor">Pages</a>
            <ul class="sub-menu elementor-nav-menu--dropdown">
@@ -515,14 +527,19 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
         </form>
        </div>
       </div>
+
       <div class="elementor-element elementor-element-c4d6fef elementor-author-box--layout-image-left elementor-widget__width-auto elementor-widget elementor-widget-author-box" data-id="c4d6fef" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="author-box.default">
        <div class="elementor-widget-container">
         <div class="elementor-author-box">
-         <div  class="elementor-author-box__avatar"> <img src="wp-content/uploads/2021/07/User.png"> </div>
+         <div  class="elementor-author-box__avatar"> 
+          <img src="wp-content/uploads/2021/07/User.png">
+         
+        </div>
          <div class="elementor-author-box__text"> </div>
         </div>
        </div>
       </div>
+
       <div class="elementor-element elementor-element-d81d66f toggle-icon--cart-solid elementor-widget__width-auto elementor-menu-cart--items-indicator-bubble elementor-menu-cart--show-divider-yes elementor-menu-cart--show-remove-button-yes elementor-menu-cart--buttons-inline elementor-widget elementor-widget-woocommerce-menu-cart" data-id="d81d66f" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="woocommerce-menu-cart.default">
        <div class="elementor-widget-container">
         <div class="elementor-menu-cart__wrapper">
@@ -539,6 +556,9 @@ var MS_Ajax = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout1
         <!-- close elementor-menu-cart__wrapper --> 
        </div>
       </div>
+
+      
+
      </div>
     </div>
    </div>

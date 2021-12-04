@@ -87,6 +87,17 @@
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"><a href="contact.php" class="elementor-item">Contact</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="shop.php" class="elementor-item">Shop</a></li>
          
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+           <a href="sign-up.php" class="elementor-item">Sign-Up
+           </a>
+           
+          </li>
+
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+           <a href="sign-in.php" class="elementor-item">Sign-In
+           </a>
+           
+          </li>
           <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-87"><a href="#" class="elementor-item elementor-item-anchor">Pages</a>
            <ul class="sub-menu elementor-nav-menu--dropdown">
             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1423"><a href="#" class="elementor-sub-item">Our Service</a></li>
@@ -106,7 +117,17 @@
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033"><a href="blog.php" class="elementor-item" tabindex="-1">Blog</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"><a href="contact.php" class="elementor-item" tabindex="-1">Contact</a></li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425"><a href="shop.php" class="elementor-item" tabindex="-1">Shop</a></li>
-         
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+           <a href="sign-up.php" class="elementor-item">Sign-Up
+           </a>
+           
+          </li>
+
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+           <a href="sign-in.php" class="elementor-item">Sign-In
+           </a>
+           
+          </li>
           <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-87"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Pages</a>
            <ul class="sub-menu elementor-nav-menu--dropdown">
             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1423"><a href="#" class="elementor-sub-item" tabindex="-1">Our Service</a></li>

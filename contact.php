@@ -108,7 +108,7 @@
 			<div class="elementor-image-box-wrapper">
             <figure class="elementor-image-box-img">
                 <img width="34" height="75" src="wp-content/uploads/2021/07/phone-icon2.png" class="attachment-full size-full" alt="" loading="lazy" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Phone</h3><p class="elementor-image-box-description">0-589-96369-95823
-0-825-63596-471254</p></div></div>		</div>
+             0-825-63596-471254</p></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-7fcc08a elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="7fcc08a" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
@@ -122,6 +122,8 @@
 		</div>
 							</div>
 		</section>
+
+		
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-062d139 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="062d139" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;navigation&quot;:&quot;both&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-258da03" data-id="258da03" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
