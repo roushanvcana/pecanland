@@ -717,6 +717,11 @@ var wc_cart_fragments_params = {"ajax_url":"\/templatekit-pro\/layout17\/wp-admi
 var localize = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/wp-admin\/admin-ajax.php","nonce":"d18d066672","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."}};
 /* ]]> */
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
 <script type='text/javascript' src='wp-content/uploads/essential-addons-elementor/40e314001.min1d72.js?ver=1637233811' id='40e314001-js'></script>
 <script type='text/javascript' src='wp-content/themes/hello-elementor/assets/js/hello-frontend.min8a54.js?ver=1.0.0' id='hello-theme-frontend-js'></script>
 <script type='text/javascript' src='wp-includes/js/wp-embed.min080f.js?ver=5.8.2' id='wp-embed-js'></script>
@@ -769,3 +774,248 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
 
 </body>
 </html>
+<script type='text/javascript' id='elementor-pro-frontend-js-before'>
+    var ElementorProFrontendConfig = {
+      "ajaxurl": "",
+      "nonce": "0b854d045d",
+      "urls": {
+        "assets": ""
+      },
+      "i18n": {
+        "toc_no_headings_found": "No headings were found on this page."
+      },
+      "shareButtonsNetworks": {
+        "facebook": {
+          "title": "Facebook",
+          "has_counter": true
+        },
+        "twitter": {
+          "title": "Twitter"
+        },
+        "google": {
+          "title": "Google+",
+          "has_counter": true
+        },
+        "linkedin": {
+          "title": "LinkedIn",
+          "has_counter": true
+        },
+        "pinterest": {
+          "title": "Pinterest",
+          "has_counter": true
+        },
+        "reddit": {
+          "title": "Reddit",
+          "has_counter": true
+        },
+        "vk": {
+          "title": "VK",
+          "has_counter": true
+        },
+        "odnoklassniki": {
+          "title": "OK",
+          "has_counter": true
+        },
+        "tumblr": {
+          "title": "Tumblr"
+        },
+        "digg": {
+          "title": "Digg"
+        },
+        "skype": {
+          "title": "Skype"
+        },
+        "stumbleupon": {
+          "title": "StumbleUpon",
+          "has_counter": true
+        },
+        "mix": {
+          "title": "Mix"
+        },
+        "telegram": {
+          "title": "Telegram"
+        },
+        "pocket": {
+          "title": "Pocket",
+          "has_counter": true
+        },
+        "xing": {
+          "title": "XING",
+          "has_counter": true
+        },
+        "whatsapp": {
+          "title": "WhatsApp"
+        },
+        "email": {
+          "title": "Email"
+        },
+        "print": {
+          "title": "Print"
+        }
+      },
+      "menu_cart": {
+        "cart_page_url": "",
+        "checkout_page_url": ""
+      },
+      "facebook_sdk": {
+        "lang": "en_US",
+        "app_id": ""
+      },
+      "lottie": {
+        "defaultAnimationUrl": ""
+      }
+    };
+  </script>
+    <script type='text/javascript' id='elementor-frontend-js-before'>
+    var elementorFrontendConfig = {
+      "environmentMode": {
+        "edit": false,
+        "wpPreview": false,
+        "isScriptDebug": false
+      },
+      "i18n": {
+        "shareOnFacebook": "Share on Facebook",
+        "shareOnTwitter": "Share on Twitter",
+        "pinIt": "Pin it",
+        "download": "Download",
+        "downloadImage": "Download image",
+        "fullscreen": "Fullscreen",
+        "zoom": "Zoom",
+        "share": "Share",
+        "playVideo": "Play Video",
+        "previous": "Previous",
+        "next": "Next",
+        "close": "Close"
+      },
+      "is_rtl": false,
+      "breakpoints": {
+        "xs": 0,
+        "sm": 480,
+        "md": 768,
+        "lg": 1025,
+        "xl": 1440,
+        "xxl": 1600
+      },
+      "responsive": {
+        "breakpoints": {
+          "mobile": {
+            "label": "Mobile",
+            "value": 767,
+            "default_value": 767,
+            "direction": "max",
+            "is_enabled": true
+          },
+          "mobile_extra": {
+            "label": "Mobile Extra",
+            "value": 880,
+            "default_value": 880,
+            "direction": "max",
+            "is_enabled": false
+          },
+          "tablet": {
+            "label": "Tablet",
+            "value": 1024,
+            "default_value": 1024,
+            "direction": "max",
+            "is_enabled": true
+          },
+          "tablet_extra": {
+            "label": "Tablet Extra",
+            "value": 1200,
+            "default_value": 1200,
+            "direction": "max",
+            "is_enabled": false
+          },
+          "laptop": {
+            "label": "Laptop",
+            "value": 1366,
+            "default_value": 1366,
+            "direction": "max",
+            "is_enabled": false
+          },
+          "widescreen": {
+            "label": "Widescreen",
+            "value": 2400,
+            "default_value": 2400,
+            "direction": "min",
+            "is_enabled": false
+          }
+        }
+      },
+      "version": "3.4.8",
+      "is_static": false,
+      "experimentalFeatures": {
+        "e_dom_optimization": true,
+        "a11y_improvements": true,
+        "e_import_export": true,
+        "hello-theme-header-footer": true,
+        "landing-pages": true,
+        "elements-color-picker": true,
+        "admin-top-bar": true,
+        "form-submissions": true,
+        "video-playlist": true
+      },
+      "urls": {
+        "assets": ""
+      },
+      "settings": {
+        "page": [],
+        "editorPreferences": []
+      },
+      "kit": {
+        "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+        "global_image_lightbox": "yes",
+        "lightbox_enable_counter": "yes",
+        "lightbox_enable_fullscreen": "yes",
+        "lightbox_enable_zoom": "yes",
+        "lightbox_enable_share": "yes",
+        "lightbox_title_src": "title",
+        "lightbox_description_src": "description",
+        "hello_header_logo_type": "logo",
+        "hello_header_menu_layout": "horizontal",
+        "hello_footer_logo_type": "logo"
+      },
+      "post": {
+        "id": 75,
+        "title": "Groxi%20Store%20%E2%80%93%20Just%20another%20WordPress%20site",
+        "excerpt": "",
+        "featuredImage": false
+      }
+    };
+  </script>
+ 
+  <script>
+    function addcart(id)
+{
+  if(id)
+  {
+    $.ajax({
+      url: "admin/classfile/ajax.php",
+      type:'POST',
+      data: { action:'add_to_cart',product_id: id },
+      success:function(data){
+      //$('#myModal').modal('show');
+        alert('product added in cart successfull')
+        $('#cart-total').html(data)
+        getCartDetails()
+      },
+    });
+    } else{
+      alert('danger');
+    }
+}
+function getCartDetails()
+{
+    $.ajax({
+      url: "admin/classfile/ajax.php",
+      type:'POST',
+      data: { action:'get_cart_details' },
+      success:function(data){
+       $("#cartlist").html(data)
+      },
+    });
+}
+</script>
+
+
+ 
