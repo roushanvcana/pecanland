@@ -26,7 +26,7 @@
 	visibility: visible;
 }
 </style>
--->
+--><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -780,7 +780,7 @@
               <div class="elementor-element elementor-element-c4d6fef elementor-author-box--layout-image-left elementor-widget__width-auto elementor-widget elementor-widget-author-box" data-id="c4d6fef" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="author-box.default">
                 <div class="elementor-widget-container">
                   <div class="elementor-author-box">
-                    <div class="elementor-author-box__avatar"> <img src="wp-content/uploads/2021/07/User.png"> </div>
+                    <div class="elementor-author-box__avatar"><a href="login.php"> <img src="wp-content/uploads/2021/07/User.png" > </a></div>
                     <div class="elementor-author-box__text"> </div>
                   </div>
                 </div>
