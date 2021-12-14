@@ -1016,6 +1016,3 @@ function getCartDetails()
     });
 }
 </script>
-
-
- 
