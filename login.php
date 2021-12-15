@@ -154,9 +154,10 @@ if (isset($_REQUEST['signin'])) {
 <!-- </div>  -->
 
 <!--login start-->
-<form action=" " method="Post" id="signup">
-    <div class="cont">
-        <div class="form sign-in">
+
+<div class="cont">
+    <div class="form sign-in">
+        <form action=" " method="Post" id="signup">
             <h2>Login</h2>
             <label>
                 <span>Email</span>
@@ -172,23 +173,24 @@ if (isset($_REQUEST['signin'])) {
             </label>
             <!-- <p class="forgot-pass">Forgot password?</p>-->
             <button type="submit" class="submit" name="submit">Sign In</button>
+        </form>
+    </div>
+    <div class="sub-cont">
+        <div class="img">
+            <div class="img__text m--up">
 
-        </div>
-        <div class="sub-cont">
-            <div class="img">
-                <div class="img__text m--up">
-
-                    <h3>Don't have an account? Please Sign up!<h3>
-                </div>
-                <div class="img__text m--in">
-
-                    <h3>If you already has an account, just sign in.<h3>
-                </div>
-                <div class="img__btn">
-                    <span class="m--up">Sign Up</span>
-                    <span class="m--in">Sign In</span>
-                </div>
+                <h3>Don't have an account? Please Sign up!<h3>
             </div>
+            <div class="img__text m--in">
+
+                <h3>If you already has an account, just sign in.<h3>
+            </div>
+            <div class="img__btn">
+                <span class="m--up">Sign Up</span>
+                <span class="m--in">Sign In</span>
+            </div>
+        </div>
+        <form action=" " method="Post" id="sigin">
             <div class="form sign-up">
                 <h2>Sign up</h2>
                 <div class="col-md-6">
@@ -222,13 +224,11 @@ if (isset($_REQUEST['signin'])) {
                     </label>
                     <button type="submit" class="submit" name="signin">Sign Up</button>
                 </div>
-              
-               
-                                                                                            
             </div>
-        </div>
+        </form>
     </div>
-</form>
+</div>
+
 <!-- login end here-->
 <div data-elementor-type="footer" data-elementor-id="533" class="elementor elementor-533 elementor-location-footer" data-elementor-settings="[]">
     <div class="elementor-section-wrap">

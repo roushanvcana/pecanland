@@ -27,6 +27,13 @@
 }
 </style>
 --><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link href="admin/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/animate.css/animate.min.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/slick/slick.css" rel="stylesheet" type="text/css" />
+<link href="admin/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/css/order.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/css/profile.css" rel="stylesheet" type="text/css" />
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
