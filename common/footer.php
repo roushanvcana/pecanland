@@ -1016,8 +1016,45 @@ function getCartDetails()
     });
 }
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" ></script>
+	
+	 <script>
+        var j = jQuery.noConflict();
+j(document).ready(function(){
+  j('#tab2c, #tab3c, #tab4c, #tab5c, #tab6c').hide();
+		j('#tab1').click(function(){
+		j('#tab1c').show();	
+		j('#tab2c, #tab3c, #tab4c, #tab5c, #tab6c').hide();					  
+		});
+		
+		j('#tab2').click(function(){
+		j('#tab2c').show();						  
+		j('#tab1c, #tab3c, #tab4c, #tab5c, #tab6c').hide();						  
+		});
+		
+		j('#tab3').click(function(){
+		j('#tab3c').show();						  
+		j('#tab1c, #tab2c, #tab4c, #tab5c, #tab6c').hide();						  
+        });
+		
+		j('#tab4').click(function(){
+		j('#tab4c').show();						  
+		j('#tab1c, #tab2c, #tab3c, #tab5c, #tab6c').hide();						  
+        });
+	
+	j('#tab5').click(function(){
+		j('#tab5c').show();						  
+		j('#tab1c, #tab2c, #tab3c, #tab4c, #tab6c').hide();						  
+        });
+	
+	j('#tab6').click(function(){
+		j('#tab6c').show();						  
+		j('#tab1c, #tab2c, #tab3c, #tab4c, #tab5c,').hide();						  
+        });
+		
+							 			  
+});
+    </script>
+

@@ -48,7 +48,7 @@ class login extends database
 		    $res=$res['single_row'];
 		    $_SESSION['loginid']=$res['id'];
 		    $_SESSION['type']=$res['type'];
-		    echo "<script> location.href='index.php'; </script>";
+		    echo "<script> location.href='my-account.php'; </script>";
 			
 		}
 	    else

@@ -99,11 +99,11 @@
   color: white;
 }
 
-.side-bar ul li:hover {
+/* .side-bar ul li:hover {
   background-color: #864879;
-}
+} */
 
-.side-bar ul li.active {
+/* .side-bar ul li.active {
   background-color: #e9a6a6;
   -webkit-transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -187,4 +187,4 @@ div[data-view-active="false"] {
   .main-content {
     padding: 1rem !important;
   }
-} */
+} */ 
