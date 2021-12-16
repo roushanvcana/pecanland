@@ -98,6 +98,10 @@ class useractivity extends database
       $_SESSION['msg']=$str;
         $this->redirect_back();
     }
+
+   
+
+
 }
 $use_act=new useractivity();
 

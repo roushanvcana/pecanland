@@ -60,5 +60,5 @@ class login_activity extends database
       else
         return FALSE;
     }
-
+   
   }

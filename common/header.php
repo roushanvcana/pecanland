@@ -26,16 +26,17 @@
 	visibility: visible;
 }
 </style>
--->
-<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/animate.css/animate.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
-       
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet" type="text/css" />
-        <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/order.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icon-styles.min.css" rel="stylesheet" type="text/css" />
-      
+--><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link href="admin/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/animate.css/animate.min.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/slick/slick.css" rel="stylesheet" type="text/css" />
+<link href="admin/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/css/order.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/css/profile.css" rel="stylesheet" type="text/css" />
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <link href="//db.onlinewebfonts.com/c/84ad68dec7abcb4d87a97c105ad56a46?family=ITC+Flora+Std" rel="stylesheet" type="text/css" />
 
   <link rel='stylesheet' id='cb70d11b8-css' href='wp-content/uploads/essential-addons-elementor/cb70d11b8.mine957.css?ver=1637233755' type='text/css' media='all' />
@@ -726,20 +727,22 @@
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-75 current_page_item menu-item-84">
                         <a href="index.php" aria-current="page" class="elementor-item">Home</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884">
-                        <a href="about.php" class="elementor-item">About</a>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+                        <a href="shop.php" class="elementor-item">Shop</a>
                       </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033">
                         <a href="blog.php" class="elementor-item">Blog</a>
                       </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884">
+                        <a href="about.php" class="elementor-item">About</a>
+                      </li>
+
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883">
                         <a href="contact.php" class="elementor-item">Contact</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
-                        <a href="shop.php" class="elementor-item">Shop</a>
-                      </li>
 
-                  
+
+
 
                     </ul>
                   </nav>
@@ -749,19 +752,19 @@
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-75 current_page_item menu-item-84">
                         <a href="index.php" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Home</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884">
-                        <a href="about.php" class="elementor-item" tabindex="-1">About</a>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
+                        <a href="shop.php" class="elementor-item" tabindex="-1">Shop</a>
                       </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1033">
                         <a href="blog.php" class="elementor-item" tabindex="-1">Blog</a>
                       </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884">
+                        <a href="about.php" class="elementor-item" tabindex="-1">About</a>
+                      </li>
+
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883">
                         <a href="contact" class="elementor-item" tabindex="-1">Contact</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1425">
-                        <a href="shop.php" class="elementor-item" tabindex="-1">Shop</a>
-                      </li>
-
                     </ul>
                   </nav>
                 </div>
@@ -784,7 +787,7 @@
               <div class="elementor-element elementor-element-c4d6fef elementor-author-box--layout-image-left elementor-widget__width-auto elementor-widget elementor-widget-author-box" data-id="c4d6fef" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="author-box.default">
                 <div class="elementor-widget-container">
                   <div class="elementor-author-box">
-                    <div class="elementor-author-box__avatar"> <img src="wp-content/uploads/2021/07/User.png"> </div>
+                    <div class="elementor-author-box__avatar"><a href="login.php"> <img src="wp-content/uploads/2021/07/User.png" > </a></div>
                     <div class="elementor-author-box__text"> </div>
                   </div>
                 </div>
@@ -798,18 +801,34 @@
                         <div class="widget_shopping_cart_content"></div>
                       </div>
                     </div>
-                    <?php $cart = $ecom->getcart_details(); ?>
+                    <?php
+                    if (isset($use->user_id) && $use->user_id != "") {
+                      $cart = $ecom->getcart_details();
 
-                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="#"  onclick="getCartDetails()" class="elementor-button elementor-size-sm" > <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
-                            <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span></bdi>
-                          </span></span> <span class="elementor-button-icon" data-counter="<?php echo $cart != FALSE ? $cart['count'] : 0; ?>"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only">Cart</span> </span> </a> </div>
+                    ?><div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="#" onclick="getCartDetails()" class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                              <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span></bdi>
+                            </span></span> <span class="elementor-button-icon"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only" id="cart-total">Cart</span><?php echo $cart != FALSE ? $cart['count'] : 0; ?></span> </a> </div>
                   </div>
-                  <!-- close elementor-menu-cart__wrapper -->
+                <?php } else {  ?>
+
+                  <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="#" onclick="getCartDetails()" class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span></bdi>
+                        </span></span> <span class="elementor-button-icon"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only" id="cart-total">Cart</span><?php if (isset($_SESSION['cart'])) {
+                                                                                                                                                                                      echo sizeof($_SESSION['cart']);
+                                                                                                                                                                                    } else {
+                                                                                                                                                                                      echo '0';
+                                                                                                                                                                                    } ?></span> </a> </div>
                 </div>
+              <?php
+                    }
+              ?>
+
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+
   </div>
+  

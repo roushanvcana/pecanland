@@ -31,15 +31,15 @@ class login extends database
 		$loginuser="";
 		$user="$_POST[temail]";
 		$pass= md5($_POST['tpass']);
-		if(!empty($_POST["remember"])) {
-			setcookie ("temail",$_POST["temail"],time()+ 3600);
-			setcookie ("tpass",$_POST["tpass"],time()+ 3600);
-			echo "Cookies Set Successfuly";
-		} else {
-			setcookie("temail","");
-			setcookie("tpass","");
-			echo "Cookies Not Set";
-		}
+		// if(!empty($_POST["remember"])) {
+		// 	setcookie ("temail",$_POST["temail"],time()+ 3600);
+		// 	setcookie ("tpass",$_POST["tpass"],time()+ 3600);
+		// 	echo "Cookies Set Successfuly";
+		// } else {
+		// 	setcookie("temail","");
+		// 	setcookie("tpass","");
+		// 	echo "Cookies Not Set";
+		// }
 		$sql="select * from user_details where email='$user' and password='$pass' and type='user' and status='Active'";
 		$res=$this->selectdata($sql);
 		if($res!=FALSE)
@@ -48,12 +48,14 @@ class login extends database
 		    $res=$res['single_row'];
 		    $_SESSION['loginid']=$res['id'];
 		    $_SESSION['type']=$res['type'];
-		    echo "<script> location.href='profile.php'; </script>";
+		    echo "<script> location.href='my-account.php'; </script>";
+			
 		}
 	    else
 	    {
 	        $str="Invalid login details";
-			echo "<script> location.href='sign-in.php'; </script>";
+			 echo "<script> location.href='login.php'; </script>";
+			// echo "<script>  </script>";
 			return $str;
 	    }
 	}
@@ -62,9 +64,9 @@ class login extends database
 	        if($this->checkusername($_POST['email'])==FALSE)
 	        {
         		$ins_data=array(
-        		    "fname"=>$_POST['firstName'],
-					"lname"=>$_POST['lastName'],
-        		    "phone"=>$_POST['phone'],
+        		    "fname"=>$_POST['fname'],
+					"lname"=>$_POST['lname'],
+        		     "phone"=>$_POST['phone'],
         		    "email"=>$_POST['email'],
 					"password"=>md5($_POST['password']),
 					"type"=>'user',
@@ -73,6 +75,7 @@ class login extends database
         		);
         		$ins=$this->insertdata('user_details',$ins_data);
         		if($ins)
+				
                 {
                    //$upd=$this->updatedata("epin_details",array("status"=>"used","used_by"=>$ins,"used_dt"=>date('Y-m-d'))," epin='$epin'");
                     $str="Thank you for register with us";
