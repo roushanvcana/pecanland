@@ -309,7 +309,7 @@
      
       $orderList = $this->selectdata($sql);
      
-      $orderList = $orderList['total_row'];
+      $orderList = $orderList==FALSE?FALSE:$orderList['total_row'];
       return $orderList;
   }
   public function getorder_details()
