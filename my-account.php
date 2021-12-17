@@ -11,7 +11,7 @@ $data = $use->getprofile();
 $order = $use->getorder_details();
 
  $orderList = $use->getorder();
-
+ 
 
 ?>
 
@@ -308,7 +308,7 @@ $order = $use->getorder_details();
                         </table>
                       </div>
                     </div>
-                 </div>
+                  </div>
                 </div>
                 <div id="tab4c">
                   <div class="tab-pane">
@@ -332,8 +332,6 @@ $order = $use->getorder_details();
                     </div>
                   </div>
                 </div>
-              
-
                 <div id="tab6c">
                   <div class="tab-pane">
                     <div class="myaccount-content">

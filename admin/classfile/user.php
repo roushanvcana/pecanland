@@ -337,7 +337,7 @@
      
       $orderlist = $this->selectdata($sql);
      
-      $orderlistorderlist = $orderlist['total_row'];
+      $orderlist = $orderlist['total_row'];
       return $orderlist;
   }
 
