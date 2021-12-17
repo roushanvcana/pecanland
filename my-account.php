@@ -8,11 +8,10 @@ if (isset($_REQUEST['submit'])) {
 }
 $data = $use->getprofile();
 
-$orderList = $use->getorder();
+$order = $use->getorder_details();
 
+ $orderList = $use->getorder();
 
-
-// $order = $use->getlastorder();
 
 ?>
 
@@ -42,13 +41,29 @@ $orderList = $use->getorder();
 
                 <div id="tab1c">
                   <div class="tab-pane">
+                     <?php
+                                            $i = 1;
+
+                                            if ($order != false) {
+                                                $sum = 0;
+                                                foreach ($order['total_row']  as $value) {
+                                                $sum=$sum+$value['totalprice'];
+                                                    $id = $value['id'];
+
+                                            ?>
                     <div class="myaccount-content">
-                      <h3>Dashboard</h3>
+                      <h3><?php echo $value['product_name']; ?></h3>
                       <div class="welcome">
-                        <p>Hello, <strong>Alex Tuntuni</strong> (If Not <strong>Tuntuni !</strong><a href="login.html" class="logout"> Logout</a>)</p>
+                        <p><strong><?php echo $value['orderno']; ?>
+                        </strong></p>
                       </div>
-                      <p>From your account dashboard. you can easily check & view your recent orders, manage your shipping and billing addresses and edit your password and account details.</p>
+                       <p><?php echo $value['color']; ?>
+                        </p>
+                     <p><?php echo $value['mrp']; ?>
+                        </p>
                     </div>
+                     <?php }
+                                            } ?>
                   </div>
                 </div>
                 <div id="tab2c">
