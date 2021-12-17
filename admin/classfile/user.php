@@ -303,8 +303,8 @@
         }
         public function getorder()
   {
-      
-      $sql = "select * from order_details where userid='$this->user_id'";
+      $userid=$this->user_id;
+      $sql = "select * from order_details where userid='$userid'";
   
      
       $orderList = $this->selectdata($sql);
@@ -322,7 +322,17 @@
     
       return $order;
   }
- 
+   public function getLastorder()
+  {
+      $userid=$this->user_id;
+      $sql = "select order_details.*,user_details.id as userId,user_details.fname,user_details.lname,user_details.email,user_details.phone,user_details.gender,user_details.address ,stock_details.product_name,stock_details.mrp,stock_details.sell_price,stock_details.unit,stock_details.color,product_order.totalprice,stock_details.image,stock_details.total_quantity from order_details join product_order on product_order.orderid = order_details.orderno join user_details on user_details.id=order_details.userid join stock_details on stock_details.id =product_order.productid where order_details.userid='$userid' ORDER BY order_details.id limit 1;";
+  
+     
+      $orderlist = $this->selectdata($sql);
+     
+      $orderlistorderlist = $orderlist['total_row'];
+      return $orderlist;
+  }
 
 
   
