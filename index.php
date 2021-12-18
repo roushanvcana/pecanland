@@ -174,7 +174,7 @@ $productList = $use_act->getallproduct();
 		 </div>
 		 </div>
 	 </section>-->
-      <section class="elementor-section elementor-top-section elementor-element elementor-element-ffaedcf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ffaedcf" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-ffaedcf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ffaedcf" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
         <div class="elementor-background-overlay"></div>
         <div class="elementor-container elementor-column-gap-no">
           <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d6e5326" data-id="d6e5326" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
@@ -210,7 +210,8 @@ $productList = $use_act->getallproduct();
                         <div class="elementor-widget-container">
                           <div class="elementor-button-wrapper"> <a href="blog.php" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                               <span class="elementor-button-content-wrapper">
-                                <span class="elementor-button-text">READ MORE</span> </span> </a> </div>
+                                <span class="elementor-button-text">READ MORE</span> 
+                              </span> </a> </div>
                         </div>
                       </div>
                     </div>

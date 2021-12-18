@@ -62,7 +62,7 @@
 <meta name="msapplication-TileImage" content="wp-content/uploads/2021/07/cropped-Logo-270x270.png" />
 </head>
 <body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-75 wp-custom-logo theme-hello-elementor woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-75">
-<div data-elementor-type="header" data-elementor-id="83" class="elementor elementor-83 elementor-location-header" data-elementor-settings="[]">
+<div id="header-sroll" data-elementor-type="header" data-elementor-id="83" class="elementor elementor-83 elementor-location-header" data-elementor-settings="[]">
  <div class="elementor-section-wrap">
   <section class="elementor-section elementor-top-section elementor-element elementor-element-d416af3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d416af3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
    <div class="elementor-container elementor-column-gap-default">
@@ -860,5 +860,15 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.minad76.js?ver=5.9.0' id='wc-add-to-cart-variation-js'></script> 
 
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/single-product.minad76.js?ver=5.9.0' id='wc-single-product-js'></script>
+<script type="text/javascript">
+  $(window).scroll(function () {
+    var sc = $(window).scrollTop()
+    if (sc > 100) {
+        $("#header-sroll").addClass("small")
+    } else {
+        $("#header-sroll").removeClass("small")
+    }
+});
+</script>
 </body>
 </html>
