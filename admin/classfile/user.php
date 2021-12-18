@@ -309,7 +309,7 @@
      
       $orderList = $this->selectdata($sql);
      
-      $orderList = $orderList['total_row'];
+      $orderList = $orderList==FALSE?FALSE:$orderList['total_row'];
       return $orderList;
   }
   public function getorder_details()
@@ -325,12 +325,19 @@
    public function getLastorder()
   {
       $userid=$this->user_id;
+      $id=$_POST['order_no'];
+      if(isset($_POST['order_no']))
+      {
+        $sql = "select order_details.*,user_details.id as userId,user_details.fname,user_details.lname,user_details.email,user_details.phone,user_details.gender,user_details.address ,stock_details.product_name,stock_details.mrp,stock_details.sell_price,stock_details.unit,stock_details.color,product_order.totalprice,stock_details.image,stock_details.total_quantity from order_details join product_order on product_order.orderid = order_details.orderno join user_details on user_details.id=order_details.userid join stock_details on stock_details.id =product_order.productid where order_details.userid='$userid' and order_details.orderno = '$id' ORDER BY order_details.id limit 1;";
+      }
+      else
+      {
       $sql = "select order_details.*,user_details.id as userId,user_details.fname,user_details.lname,user_details.email,user_details.phone,user_details.gender,user_details.address ,stock_details.product_name,stock_details.mrp,stock_details.sell_price,stock_details.unit,stock_details.color,product_order.totalprice,stock_details.image,stock_details.total_quantity from order_details join product_order on product_order.orderid = order_details.orderno join user_details on user_details.id=order_details.userid join stock_details on stock_details.id =product_order.productid where order_details.userid='$userid' ORDER BY order_details.id limit 1;";
-  
+    }
      
       $orderlist = $this->selectdata($sql);
      
-      $orderlistorderlist = $orderlist['total_row'];
+      $orderlist = $orderlist['total_row'];
       return $orderlist;
   }
 

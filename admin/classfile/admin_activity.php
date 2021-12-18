@@ -103,7 +103,7 @@ class admin_activity extends database
       "unit" => $_POST['unit'],
       "color" => $_POST['color'],
       "status" => $_POST['status'],
-      "cip" => $this->ipAddress(),
+      //"cip" => $this->ipAddress(),
       "cby" => $_SESSION['user_id']
 
     );
@@ -120,14 +120,14 @@ class admin_activity extends database
     if (!(isset($_POST['tid']))) {
       // for check stock item exists or not 
       $stock_query = "select * from stock_details where product_name='" . $_POST['product_name'] . "' and product_type='" . $_POST['product_type'] . "'";
-
+       
 
       $getStocklist = $this->selectdata($stock_query);
-      $stockCount = $getStocklist == FALSE ? FALSE : $getStocklist['count'];
+     
       $getproductQuantity = $getStocklist == FALSE ? FALSE : $getStocklist['single_row'];
       $totalQuantity = $getproductQuantity['total_quantity'] + $_POST['total_quantity'];
 
-      if ($stockCount > 0) {
+      if ($getStocklist!=FALSE) {
 
         $data['total_quantity'] = $totalQuantity;
 
@@ -135,16 +135,17 @@ class admin_activity extends database
         // echo $ins; die;
         $data['stock_id'] = $ins;
         $data['total_quantity'] = $_POST['total_quantity'];
-        $this->insertdata('product_details', $data);
+         $this->insertdata('product_details', $data);
       } else {
         $ins = $this->insertdata('stock_details', $data);
-
-        $data['stock_id'] = $ins;
-        $this->insertdata('product_details', $data);
+         $str = "Product added successfully";
+       // $data['stock_id'] = $ins;
+        $ins=$this->insertdata('product_details', $data);
+          $str = "Product added successfully";
       }
 
       if ($ins) {
-        $str = "Product added successfully";
+       
         if ($_POST['product_type'] == 2 || $_POST['product_type'] == 3) {
           $tmpproductGroup = $this->gettableList('temrory_add_product');
           $tmpproductGroup = $tmpproductGroup == FALSE ? FALSE : $tmpproductGroup['total_row'];
@@ -157,7 +158,7 @@ class admin_activity extends database
               "product_quantity" => $value['product_quantity'],
               "product_unit" => $value['product_unit'],
               "product_type" => $_POST['product_type'],
-              "cip" => $this->ipAddress(),
+              // "cip" => $this->ipAddress(),
               "cby" => $_SESSION['user_id'],
               "status" => 1,
             );
@@ -191,7 +192,7 @@ class admin_activity extends database
               "product_quantity" => $value['product_quantity'],
               "product_unit" => $value['product_unit'],
               "product_type" => $_POST['product_type'],
-              "cip" => $this->ipAddress(),
+              // "cip" => $this->ipAddress(),
               "cby" => $_SESSION['user_id'],
               "status" => 1,
             );

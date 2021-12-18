@@ -26,7 +26,18 @@
 	visibility: visible;
 }
 </style>
---><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- FontAwesome CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link href="admin/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="admin/assets/animate.css/animate.min.css" rel="stylesheet" type="text/css" />
         <link href="admin/assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
@@ -784,7 +795,35 @@
                   </form>
                 </div>
               </div>
+               <?php
+                    if (isset($use->user_id) && $use->user_id != "") {
+                      $cart = $ecom->getcart_details();
+
+                    ?>
               <div class="elementor-element elementor-element-c4d6fef elementor-author-box--layout-image-left elementor-widget__width-auto elementor-widget elementor-widget-author-box" data-id="c4d6fef" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="author-box.default">
+                <div class="elementor-widget-container">
+                  <div class="elementor-author-box">
+                    <div class="elementor-author-box__avatar"><a href="my-account.php"> <img src="wp-content/uploads/2021/07/User.png" > </a></div>
+                    <div class="elementor-author-box__text"> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="elementor-element elementor-element-d81d66f toggle-icon--cart-solid elementor-widget__width-auto elementor-menu-cart--items-indicator-bubble elementor-menu-cart--show-divider-yes elementor-menu-cart--show-remove-button-yes elementor-menu-cart--buttons-inline elementor-widget elementor-widget-woocommerce-menu-cart" data-id="d81d66f" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="woocommerce-menu-cart.default">
+                <div class="elementor-widget-container">
+                  <div class="elementor-menu-cart__wrapper">
+                    <div class="elementor-menu-cart__container elementor-lightbox" aria-expanded="false">
+                      <div class="elementor-menu-cart__main" aria-expanded="false">
+                        <div class="elementor-menu-cart__close-button"></div>
+                        <div class="widget_shopping_cart_content"></div>
+                      </div>
+                    </div>
+                   
+                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="#" onclick="getCartDetails()" class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                              <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span></bdi>
+                            </span></span> <span class="elementor-button-icon"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only" id="cart-total">Cart</span><?php echo $cart != FALSE ? $cart['count'] : 0; ?></span> </a> </div>
+                  </div>
+                <?php } else {  ?>
+                <div class="elementor-element elementor-element-c4d6fef elementor-author-box--layout-image-left elementor-widget__width-auto elementor-widget elementor-widget-author-box" data-id="c4d6fef" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="author-box.default">
                 <div class="elementor-widget-container">
                   <div class="elementor-author-box">
                     <div class="elementor-author-box__avatar"><a href="login.php"> <img src="wp-content/uploads/2021/07/User.png" > </a></div>
@@ -801,34 +840,16 @@
                         <div class="widget_shopping_cart_content"></div>
                       </div>
                     </div>
-                    <?php
-                    if (isset($use->user_id) && $use->user_id != "") {
-                      $cart = $ecom->getcart_details();
-
-                    ?><div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="#" onclick="getCartDetails()" class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
-                              <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span></bdi>
-                            </span></span> <span class="elementor-button-icon"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only" id="cart-total">Cart</span><?php echo $cart != FALSE ? $cart['count'] : 0; ?></span> </a> </div>
-                  </div>
-                <?php } else {  ?>
-
-                  <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="#" onclick="getCartDetails()" class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
-                          <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span></bdi>
-                        </span></span> <span class="elementor-button-icon"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only" id="cart-total">Cart</span><?php if (isset($_SESSION['cart'])) {
-                                                                                                                                                                                      echo sizeof($_SESSION['cart']);
-                                                                                                                                                                                    } else {
-                                                                                                                                                                                      echo '0';
-                                                                                                                                                                                    } ?></span> </a> </div>
-                </div>
-              <?php
-                    }
-              ?>
-
-              </div>
-            </div>
-          </div>
+                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="#" class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+          <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi>
+          </span></span> <span class="elementor-button-icon" id="cart-total"> <?php if(isset($_SESSION['cart'])){echo sizeof($_SESSION['cart']);} else{ echo '0';} ?><i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only">Cart</span> </span> </a> </div>
         </div>
-      </section>
+        <!-- close elementor-menu-cart__wrapper --> 
+       </div>
+      </div>
+    <?php } ?>
+     </div>
     </div>
-
-  </div>
-  
+   </div>
+  </section>
+ </div>

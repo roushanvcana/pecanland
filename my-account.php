@@ -11,7 +11,7 @@ $data = $use->getprofile();
 $order = $use->getorder_details();
 
  $orderList = $use->getorder();
-
+ 
 
 ?>
 
@@ -41,7 +41,29 @@ $order = $use->getorder_details();
 
                 <div id="tab1c">
                   <div class="tab-pane">
-                     <?php
+
+                    <div class="row shop-tracking-status">
+    
+                      <div class="col-md-12">
+                       
+                          <div class="well">
+                      
+                              <div class="form-horizontal">
+                                  <div class="form-group">
+                                      <label for="inputOrderTrackingID" class="col-sm-2 control-label" style="font-size: 20px;">Order id</label>
+                                          <div class="col-sm-10">
+                                          <input type="text" class="form-control" id="inputOrderTrackingID" value="" placeholder="# put your order id here" style="height: 29px;">
+                                      </div>
+                                  </div>
+                                  <form action="" method="post">
+                                  <div class="form-group">
+                                      <div class="col-sm-offset-2 col-sm-10">
+                                          <button type="submit" id="shopGetOrderStatusID" class="btn btn-success" name="order_no">Get status</button>
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                                   <?php
                                             $i = 1;
 
                                             if ($order != false) {
@@ -51,19 +73,171 @@ $order = $use->getorder_details();
                                                     $id = $value['id'];
 
                                             ?>
-                    <div class="myaccount-content">
-                      <h3><?php echo $value['product_name']; ?></h3>
-                      <div class="welcome">
-                        <p><strong><?php echo $value['orderno']; ?>
-                        </strong></p>
-                      </div>
-                       <p><?php echo $value['color']; ?>
-                        </p>
-                     <p><?php echo $value['mrp']; ?>
-                        </p>
+                        <h4>Your order status:</h4>
+
+                        <ul class="list-group">
+                           <li class="list-group-item">
+                                <span class="prefix">Order Name:</span>
+                                <span class="label label-success"><?php echo $value['product_name']; ?></span>
+                            </li>
+                          <li class="list-group-item">
+                                <span class="prefix">Order Number:</span>
+                                <span class="label label-success"><?php echo $value['orderno']; ?></span>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="prefix">Date created:</span>
+                                <span class="label label-success"><?php echo $value['order_dt']; ?></span>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="prefix">Last update:</span>
+                                <span class="label label-success"><?php echo $value['status_update_dt']; ?></span>
+                            </li>
+                          <!--   <li class="list-group-item">
+                                <span class="prefix">Comment:</span>
+                                <span class="label label-success">customer's comment goes here</span>
+                            </li>
+                            <li class="list-group-item">You can find out latest status of your order with the following link:</li>
+                            <li class="list-group-item"><a href="//tracking/link/goes/here">//tracking/link/goes/here</a></li>
+                        --> </ul>
+
+                        <div class="order-status">
+
+                            <div class="order-status">
+                                                <div class="order-status-timeline">
+                                                    <!-- class names: c0 c1 c2 c3 and c4 -->
+
+                                                    <?php if ($order['single_row']['status'] == 'Accepted') { ?>
+                                                        <div class="order-status-timeline-completion c0"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-new active img-circle">
+                                                    <span class="status">Accepted</span>
+                                                    <div class="icon"></div>
+
+                                                </div>
+                                                <div class="image-order-status image-order-status-active  img-circle">
+                                                    <span class="status">In progress</span>
+                                                    <div class="icon"></div>
+                                                </div>
+
+                                                <div class="image-order-status image-order-status-intransit  img-circle">
+                                                    <span class="status">Shipped</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-delivered  img-circle">
+                                                    <span class="status">Delivered</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-completed  img-circle">
+                                                    <span class="status">Completed</span>
+                                                    <div class="icon"></div><?php } ?>
+
+
+
+                                                <?php if ($order['single_row']['status'] == 'In progress') { ?>
+                                                    <div class="order-status-timeline-completion c1"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-new active img-circle">
+                                                    <span class="status">Accepted</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-active active img-circle">
+                                                    <span class="status">In progress</span>
+                                                    <div class="icon"></div>
+                                                </div>
+
+                                                <div class="image-order-status image-order-status-intransit  img-circle">
+                                                    <span class="status">Shipped</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-delivered  img-circle">
+                                                    <span class="status">Delivered</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-completed  img-circle">
+                                                    <span class="status">Completed</span>
+                                                    <div class="icon"></div><?php } ?>
+                                                <?php if ($order['single_row']['status'] == 'Shipped') { ?>
+                                                    <div class="order-status-timeline-completion c2"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-new active img-circle">
+                                                    <span class="status">Accepted</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-active active img-circle">
+                                                    <span class="status">In progress</span>
+                                                    <div class="icon"></div>
+                                                </div>
+
+                                                <div class="image-order-status image-order-status-intransit active img-circle">
+                                                    <span class="status">Shipped</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-delivered  img-circle">
+                                                    <span class="status">Delivered</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-completed  img-circle">
+                                                    <span class="status">Completed</span>
+                                                    <div class="icon"></div><?php } ?>
+
+                                                <?php if ($order['single_row']['status'] == 'Delivered') { ?>
+                                                    <div class="order-status-timeline-completion c3"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-new active img-circle">
+                                                    <span class="status">Accepted</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-active active img-circle">
+                                                    <span class="status">In progress</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-intransit active img-circle">
+                                                    <span class="status">Shipped</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-delivered active img-circle">
+                                                    <span class="status">Delivered</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-completed  img-circle">
+                                                    <span class="status">Completed</span>
+                                                    <div class="icon"></div><?php } ?>
+                                                <?php if ($order['single_row']['status'] == 'Completed') { ?>
+                                                    <div class="order-status-timeline-completion c4"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-new active img-circle">
+                                                    <span class="status">Accepted</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-active active img-circle">
+                                                    <span class="status">In progress</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-intransit active img-circle">
+                                                    <span class="status">Shipped</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-delivered active img-circle">
+                                                    <span class="status">Delivered</span>
+                                                    <div class="icon"></div>
+                                                </div>
+                                                <div class="image-order-status image-order-status-completed active img-circle">
+                                                    <span class="status">Completed</span>
+                                                    <div class="icon"></div>
+                                                </div><?php } ?>
+
+                                            </div>
+                                        </div>
+
+                        </div>
+                        <?php }
+                                                        } ?>
                     </div>
-                     <?php }
-                                            } ?>
+                     
+                </div>
+
+            </div>
+                   
                   </div>
                 </div>
                 <div id="tab2c">
