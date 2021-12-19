@@ -1,3 +1,4 @@
+
 .container {
 	width: 1140px;
 	margin: 0 auto;
@@ -1511,3 +1512,20 @@ color:var( --e-global-color-text );
     padding: 10px 15px;
     cursor: pointer;
 }
+
+#header-sroll {
+    position:fixed;
+    height: 100px;
+    background:#e7e6e6;
+    z-index: 4;
+    left:0;
+    top:0;
+    float:left;
+    width:100%;
+    -ms-transition:     all 0.3s ease-out;
+    -moz-transition:    all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition:      all 0.3s ease-out;
+    transition:         all 0.3s ease-out;
+}
+

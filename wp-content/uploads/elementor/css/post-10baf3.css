@@ -1,3 +1,5 @@
+
+
 .elementor-kit-10 {
   --e-global-color-primary: #9fcb22;
   --e-global-color-secondary: #252932;
@@ -248,7 +250,7 @@
   border-radius: 0px 0px 0px 0px;
 }
 .elementor-section.elementor-section-boxed > .elementor-container {
-  max-width: 1340px;
+  max-width: 1170px;
 }
 .elementor-widget:not(:last-child) {
   margin-bottom: 20px;

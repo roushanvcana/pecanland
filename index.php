@@ -3,10 +3,13 @@ $productList = $use_act->getallproduct();
 
 
 ?>
-
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
 <body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-75 wp-custom-logo theme-hello-elementor woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-75 main-font">
 
-  <div data-elementor-type="wp-page" data-elementor-id="75" class="elementor elementor-75" data-elementor-settings="[]">
+<div data-elementor-type="wp-page" data-elementor-id="75" class="elementor elementor-75" data-elementor-settings="[]">
     <div class="elementor-section-wrap">
       <section class="elementor-section elementor-top-section elementor-element elementor-element-1e9ecd5 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="1e9ecd5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;,&quot;navigation&quot;:&quot;both&quot;}">
         <div class="elementor-background-overlay"></div>
@@ -247,7 +250,7 @@ $productList = $use_act->getallproduct();
                     foreach ($productList as $pro) {
                         $id=$pro['id'];
                 ?>
-                      <li class="product type-product post-1558 status-publish first instock product_cat-uncategorized has-post-thumbnail sale shipping-taxable purchasable product-type-simple"> <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"> <img width="300" height="263" src="admin/upload/product/<?php echo $pro['image']?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" />
+                        <li class="product type-product post-1558 status-publish first instock product_cat-uncategorized has-post-thumbnail sale shipping-taxable purchasable product-type-simple"> <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"> <img width="300" height="263" src="admin/upload/product/<?php echo $pro['image']?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" />
                           <h2 class="woocommerce-loop-product__title"><?php echo $pro['product_name'] ?></h2>
                           <div class="star-rating"><span style="width:0%">Rated <strong class="rating">0</strong> out of 5</span></div>
                           <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount">
