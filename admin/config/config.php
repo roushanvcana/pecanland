@@ -9,7 +9,7 @@ class config
 	public function __construct()
 	{
 		$this->link = mysqli_connect("localhost","root","", "pecanland");
-     
+
 		// Check connection
 		if($this->link === false)
 		{
@@ -20,33 +20,33 @@ class config
 	{
         $ipaddress = '';
         if ($_SERVER['HTTP_CLIENT_IP']){
-    
+
             $ipaddress = $_SERVER['HTTP_CLIENT_IP'];}
-    
+
         else if($_SERVER['HTTP_X_FORWARDED_FOR']){
-    
+
             $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];}
-    
+
         else if($_SERVER['HTTP_X_FORWARDED']){
-    
+
             $ipaddress = $_SERVER['HTTP_X_FORWARDED'];}
-    
+
         else if($_SERVER['HTTP_FORWARDED_FOR']){
-    
+
             $ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];}
-    
+
         else if($_SERVER['HTTP_FORWARDED']){
-    
+
             $ipaddress = $_SERVER['HTTP_FORWARDED'];}
-    
+
         else if($_SERVER['REMOTE_ADDR']){
-    
+
             $ipaddress = $_SERVER['REMOTE_ADDR'];}
-    
+
         else{
-    
+
             $ipaddress = 'UNKNOWN';
-    
+
     	}
         return $ipaddress;
     }
@@ -60,7 +60,7 @@ class config
             else{
                  header('Location: '.$_SERVER['HTTP_REFERER']);
             }
-           
+
         }
         else
         {
@@ -68,6 +68,8 @@ class config
         }
         exit;
     }
+							// PayPal configuration
+				
 }
 $con=new config();
 ?>

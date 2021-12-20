@@ -17,13 +17,13 @@ class common
      }
      public function upload_photo($directory,$file)
      {
-        $filename = $_FILES[$file]["name"];   
-        $allowed = array('php', 'js', 'css','html','htm','c','cpp','py'); 
+        $filename = $_FILES[$file]["name"];
+        $allowed = array('php', 'js', 'css','html','htm','c','cpp','py');
         $ext = pathinfo($filename, PATHINFO_EXTENSION);
         if(!in_array($ext, $allowed)) {
             $target_dir = "admin/classfile/uploaded/".$directory."/";
             $target_file = $target_dir . basename($_FILES[$file]["name"]);
-            move_uploaded_file($_FILES[$file]["tmp_name"], $target_file); 
+            move_uploaded_file($_FILES[$file]["tmp_name"], $target_file);
             return $filename;
         }
         else
@@ -40,7 +40,7 @@ class common
      public function getArrayVal($func, $value)
      {
         $getfunc = $func;
-        return $getfunc[$value];       
+        return $getfunc[$value];
      }
 
      public function productType()
@@ -71,14 +71,14 @@ class common
 
         if(file_exists($path))
         {
-            unlink($path);		
+            unlink($path);
         }
 
 	    $moved=move_uploaded_file($file_tempname,$path);
 
         if($moved)
         {
-            return $file_name;	
+            return $file_name;
         }
 
     }
@@ -88,11 +88,11 @@ class common
         return array(
            "Pending" => 'Pending',
            "Accepted" => 'Accepted',
-           "Ready to shiped" => 'Ready to shiped',
+"In progress" => 'In progress',
            "Shipped" => 'Shipped',
            "Delivered" => 'Delivered',
            "Cancel" => 'Cancel',
-           "Reject" => 'Reject',
+         "Completed" => 'Completed',
         );
     }
 
