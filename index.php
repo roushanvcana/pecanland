@@ -167,7 +167,7 @@ $productList = $use_act->getallproduct();
 				 <p>This website is dedicated to you, our customers and suppliers, with the main purpose of facilitating the selection and Order our products and services. And provide them with relevant information to help them obtain the maximum benefit from this magnificent product is the nut.</p>
 				 <p>The menu at the superios part allow them to easily navigate between different options according to your needs.</p>
 				 <p>We hope “Heart to Heart” meet their expectations and enjoy our services.</p>
-			 
+
 			 </div>
 			 </div>
 		 </div>
@@ -209,7 +209,7 @@ $productList = $use_act->getallproduct();
                         <div class="elementor-widget-container">
                           <div class="elementor-button-wrapper"> <a href="blog.php" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                               <span class="elementor-button-content-wrapper">
-                                <span class="elementor-button-text">READ MORE</span> 
+                                <span class="elementor-button-text">READ MORE</span>
                               </span> </a> </div>
                         </div>
                       </div>
@@ -239,7 +239,7 @@ $productList = $use_act->getallproduct();
               <div class="elementor-element elementor-element-5f9d736 elementor-products-columns-3 elementor-product-loop-item--align-center elementor-products-columns-mobile-1 elementor-products-grid elementor-wc-products elementor-widget elementor-widget-woocommerce-products" data-id="5f9d736" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="woocommerce-products.default">
                 <div class="elementor-widget-container">
                   <div class="woocommerce columns-2 ">
-                  
+
                     <ul class="products columns-3">
                     <?php
                 $i = 1;
@@ -247,7 +247,7 @@ $productList = $use_act->getallproduct();
                     foreach ($productList as $pro) {
                         $id=$pro['id'];
                 ?>
-                        <li class="product type-product post-1558 status-publish first instock product_cat-uncategorized has-post-thumbnail sale shipping-taxable purchasable product-type-simple"> <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"> <img width="300" height="263" src="admin/upload/product/<?php echo $pro['image']?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" />
+                        <li class="product type-product post-1558 status-publish first instock product_cat-uncategorized has-post-thumbnail sale shipping-taxable purchasable product-type-simple"> <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"> <img width="100" height="163" src="admin/upload/product/<?php echo $pro['image']?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" />
                           <h2 class="woocommerce-loop-product__title"><?php echo $pro['product_name'] ?></h2>
                           <div class="star-rating"><span style="width:0%">Rated <strong class="rating">0</strong> out of 5</span></div>
                           <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount">
@@ -258,7 +258,7 @@ $productList = $use_act->getallproduct();
                         </a><a  data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="1558" data-product_sku="" aria-label="Add &ldquo;Beef Steak&rdquo; to your cart" rel="nofollow" onclick="addcart('<?php echo $id; ?>')">Add to cart</a></li>
                         <?php }}?>
                       </ul>
-                     
+
                   </div>
                 </div>
               </div>
