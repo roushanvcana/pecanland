@@ -173,8 +173,8 @@ $productList = $use_act->getallproduct();
 		 </div>
 		 </div>
 	 </section>-->
-      <section class="elementor-section elementor-top-section elementor-element elementor-element-ffaedcf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ffaedcf" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-        <div class="elementor-background-overlay"></div>
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-ffaedcf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ffaedcf" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+      <div class="elementor-background-overlay"></div>
         <div class="elementor-container elementor-column-gap-no">
           <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d6e5326" data-id="d6e5326" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
             <div class="elementor-widget-wrap elementor-element-populated">
@@ -187,8 +187,8 @@ $productList = $use_act->getallproduct();
                     <div class="elementor-widget-wrap elementor-element-populated">
                       <div class="elementor-element elementor-element-abfb55e elementor-invisible elementor-widget elementor-widget-heading" data-id="abfb55e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
                         <!--<div class="elementor-widget-container">
-            <h3 class="elementor-heading-title elementor-size-default">About Us</h3>
-           </div>-->
+                        <h3 class="elementor-heading-title elementor-size-default">About Us</h3>
+                       </div>-->
                       </div>
                       <div class="elementor-element elementor-element-7ae800f elementor-invisible elementor-widget elementor-widget-heading" data-id="7ae800f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
                         <div class="elementor-widget-container">
@@ -241,15 +241,15 @@ $productList = $use_act->getallproduct();
                   
                     <ul class="products columns-3">
                     <?php
-                $i = 1;
-                if ($productList != FALSE) {
-                    foreach ($productList as $pro) {
-                        $id=$pro['id'];
-                ?>
+                      $i = 1;
+                      if ($productList != FALSE) {
+                          foreach ($productList as $pro) {
+                              $id=$pro['id'];
+                      ?>
                         <li class="product type-product post-1558 status-publish first instock product_cat-uncategorized has-post-thumbnail sale shipping-taxable purchasable product-type-simple"> <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"> <img width="300" height="263" src="admin/upload/product/<?php echo $pro['image']?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" />
                           <h2 class="woocommerce-loop-product__title"><?php echo $pro['product_name'] ?></h2>
                           <div class="star-rating"><span style="width:0%">Rated <strong class="rating">0</strong> out of 5</span></div>
-                          <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount">
+                          <span class="price" style="text-align:center;"><del aria-hidden="true"><span class="woocommerce-Price-amount amount">
                                 <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span><?php echo $pro['sell_price'] ?></bdi>
                               </span></del> <ins><span class="woocommerce-Price-amount amount">
                                 <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span><?php echo $pro['mrp'] ?></bdi>
