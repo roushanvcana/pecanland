@@ -4,7 +4,7 @@ class config
 	public $link;
 	protected $sql;
 	public $ctr=1;
-    public $base_url='http://localhost/pecanland.com/';
+    public $base_url='http://localhost/pecanland/';
     public $restricted_page=array('shop-checkout.php','profile.php','order-details.php');
 	public function __construct()
 	{

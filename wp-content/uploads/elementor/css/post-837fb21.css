@@ -389,6 +389,44 @@ body
   .elementor-image-box-wrapper {
   text-align: left;
 }
+
+.elementor-837
+  .elementor-element.elementor-element-8e89dfd
+  .elementor-image-box-wrapper img{
+    -webkit-animation-name: rotateme;
+    animation-name: rotateme;
+    -webkit-animation-duration: 25s;
+    animation-duration: 25s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes rotateme {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes rotateme {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
 .elementor-837
   .elementor-element.elementor-element-8e89dfd
   .elementor-image-box-title {

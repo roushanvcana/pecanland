@@ -351,16 +351,16 @@ var ElementorProFrontendConfig = {"ajaxurl":"","nonce":"0b854d045d","urls":{"ass
 <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script> 
 <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/share-link/share-link.minb045.js?ver=3.4.8' id='share-link-js'></script> 
 <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script> 
-<script type='text/javascript' id='elementor-frontend-js-before'>
+<!-- <script type='text/javascript' id='elementor-frontend-js-before'>
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.4.8","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"e_import_export":true,"hello-theme-header-footer":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true,"form-submissions":true,"video-playlist":true},"urls":{"assets":""},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":75,"title":"Groxi%20Store%20%E2%80%93%20Just%20another%20WordPress%20site","excerpt":"","featuredImage":false}};
-</script> 
+</script>  -->
 <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend.minb045.js?ver=3.4.8' id='elementor-frontend-js'></script> 
-<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min3d36.js?ver=3.3.1' id='pro-preloaded-elements-handlers-js'></script> 
-<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/preloaded-modules.minb045.js?ver=3.4.8' id='preloaded-modules-js'></script> 
+<!-- <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min3d36.js?ver=3.3.1' id='pro-preloaded-elements-handlers-js'></script> 
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/preloaded-modules.minb045.js?ver=3.4.8' id='preloaded-modules-js'></script>  -->
 <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min3d36.js?ver=3.3.1' id='e-sticky-js'></script> 
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min013a.js?ver=1.7.21-wc.5.9.0' id='zoom-js'></script> 
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.minf214.js?ver=2.7.2-wc.5.9.0' id='flexslider-js'></script> 
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min08f6.js?ver=4.1.1-wc.5.9.0' id='photoswipe-js'></script> 
+<!-- <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min08f6.js?ver=4.1.1-wc.5.9.0' id='photoswipe-js'></script> 
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min08f6.js?ver=4.1.1-wc.5.9.0' id='photoswipe-ui-default-js'></script> 
 <script type='text/javascript' src='wp-includes/js/underscore.min0028.js?ver=1.13.1' id='underscore-js'></script> 
 
@@ -368,19 +368,19 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.minad76.js?ver=5.9.0' id='wc-add-to-cart-variation-js'></script> 
 <script src="admin/assets/js/script.js"></script>
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/single-product.minad76.js?ver=5.9.0' id='wc-single-product-js'></script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/single-product.minad76.js?ver=5.9.0' id='wc-single-product-js'></script> -->
 
 <!-- **********************************about-us***************************************************** -->
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https:\/\/elementorpress.com\/templatekit-pro\/layout17"}},{"@type":"ListItem","position":2,"item":{"name":"About","@id":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/about\/"}}]}</script>	<script type="text/javascript">
+<!-- <script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https:\/\/elementorpress.com\/templatekit-pro\/layout17"}},{"@type":"ListItem","position":2,"item":{"name":"About","@id":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/about\/"}}]}</script>	<script type="text/javascript">
 		(function () {
 			var c = document.body.className;
 			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
 			document.body.className = c;
 		})();
-	</script>
+	</script> -->
 	
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="pswp__bg"></div>
 	<div class="pswp__scroll-wrap">
 		<div class="pswp__container">
@@ -413,34 +413,34 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 			</div>
 		</div>
 	</div>
-</div>
-<script type="text/template" id="tmpl-variation-template">
+</div> -->
+<!-- <script type="text/template" id="tmpl-variation-template">
 	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
 	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
 	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
 </script>
 <script type="text/template" id="tmpl-unavailable-variation-template">
 	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
-</script>
+</script> -->
 <link rel='stylesheet' id='font-awesome-5-all-css'  href='wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min1845.css?ver=4.9.6' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-4-shim-css'  href='wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min1845.css?ver=4.9.6' type='text/css' media='all' />
 <link rel='stylesheet' id='e-animations-css'  href='wp-content/plugins/elementor/assets/lib/animations/animations.minb045.css?ver=3.4.8' type='text/css' media='all' />
 <link rel='stylesheet' id='photoswipe-css'  href='wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.minad76.css?ver=5.9.0' type='text/css' media='all' />
 <link rel='stylesheet' id='photoswipe-default-skin-css'  href='wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.minad76.css?ver=5.9.0' type='text/css' media='all' />
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min272a.js?ver=2.7.0-wc.5.9.0' id='jquery-blockui-js'></script>
-<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+<!-- <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min272a.js?ver=2.7.0-wc.5.9.0' id='jquery-blockui-js'></script> -->
+<!-- <script type='text/javascript' id='wc-add-to-cart-js-extra'>
 /* <![CDATA[ */
 var wc_add_to_cart_params = {"ajax_url":"\/templatekit-pro\/layout17\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/templatekit-pro\/layout17\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
 /* ]]> */
-</script>
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.minad76.js?ver=5.9.0' id='wc-add-to-cart-js'></script>
+</script> -->
+<!-- <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.minad76.js?ver=5.9.0' id='wc-add-to-cart-js'></script>
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min00bc.js?ver=2.1.4-wc.5.9.0' id='js-cookie-js'></script>
 <script type='text/javascript' id='woocommerce-js-extra'>
 /* <![CDATA[ */
 var woocommerce_params = {"ajax_url":"\/templatekit-pro\/layout17\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/templatekit-pro\/layout17\/?wc-ajax=%%endpoint%%"};
 /* ]]> */
-</script>
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.minad76.js?ver=5.9.0' id='woocommerce-js'></script>
+</script> -->
+<!-- <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.minad76.js?ver=5.9.0' id='woocommerce-js'></script>
 <script type='text/javascript' id='wc-cart-fragments-js-extra'>
 /* <![CDATA[ */
 var wc_cart_fragments_params = {"ajax_url":"\/templatekit-pro\/layout17\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/templatekit-pro\/layout17\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_98ab051a099dc32b9f9af99eb916ab9f","fragment_name":"wc_fragments_98ab051a099dc32b9f9af99eb916ab9f","request_timeout":"5000"};
@@ -451,7 +451,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/templatekit-pro\/layout17\/wp-admi
 /* <![CDATA[ */
 var localize = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/wp-admin\/admin-ajax.php","nonce":"d18d066672","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."}};
 /* ]]> */
-</script>
+</script> -->
 <script type='text/javascript' src='wp-content/uploads/essential-addons-elementor/bb73a86b3.min1d72.js?ver=1637233811' id='bb73a86b3-js'></script>
 <script type='text/javascript' src='wp-content/themes/hello-elementor/assets/js/hello-frontend.min8a54.js?ver=1.0.0' id='hello-theme-frontend-js'></script>
 <script type='text/javascript' src='wp-includes/js/wp-embed.min080f.js?ver=5.8.2' id='wp-embed-js'></script>
@@ -463,35 +463,35 @@ var localize = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout
 <script type='text/javascript' id='elementor-pro-frontend-js-before'>
 var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/wp-admin\/admin-ajax.php","nonce":"0b854d045d","urls":{"assets":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"menu_cart":{"cart_page_url":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/cart\/","checkout_page_url":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/checkout\/"},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 </script>
-<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/frontend.min3d36.js?ver=3.3.1' id='elementor-pro-frontend-js'></script>
+<!-- <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/frontend.min3d36.js?ver=3.3.1' id='elementor-pro-frontend-js'></script>
 <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js'></script>
 <script type='text/javascript' src='wp-includes/js/jquery/ui/core.min35d0.js?ver=1.12.1' id='jquery-ui-core-js'></script>
 <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script>
-<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/share-link/share-link.minb045.js?ver=3.4.8' id='share-link-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/share-link/share-link.minb045.js?ver=3.4.8' id='share-link-js'></script> -->
 <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script>
 <script type='text/javascript' id='elementor-frontend-js-before'>
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.4.8","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"e_import_export":true,"hello-theme-header-footer":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true,"form-submissions":true,"video-playlist":true},"urls":{"assets":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":723,"title":"About%20%E2%80%93%20Groxi%20Store","excerpt":"","featuredImage":false}};
 </script>
 <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend.minb045.js?ver=3.4.8' id='elementor-frontend-js'></script>
-<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min3d36.js?ver=3.3.1' id='pro-preloaded-elements-handlers-js'></script>
-<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/preloaded-modules.minb045.js?ver=3.4.8' id='preloaded-modules-js'></script>
+<!-- <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min3d36.js?ver=3.3.1' id='pro-preloaded-elements-handlers-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/preloaded-modules.minb045.js?ver=3.4.8' id='preloaded-modules-js'></script> -->
 <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min3d36.js?ver=3.3.1' id='e-sticky-js'></script>
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min013a.js?ver=1.7.21-wc.5.9.0' id='zoom-js'></script>
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.minf214.js?ver=2.7.2-wc.5.9.0' id='flexslider-js'></script>
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min08f6.js?ver=4.1.1-wc.5.9.0' id='photoswipe-js'></script>
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min08f6.js?ver=4.1.1-wc.5.9.0' id='photoswipe-ui-default-js'></script>
 <script type='text/javascript' src='wp-includes/js/underscore.min0028.js?ver=1.13.1' id='underscore-js'></script>
-<script type='text/javascript' id='wp-util-js-extra'>
+<!-- <script type='text/javascript' id='wp-util-js-extra'>
 /* <![CDATA[ */
 var _wpUtilSettings = {"ajax":{"url":"\/templatekit-pro\/layout17\/wp-admin\/admin-ajax.php"}};
 /* ]]> */
-</script>
-<script type='text/javascript' src='wp-includes/js/wp-util.min080f.js?ver=5.8.2' id='wp-util-js'></script>
-<script type='text/javascript' id='wc-add-to-cart-variation-js-extra'>
+</script> -->
+<!-- <script type='text/javascript' src='wp-includes/js/wp-util.min080f.js?ver=5.8.2' id='wp-util-js'></script> -->
+<!-- <script type='text/javascript' id='wc-add-to-cart-variation-js-extra'>
 /* <![CDATA[ */
 var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/templatekit-pro\/layout17\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
 /* ]]> */
-</script>
+</script> -->
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.minad76.js?ver=5.9.0' id='wc-add-to-cart-variation-js'></script>
 <script type='text/javascript' id='wc-single-product-js-extra'>
 /* <![CDATA[ */
@@ -743,38 +743,121 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/elementorpress.com\/templ
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.4.8","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"e_import_export":true,"hello-theme-header-footer":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true,"form-submissions":true,"video-playlist":true},"urls":{"assets":"https:\/\/elementorpress.com\/templatekit-pro\/layout17\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":0,"title":"Products &#8211; Groxi Store","excerpt":"<p>This is where you can browse products in this store.<\/p>\n"}};
 </script>
 <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend.minb045.js?ver=3.4.8' id='elementor-frontend-js'></script>
-<script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min3d36.js?ver=3.3.1' id='pro-preloaded-elements-handlers-js'></script>
-<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/preloaded-modules.minb045.js?ver=3.4.8' id='preloaded-modules-js'></script>
+<!-- <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min3d36.js?ver=3.3.1' id='pro-preloaded-elements-handlers-js'></script> -->
+<!-- <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/preloaded-modules.minb045.js?ver=3.4.8' id='preloaded-modules-js'></script> -->
 <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min3d36.js?ver=3.3.1' id='e-sticky-js'></script>
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min013a.js?ver=1.7.21-wc.5.9.0' id='zoom-js'></script>
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.minf214.js?ver=2.7.2-wc.5.9.0' id='flexslider-js'></script>
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min08f6.js?ver=4.1.1-wc.5.9.0' id='photoswipe-js'></script>
 <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min08f6.js?ver=4.1.1-wc.5.9.0' id='photoswipe-ui-default-js'></script>
 <script type='text/javascript' src='wp-includes/js/underscore.min0028.js?ver=1.13.1' id='underscore-js'></script>
-<script type='text/javascript' id='wp-util-js-extra'>
+<!-- <script type='text/javascript' id='wp-util-js-extra'>
 /* <![CDATA[ */
 var _wpUtilSettings = {"ajax":{"url":"\/templatekit-pro\/layout17\/wp-admin\/admin-ajax.php"}};
 /* ]]> */
-</script>
-<script type='text/javascript' src='wp-includes/js/wp-util.min080f.js?ver=5.8.2' id='wp-util-js'></script>
-<script type='text/javascript' id='wc-add-to-cart-variation-js-extra'>
+</script> -->
+<!-- <script type='text/javascript' src='wp-includes/js/wp-util.min080f.js?ver=5.8.2' id='wp-util-js'></script> -->
+<!-- <script type='text/javascript' id='wc-add-to-cart-variation-js-extra'>
 /* <![CDATA[ */
 var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/templatekit-pro\/layout17\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
 /* ]]> */
-</script>
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.minad76.js?ver=5.9.0' id='wc-add-to-cart-variation-js'></script>
-<script type='text/javascript' id='wc-single-product-js-extra'>
+</script> -->
+<!-- <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.minad76.js?ver=5.9.0' id='wc-add-to-cart-variation-js'></script> -->
+<!-- <script type='text/javascript' id='wc-single-product-js-extra'>
 /* <![CDATA[ */
 var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
 /* ]]> */
-</script>
-<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/single-product.minad76.js?ver=5.9.0' id='wc-single-product-js'></script>
+</script> -->
+<!-- <script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/single-product.minad76.js?ver=5.9.0' id='wc-single-product-js'></script> -->
 
 <!-- *********************************shop******************************************************* -->
+ <script>
+function addcart(id)
+{
+  if(id)
+  {
+    $.ajax({
+      url: "admin/classfile/ajax.php",
+      type:'POST',
+      data: { action:'add_to_cart',product_id: id },
+      success:function(data){
+      //$('#myModal').modal('show');
+        alert('product added in cart successfull')
+        $('#cart-total').html(data)
+        getCartDetails()
+      },
+    });
+    } else{
+      alert('danger');
+    }
+}
+function getCartDetails()
+{
+    $.ajax({
+      url: "admin/classfile/ajax.php",
+      type:'POST',
+      data: { action:'get_cart_details' },
+      success:function(data){
+       $("#cartlist").html(data)
+      },
+    });
+}
+</script>
 
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" ></script>
+  
+   <script>
+        var j = jQuery.noConflict();
+j(document).ready(function(){
+  j('#tab2c, #tab3c, #tab4c, #tab5c, #tab6c').hide();
+    j('#tab1').click(function(){
+    j('#tab1c').show(); 
+    j('#tab2c, #tab3c, #tab4c, #tab5c, #tab6c').hide();           
+    });
+    
+    j('#tab2').click(function(){
+    j('#tab2c').show();             
+    j('#tab1c, #tab3c, #tab4c, #tab5c, #tab6c').hide();             
+    });
+    
+    j('#tab3').click(function(){
+    j('#tab3c').show();             
+    j('#tab1c, #tab2c, #tab4c, #tab5c, #tab6c').hide();             
+        });
+    
+    j('#tab4').click(function(){
+    j('#tab4c').show();             
+    j('#tab1c, #tab2c, #tab3c, #tab5c, #tab6c').hide();             
+        });
+  
+  j('#tab5').click(function(){
+    j('#tab5c').show();             
+    j('#tab1c, #tab2c, #tab3c, #tab4c, #tab6c').hide();             
+        });
+  
+  j('#tab6').click(function(){
+    j('#tab6c').show();             
+    j('#tab1c, #tab2c, #tab3c, #tab4c, #tab5c,').hide();              
+        });
+    
+                      
+});
+    </script> -->
+
+<script type="text/javascript">
+  $(window).scroll(function () {
+    var sc = $(window).scrollTop()
+    if (sc > 100) {
+        $("#header-sroll").addClass("small")
+    } else {
+        $("#header-sroll").removeClass("small")
+    }
+});
+</script>
 </body>
 </html>
-<script type='text/javascript' id='elementor-pro-frontend-js-before'>
+<!-- <script type='text/javascript' id='elementor-pro-frontend-js-before'>
     var ElementorProFrontendConfig = {
       "ajaxurl": "",
       "nonce": "0b854d045d",
@@ -982,79 +1065,6 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
         "featuredImage": false
       }
     };
-  </script>
+  </script> -->
  
-  <script>
-    function addcart(id)
-{
-  if(id)
-  {
-    $.ajax({
-      url: "admin/classfile/ajax.php",
-      type:'POST',
-      data: { action:'add_to_cart',product_id: id },
-      success:function(data){
-      //$('#myModal').modal('show');
-        alert('product added in cart successfull')
-        $('#cart-total').html(data)
-        getCartDetails()
-      },
-    });
-    } else{
-      alert('danger');
-    }
-}
-function getCartDetails()
-{
-    $.ajax({
-      url: "admin/classfile/ajax.php",
-      type:'POST',
-      data: { action:'get_cart_details' },
-      success:function(data){
-       $("#cartlist").html(data)
-      },
-    });
-}
-</script>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" ></script>
-	
-	 <script>
-        var j = jQuery.noConflict();
-j(document).ready(function(){
-  j('#tab2c, #tab3c, #tab4c, #tab5c, #tab6c').hide();
-		j('#tab1').click(function(){
-		j('#tab1c').show();	
-		j('#tab2c, #tab3c, #tab4c, #tab5c, #tab6c').hide();					  
-		});
-		
-		j('#tab2').click(function(){
-		j('#tab2c').show();						  
-		j('#tab1c, #tab3c, #tab4c, #tab5c, #tab6c').hide();						  
-		});
-		
-		j('#tab3').click(function(){
-		j('#tab3c').show();						  
-		j('#tab1c, #tab2c, #tab4c, #tab5c, #tab6c').hide();						  
-        });
-		
-		j('#tab4').click(function(){
-		j('#tab4c').show();						  
-		j('#tab1c, #tab2c, #tab3c, #tab5c, #tab6c').hide();						  
-        });
-	
-	j('#tab5').click(function(){
-		j('#tab5c').show();						  
-		j('#tab1c, #tab2c, #tab3c, #tab4c, #tab6c').hide();						  
-        });
-	
-	j('#tab6').click(function(){
-		j('#tab6c').show();						  
-		j('#tab1c, #tab2c, #tab3c, #tab4c, #tab5c,').hide();						  
-        });
-		
-							 			  
-});
-    </script>
-
+ 
