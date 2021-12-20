@@ -22,23 +22,24 @@
 <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> -->
 <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<link href="admin/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<!-- <link href="admin/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="admin/assets/animate.css/animate.min.css" rel="stylesheet" type="text/css" />
         <link href="admin/assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
         <link href="admin/assets/slick/slick.css" rel="stylesheet" type="text/css" />
 <link href="admin/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
         <link href="admin/assets/css/order.css" rel="stylesheet" type="text/css" />
-        <link href="admin/assets/css/profile.css" rel="stylesheet" type="text/css" />
+        <link href="admin/assets/css/profile.css" rel="stylesheet" type="text/css" /> -->
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <link href="//db.onlinewebfonts.com/c/84ad68dec7abcb4d87a97c105ad56a46?family=ITC+Flora+Std" rel="stylesheet" type="text/css" />
 
- <!--  <link rel='stylesheet' id='cb70d11b8-css' href='wp-content/uploads/essential-addons-elementor/cb70d11b8.mine957.css?ver=1637233755' type='text/css' media='all' />
+
+  <link rel='stylesheet' id='cb70d11b8-css' href='wp-content/uploads/essential-addons-elementor/cb70d11b8.mine957.css?ver=1637233755' type='text/css' media='all' />
   <link rel='stylesheet' id='hello-elementor-css' href='wp-content/themes/hello-elementor/style.min8066.css?ver=2.4.1' type='text/css' media='all' />
-  <link rel='stylesheet' id='hello-elementor-theme-style-css' href='wp-content/themes/hello-elementor/theme.min8066.css?ver=2.4.1' type='text/css' media='all' /> -->
+  <link rel='stylesheet' id='hello-elementor-theme-style-css' href='wp-content/themes/hello-elementor/theme.min8066.css?ver=2.4.1' type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-frontend-css' href='wp-content/plugins/elementor/assets/css/frontend.minb045.css?ver=3.4.8' type='text/css' media='all' />
-  <!-- <style id='elementor-frontend-inline-css' type='text/css'>
+  <style id='elementor-frontend-inline-css' type='text/css'>
     @font-face {
       font-family: eicons;
       src: url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons0b93.eot?5.10.0);
@@ -46,7 +47,10 @@
       font-weight: 400;
       font-style: normal
     }
-  </style> -->
+  </style>
+  <link rel='stylesheet'  href='wp-content/uploads/elementor/css/post-7238268.css' type='text/css' media='all' />
+ <link rel='stylesheet'  href='wp-content/uploads/elementor/css/post-961b7cb.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='wp-content/uploads/elementor/css/post-10045963.css' type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-post-10-css' href='wp-content/uploads/elementor/css/post-10baf3.css?ver=1627644542' type='text/css' media='all' />
   <link rel='stylesheet' id='elementor-icons-css' href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min05c8.css?ver=5.13.0' type='text/css' media='all' />
 
