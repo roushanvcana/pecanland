@@ -188,7 +188,7 @@
                     <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="shop-cart.php"  class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
                       <!-- onclick="getCartDetails(); return false" -->
                               <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span></bdi>
-                            </span></span> <span class="elementor-button-icon"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only" >Cart</span id="cart-total"><?php echo $cart != FALSE ? $cart['count'] : 0; ?></span> </a> </div>
+                            </span></span> <span class="elementor-button-icon"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only" ></span><span id="cart-total"><?php echo $cart != FALSE ? $cart['count'] : 0; ?></span> </a> </div>
                   </div>
                 <?php } else {  ?>
                 <div class="elementor-element elementor-element-c4d6fef elementor-author-box--layout-image-left elementor-widget__width-auto elementor-widget elementor-widget-author-box" data-id="c4d6fef" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="author-box.default">
