@@ -122,6 +122,24 @@
 .control--radio input:disabled ~ .control__indicator:after {
   background: #7b7b7b;
 }
+	.order-subtotal {
+    border-top: 1px solid #000;
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+}
+	.order-total {
+		border-top: 1px solid #000;
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+	}
+	.grid_pay {
+    background: #f5f9fa;
+    padding: 20px;
+}
+	.order-items {
+    background: #f1f1f1;
+    padding: 20px;
+}
 </style>
 
 <div data-elementor-type="product-archive" data-elementor-id="961" class="elementor elementor-961 elementor-location-archive product" data-elementor-settings="[]">
@@ -232,10 +250,8 @@
                     </div>
 										</div>
                     <div class="col-lg-6">
-                        <h2 class="text-title mb-5">Your order</h2>
-                        
-                            <div class="">
 															<div class="order-items mb-5">
+																<h2 class="text-title mb-5">Your order</h2>
                                 <div class="row">
 
                                         <div class="col-md-8">
@@ -273,24 +289,36 @@
                                     }
                                 }
                             ?>
-                            <div class="order-subtotal">
+																	
+																	 <div class="col-lg-4">
+																		<div class="order-subtotal">
                                 <div class="order-line-title">Sub Total</div>
                                 <div class="order-line-total">$<?php echo $sub;?></div>
                             </div>
-                            <div class="order-subtotal">
+																		</div>
+																		<div class="col-lg-4">
+																		<div class="order-subtotal">
                                 <div class="order-line-title">Shipping</div>
                                 <div class="order-line-total">$10.00</div>
                             </div>
-                            <div class="separator-line"></div>
+																		</div>
+																		<div class="col-lg-4">
+																		<div class="separator-line"></div>
                             <div class="order-total">
                                 <div class="order-line-title">Total</div>
                                 <div class="order-line-total">$<?php echo $sub+10;?></div>
                             </div>
+																		</div>
+																
+                            
+                            
+                            
                         </div>
                         </div>
-                        </div>
-                        <h3 class="text-title mb-4">Payment Details</h3>
+                        <div class="grid_pay">
+													<h3 class="text-title mb-4">Payment Details</h3>
                         <div class="grid row">
+													
                             <div class="col-12"><p>Please use your Order ID as the payment reference. Your order won't be shipped until the funds have cleared in our account.</p></div>
                             <div class="col-12">
 															<div class="control-group">
@@ -339,6 +367,7 @@
                             </div>-->
                             <div class="col-12"><button class="btn-wider btn btn-theme" type="submit" name="bplace_order">place order</button></div>
                         </div>
+													</div>
                     </div>
                 </div>
             </form>
