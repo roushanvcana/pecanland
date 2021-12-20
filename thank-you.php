@@ -10,7 +10,9 @@
 ?>
 
         <section class="section dd">
+          <br>
            <div class="container">
+               <br>  <br>
                 <div class="row text-center">
                     <div class="col-sm-12 col-sm-offset-1">
                     <br><br> <h2 style="color:#0fad00">Success</h2>
@@ -25,18 +27,7 @@
                 </div>
             </div>
         </section>
-        <div class="age-popup">
-            <div class="popup-content with-back">
-                <div class="overflow-back">
-                    <div class="c-leaf-age-popup"><span class="svg-content svg-fill-back-image" data-svg="assets/images/svg/cannabis.svg"></span></div>
-                </div>
-                <div class="popup-title h4">Age Verification</div>
-                <div class="popup-text">You must be 18 years old to enter.</div>
-                <div class="popup-btns">
-                    <a class="btn btn-theme" href="#" data-role="age-yes">yes</a><a class="btn-theme-bordered btn" href="#" data-role="age-no" data-redirect-url="https://themeforest.net/user/amigosthemes/portfolio">no</a>
-                </div>
-            </div>
-        </div>
-        <div class="scroll-top"><i class="fas fa-long-arrow-alt-up"></i></div>
+
+
 
             <?php include('common/footer.php');?>
