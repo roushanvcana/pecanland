@@ -336,15 +336,15 @@
                             <div class="col-12">
 															<div class="control-group">
     <label class="control control--radio">Cash On Delivery
-      <input type="radio" name="radio" checked="checked"/>
+      <input type="radio" id="cash-on-payment" name="pmode" checked="checked"/>
       <div class="control__indicator"></div>
     </label>
     <label class="control control--radio">online Pyament
-      <input type="radio" name="radio"/>
+      <input type="radio"  id="check-payment" name="pmode"/>
       <div class="control__indicator"></div>
     </label>
     <label class="control control--radio">PayPal
-      <input type="radio" name="radio2" />
+      <input type="radio" id="paypal-payment" name="pmode" />
       <div class="control__indicator"></div>
     </label>
    
