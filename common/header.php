@@ -48,7 +48,9 @@
       font-style: normal
     }
   </style>
+	<link rel='stylesheet'  href='wp-content/uploads/elementor/css/post-628b716.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='wp-content/plugins/woocommerce/assets/css/woocommerce-layoutad76.css' type='text/css' media='all' />
+	<link rel='stylesheet'  href='wp-content/plugins/woocommerce/assets/css/woocommercead76.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='wp-content/uploads/elementor/css/post-1087bed1.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='wp-content/uploads/elementor/css/post-837fb21.css' type='text/css' media='all' />
   <link rel='stylesheet'  href='wp-content/uploads/elementor/css/post-7238268.css' type='text/css' media='all' />
@@ -188,7 +190,7 @@
                       </div>
                     </div>
 
-                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="shop-cart.php"  class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                    <div class="elementor-menu-cart__toggle elementor-button-wrapper" onclick="location.href='shop-cart.php'"> <a id="elementor-menu-cart__toggle_button" href="shop-cart.php"  class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
                       <!-- onclick="getCartDetails(); return false" -->
                               <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span></bdi>
                             </span></span> <span class="elementor-button-icon"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only" ></span><span id="cart-total"><?php echo $cart != FALSE ? $cart['count'] : 0; ?></span> </a> </div>
@@ -206,7 +208,7 @@
               <div class="elementor-element elementor-element-d81d66f toggle-icon--cart-solid elementor-widget__width-auto elementor-menu-cart--items-indicator-bubble elementor-menu-cart--show-divider-yes elementor-menu-cart--show-remove-button-yes elementor-menu-cart--buttons-inline elementor-widget elementor-widget-woocommerce-menu-cart" data-id="d81d66f" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="woocommerce-menu-cart.default">
                 <div class="elementor-widget-container">
                   <div class="elementor-menu-cart__wrapper">
-                    <div class="elementor-menu-cart__container elementor-lightbox" aria-expanded="false">
+                    <!--<div class="elementor-menu-cart__container elementor-lightbox" aria-expanded="false">
                       <div class="elementor-menu-cart__main" aria-expanded="false">
                         <div class="elementor-menu-cart__close-button"></div>
                         <div class="widget_shopping_cart_content">
@@ -215,10 +217,15 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="" class="elementor-button elementor-size-sm" > <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                    </div>-->
+										<div class="elementor-menu-cart__toggle elementor-button-wrapper" onclick="location.href='shop-cart.php'"> <a href="shop-cart.php" class="elementor-button elementor-size-sm" > <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
                   <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi>
                  </span></span> <span class="elementor-button-icon" id="cart-total"> <?php if(isset($_SESSION['cart'])){echo sizeof($_SESSION['cart']);} else{ echo '0';} ?><i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only">Cart</span> </span> </a> </div>
+<!--
+                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="" href="shop-cart.php" class="elementor-button elementor-size-sm" > <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                  <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi>
+                 </span></span> <span class="elementor-button-icon" id="cart-total"> <?php if(isset($_SESSION['cart'])){echo sizeof($_SESSION['cart']);} else{ echo '0';} ?><i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only">Cart</span> </span> </a> </div>
+-->
                </div>
         <!-- close elementor-menu-cart__wrapper -->
        </div>
