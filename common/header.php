@@ -31,7 +31,7 @@
         <link href="admin/assets/css/profile.css" rel="stylesheet" type="text/css" />
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <link href="//db.onlinewebfonts.com/c/84ad68dec7abcb4d87a97c105ad56a46?family=ITC+Flora+Std" rel="stylesheet" type="text/css" />
 
  <!--  <link rel='stylesheet' id='cb70d11b8-css' href='wp-content/uploads/essential-addons-elementor/cb70d11b8.mine957.css?ver=1637233755' type='text/css' media='all' />
@@ -180,8 +180,9 @@
                         <div class="widget_shopping_cart_content"></div>
                       </div>
                     </div>
-                   
-                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="#" onclick="getCartDetails(); return false" class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+
+                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="shop-cart.php"  class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                      <!-- onclick="getCartDetails(); return false" -->
                               <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span></bdi>
                             </span></span> <span class="elementor-button-icon"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only" ></span><span id="cart-total"><?php echo $cart != FALSE ? $cart['count'] : 0; ?></span> </a> </div>
                   </div>
@@ -203,16 +204,16 @@
                         <div class="elementor-menu-cart__close-button"></div>
                         <div class="widget_shopping_cart_content">
                           <div id="cartlist">
-                   
+
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="" class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="" class="elementor-button elementor-size-sm" > <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
                   <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi>
                  </span></span> <span class="elementor-button-icon" id="cart-total"> <?php if(isset($_SESSION['cart'])){echo sizeof($_SESSION['cart']);} else{ echo '0';} ?><i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only">Cart</span> </span> </a> </div>
                </div>
-        <!-- close elementor-menu-cart__wrapper --> 
+        <!-- close elementor-menu-cart__wrapper -->
        </div>
       </div>
     <?php } ?>
