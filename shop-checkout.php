@@ -132,14 +132,14 @@
                                     <div class="input-group"><textarea class="form-control" name="ship_address" placeholder="Address" id="address"><?php echo $address!=FALSE?$address['address']:'';?></textarea></div>
                                 </div>
                             </div>
-                           
+
                             <div class="col-12">
                                 <div class="input-view-flat input-gray-shadow form-group">
                                     <label class="required">Postcode / Zip</label>
                                     <div class="input-group"><input class="form-control" name="ship_zip_code" type="text" value="<?php echo $address!=FALSE?$address['pincode']:'';?>" placeholder="Postcode / Zip" required="required" /></div>
                                 </div>
                             </div>
-                            
+
                             <!--<div class="col-12 mt-5">
                                 <div class="input-view-flat input-gray-shadow form-group">
                                     <label class="h4 mb-3 text-title">Additional Information</label>
@@ -153,18 +153,18 @@
                         <div class="order-items mb-5">
                             <div class="container">
                                 <div class="row">
-                                  
+
                                         <div class="col-md-8">
                                             <div class="order-line-title"><b>Name</b></div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="order-line-total"><b>Total</b></div>
                                         </div>
-                                 
-                              
+
+
                             <?php
                                 if(isset($use->user_id) && $use->user_id!="")
-                                {   
+                                {
                                     $cartlist=$ecom->getcart_details();
                                     if($cartlist!=FALSE)
                                     {

@@ -181,7 +181,8 @@
                       </div>
                     </div>
 
-                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="#" onclick="getCartDetails(); return false" class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="elementor-menu-cart__toggle_button" href="shop-cart.php"  class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                      <!-- onclick="getCartDetails(); return false" -->
                               <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span></bdi>
                             </span></span> <span class="elementor-button-icon"> <i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only" >Cart</span id="cart-total"><?php echo $cart != FALSE ? $cart['count'] : 0; ?></span> </a> </div>
                   </div>
@@ -208,7 +209,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="" class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
+                    <div class="elementor-menu-cart__toggle elementor-button-wrapper"> <a id="" class="elementor-button elementor-size-sm" > <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
                   <bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi>
                  </span></span> <span class="elementor-button-icon" id="cart-total"> <?php if(isset($_SESSION['cart'])){echo sizeof($_SESSION['cart']);} else{ echo '0';} ?><i class="eicon" aria-hidden="true"></i> <span class="elementor-screen-only">Cart</span> </span> </a> </div>
                </div>
