@@ -149,6 +149,19 @@ $payment = new Payment;
     background: #f1f1f1;
     padding: 20px;
 }
+	#place_order {
+    background: #9fcb22;
+    color: #fff;
+    border: 1px solid #9fcb22;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+	#place_order:hover {
+    background: transparent;
+    color: #9fcb22;
+    border: 1px solid #9fcb22;
+}
 </style>
 
 <div data-elementor-type="product-archive" data-elementor-id="961" class="elementor elementor-961 elementor-location-archive product" data-elementor-settings="[]">
