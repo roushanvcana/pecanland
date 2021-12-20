@@ -238,11 +238,27 @@
                                     </div>
                                 </div>
                             </div>-->
-                            <div class="col-12"><button class="btn-wider btn btn-theme" type="submit" name="bplace_order">place order</button></div>
+                            <div class="col-12"><button class="btn-wider btn btn-theme"  id="cashpay" type="submit" name="bplace_order" href="">place order</button>   <button class="btn-wider btn btn-theme" type="submit" id="onlinepay" name="bplace_order">place order</button></div>
                         </div>
                     </div>
                 </div>
             </form>
         </section>
+  <script>
+  $("#cashpay").hide();
+  $("#cashpay").hide();
+  $("#cash-on-payment").click(function(){
+  $("#cashpay").show();
+  $("#cashpay").hide();
+});
 
+$("#check-payment").click(function(){
+  $("#cashpay").hide();
+  $("#onlinepay").show();
+});
+$("#paypal-payment").click(function(){
+  $("#cashpay").hide();
+  $("#onlinepay").show();
+});
+  </script>
         <?php include "common/footer.php" ?>
