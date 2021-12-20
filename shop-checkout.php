@@ -330,21 +330,20 @@ $payment = new Payment;
 													
                             <div class="col-12"><p>Please use your Order ID as the payment reference. Your order won't be shipped until the funds have cleared in our account.</p></div>
                             <div class="col-12">
-															<div class="control-group">
-    <label class="control control--radio">Cash On Delivery
-      <input type="radio" name="radio" checked="checked"/>
-      <div class="control__indicator"></div>
-    </label>
-    <label class="control control--radio">online Pyament
-      <input type="radio" name="radio"/>
-      <div class="control__indicator"></div>
-    </label>
-    <label class="control control--radio">PayPal
-      <input type="radio" name="radio2" />
-      <div class="control__indicator"></div>
-    </label>
-   
-  </div>
+								<div class="control-group">
+                                    <label class="control control--radio">Cash On Delivery
+                                      <input type="radio" id="cash-on-payment" name="pmode" value="Cash On Delivery" checked="checked"/>
+                                      <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--radio">online Pyament
+                                      <input type="radio" id="check-payment" name="pmode" value="Online Payment"/>
+                                      <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--radio">PayPal
+                                      <input type="radio" id="paypal-payment" name="pmode" value="PayPal" />
+                                      <div class="control__indicator"></div>
+                                    </label>
+                                  </div>
                                 <!--<div class="form-groups">
                                     <div class="input-view-flat input-gray-shadow form-group">
                                         <div class="form-check">
