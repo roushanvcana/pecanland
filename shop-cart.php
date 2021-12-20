@@ -116,19 +116,21 @@
                                         <div class="media">
                                             <a class="thumbnail pull-left" href="#"> <img class="media-object" src="admin/upload/product/<?php echo $list['img']; ?>" style="width: 72px; height: 72px;"> </a>
                                             <div class="media-body">
-                                                <h4 class="media-heading"><a href="#">Product name</a></h4>
-                                                <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
-                                                <span>Status: </span><span class="text-success"><strong>In Stock</strong></span>
+                                                <h4 class="media-heading"><a href="#"><?php echo $productnm; ?></a></h4>
+                                                
                                             </div>
                                         </div>
                                     </td>
+                                     <td class="col-sm-1 col-md-1 text-center"><strong>$<?php echo $price?></strong></td>
+                                   
+                                    <input type="hidden" name="<?php echo $t2; ?>" value="<?php echo $list['totalprice']; ?>" id="tot<?php echo $t2; ?>">
                                     <td class="col-sm-1 col-md-1" style="text-align: center">
-                                        <input type="email" class="form-control" id="exampleInputEmail1" value="3">
+                                       <input class="form-control" min="1" type="text" name="<?php echo $t1; ?>" id="<?php echo $t1; ?>" value="<?php echo $qty; ?>" onchange="calculate('<?php echo $t1; ?>','<?php echo $price; ?>','<?php echo $t2; ?>');" />
                                     </td>
-                                    <td class="col-sm-1 col-md-1 text-center"><strong>$4.87</strong></td>
-                                    <td class="col-sm-1 col-md-1 text-center"><strong>$14.61</strong></td>
+                                    <td class="col-sm-1 col-md-1 text-center"><strong>$<?php echo $total?></strong></td>
+                                 
                                     <td class="col-sm-1 col-md-1">
-                                        <button type="button" class="btn btn-danger">
+                                        <button type="button" class="btn btn-danger" onclick="location.href='shop-cart.php?cart_id=<?php echo $list['id']; ?>'">
                                             <span class="glyphicon glyphicon-remove"></span> Remove
                                         </button>
                                     </td>
@@ -160,7 +162,7 @@
                                             <a class="thumbnail pull-left" href="#"> <img class="media-object" src="admin/upload/product/<?php echo $list['img']; ?>" style="width: 72px; height: 72px;"> </a>
                                             <div class="media-body">
                                                 <h4 class="media-heading"><a href="#"><?php echo $productnm; ?></a></h4>
-                                                <h5 class="media-heading"> by <a href="#"><?php echo $price?></a></h5>
+                                             
                                             </div>
                                         </div>
                                     </td>
@@ -222,7 +224,7 @@
                                     <td>   </td>
                                     <td>   </td>
                                     <td>
-                                        <button type="button" class="btn btn-default">
+                                        <button type="button" class="btn btn-default" onclick="location.href='shop.php'">
                                             <span class="glyphicon glyphicon-shopping-cart"></span> Continue Shopping
                                         </button>
                                     </td>
