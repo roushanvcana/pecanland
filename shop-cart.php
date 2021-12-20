@@ -1,13 +1,15 @@
 <?php include "common/header.php" ?>
 <?php
-if (isset($_GET['cart_id'])) {
-    $cartid = $_GET['cart_id'];
-    $ecom->delete_cart($cartid);
-}
-if (isset($_REQUEST['update_cart'])) {
-    $ecom->update_cart();
-}
-?>
+    if(isset($_GET['cart_id']))
+    {
+      $cartid=$_GET['cart_id'];
+      $ecom->delete_cart($cartid);
+    }
+    if(isset($_REQUEST['update_cart']))
+    {
+      $ecom->update_cart();
+    }
+ ?>
 <style>
     .section {
         margin-top: 8rem;
@@ -84,13 +86,31 @@ if (isset($_REQUEST['update_cart'])) {
                             <thead>
                                 <tr>
                                     <th>Product</th>
-                                    <th>Quantity</th>
                                     <th class="text-center">Price</th>
+                                    <th>Quantity</th>
                                     <th class="text-center">Total</th>
                                     <th> </th>
                                 </tr>
                             </thead>
                             <tbody>
+                            <?php
+                            if(isset($use->user_id) && $use->user_id!="")
+                            {   
+                                $cartlist=$ecom->getcart_details();
+                                if($cartlist!=FALSE)
+                                {
+                                    $sub=0;
+                                    $k=0;
+                                    foreach($cartlist['total_row'] as $list)
+                                    {
+                                        $productnm=$list['product_nm'];
+                                        $qty=$list['quantity'];
+                                        $total=$list['totalprice'];
+                                        $price=$total/$qty;
+                                        $sub=$sub+$total;
+                                        $t1="text".$list['id'];
+                                        $t2="per".$list['id'];
+                            ?>
                                 <tr>
                                     <td class="col-sm-8 col-md-6">
                                         <div class="media">
@@ -113,28 +133,57 @@ if (isset($_REQUEST['update_cart'])) {
                                         </button>
                                     </td>
                                 </tr>
+                             <?php
+                            $k++;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            $k=0;
+                            if(isset($_SESSION['cart']))
+                            {
+                                $sub=0;
+                                foreach($_SESSION['cart'] as $list) 
+                                { 
+                                    $productnm=$list['productnm'];
+                                    $qty=$list['quantity'];
+                                    $total=$list['price'];
+                                    $price=$total/$qty;
+                                    $sub=$sub+$total;
+                                    $t1="text".$k;
+                                    $t2="per".$k;
+                    ?>
                                 <tr>
-                                    <td class="col-md-6">
+                                    <td class="col-sm-8 col-md-6">
                                         <div class="media">
-                                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="admin/upload/product/<?php echo $list['img']; ?>" style="width: 72px; height: 72px;"> </a>
                                             <div class="media-body">
-                                                <h4 class="media-heading"><a href="#">Product name</a></h4>
-                                                <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
-                                                <span>Status: </span><span class="text-warning"><strong>Leaves warehouse in 2 - 3 weeks</strong></span>
+                                                <h4 class="media-heading"><a href="#"><?php echo $productnm; ?></a></h4>
+                                                <h5 class="media-heading"> by <a href="#"><?php echo $price?></a></h5>
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="col-md-1" style="text-align: center">
-                                        <input type="email" class="form-control" id="exampleInputEmail1" value="2">
+                                    <td class="col-sm-1 col-md-1 text-center"><strong>$<?php echo $price?></strong></td>
+                                    
+                                    <input type="hidden" name="<?php echo $t2; ?>" value="<?php echo $list['price']; ?>" id="tot<?php echo $t2; ?>">
+                                    <td class="col-sm-1 col-md-1" style="text-align: center">
+                                      <input class="form-control" min="1" name="<?php echo $t1; ?>" id="<?php echo $t1; ?>" type="text" value="<?php echo $qty;?>" onchange="calculate('<?php echo $t1; ?>','<?php echo $price; ?>','<?php echo $t2; ?>');"/>
                                     </td>
-                                    <td class="col-md-1 text-center"><strong>$4.99</strong></td>
-                                    <td class="col-md-1 text-center"><strong>$9.98</strong></td>
-                                    <td class="col-md-1">
-                                        <button type="button" class="btn btn-danger">
+                                   
+                                    <td class="col-sm-1 col-md-1 text-center"><strong id="<?php echo $t2; ?>">$<?php echo $total;?></strong></td>
+                                    <td class="col-sm-1 col-md-1">
+                                        <button type="button" class="btn btn-danger" onclick="location.href='shop-cart.php?cart_id=<?php echo $list['cartid']; ?>'">
                                             <span class="glyphicon glyphicon-remove"></span> Remove
                                         </button>
                                     </td>
-                                </tr>
+                            </tr>
+                    <?php
+                            $k++;
+                                }
+                            }
+                        }
+                    ?>  
                                 <tr>
                                     <td>   </td>
                                     <td>   </td>
@@ -143,7 +192,7 @@ if (isset($_REQUEST['update_cart'])) {
                                         <h5>Subtotal</h5>
                                     </td>
                                     <td class="text-right">
-                                        <h5><strong>$24.59</strong></h5>
+                                        <h5><strong>$<?php echo $sub;?></strong></h5>
                                     </td>
                                 </tr>
                                 <tr>
@@ -154,7 +203,7 @@ if (isset($_REQUEST['update_cart'])) {
                                         <h5>Estimated shipping</h5>
                                     </td>
                                     <td class="text-right">
-                                        <h5><strong>$6.94</strong></h5>
+                                        <h5><strong>$10.0</strong></h5>
                                     </td>
                                 </tr>
                                 <tr>
@@ -165,7 +214,7 @@ if (isset($_REQUEST['update_cart'])) {
                                         <h3>Total</h3>
                                     </td>
                                     <td class="text-right">
-                                        <h3><strong>$31.53</strong></h3>
+                                        <h3><strong>$<?php echo $sub+10;?></strong></h3>
                                     </td>
                                 </tr>
                                 <tr>
@@ -178,7 +227,7 @@ if (isset($_REQUEST['update_cart'])) {
                                         </button>
                                     </td>
                                     <td>
-                                        <button type="button" class="btn btn-success">
+                                        <button type="button" class="btn btn-success" onclick="location.href='shop-checkout.php'">
                                             Checkout <span class="glyphicon glyphicon-play"></span>
                                         </button>
                                     </td>

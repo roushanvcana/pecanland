@@ -3,10 +3,6 @@ $productList = $use_act->getallproduct();
 
 
 ?>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
 <body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-75 wp-custom-logo theme-hello-elementor woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-10 elementor-page elementor-page-75 main-font">
 
 <div data-elementor-type="wp-page" data-elementor-id="75" class="elementor elementor-75" data-elementor-settings="[]">
