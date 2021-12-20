@@ -51,6 +51,104 @@ $payment = new Payment;
         color: #333;
         line-height: 1.25;
     }
+	.grid_box {
+		background: #f5f9fa;
+    padding: 20px;
+	}
+	.control-group {
+  display: inline-block;
+  vertical-align: top;
+ 
+}
+.control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+}
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  background: #ccc;
+}
+.control input:checked ~ .control__indicator {
+  background: #2aa1c0;
+}
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+  background: #0e647d;
+}
+.control input:disabled ~ .control__indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.control--checkbox input:disabled ~ .control__indicator:after {
+  border-color: #7b7b7b;
+}
+.control--radio .control__indicator:after {
+  left: 7px;
+  top: 7px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+.control--radio input:disabled ~ .control__indicator:after {
+  background: #7b7b7b;
+}
+	.order-subtotal {
+    border-top: 1px solid #000;
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+}
+	.order-total {
+		border-top: 1px solid #000;
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+	}
+	.grid_pay {
+    background: #f5f9fa;
+    padding: 20px;
+}
+	.order-items {
+    background: #f1f1f1;
+    padding: 20px;
+}
 </style>
 
 <div data-elementor-type="product-archive" data-elementor-id="961" class="elementor elementor-961 elementor-location-archive product" data-elementor-settings="[]">
@@ -86,7 +184,9 @@ $payment = new Payment;
          <section class="section">
             <form class="container" action="#" method="POST">
                 <div class="cols-xl row">
+									
                     <div class="col-lg-6">
+											<div class="grid_box">
                         <h2 class="text-title mb-5">Billing details</h2>
                         <div class="grid row">
                             <div class="col-md-6">
@@ -157,10 +257,10 @@ $payment = new Payment;
                             </div>-->
                         </div>
                     </div>
+										</div>
                     <div class="col-lg-6">
-                        <h2 class="text-title mb-5">Your order</h2>
-                        <div class="order-items mb-5">
-                            <div class="container">
+															<div class="order-items mb-5">
+																<h2 class="text-title mb-5">Your order</h2>
                                 <div class="row">
 
                                         <div class="col-md-8">
@@ -198,27 +298,54 @@ $payment = new Payment;
                                     }
                                 }
                             ?>
-                            <div class="order-subtotal">
+																	
+																	 <div class="col-lg-4">
+																		<div class="order-subtotal">
                                 <div class="order-line-title">Sub Total</div>
                                 <div class="order-line-total">$<?php echo $sub;?></div>
                             </div>
-                            <div class="order-subtotal">
+																		</div>
+																		<div class="col-lg-4">
+																		<div class="order-subtotal">
                                 <div class="order-line-title">Shipping</div>
                                 <div class="order-line-total">$10.00</div>
                             </div>
-                            <div class="separator-line"></div>
+																		</div>
+																		<div class="col-lg-4">
+																		<div class="separator-line"></div>
                             <div class="order-total">
                                 <div class="order-line-title">Total</div>
                                 <div class="order-line-total">$<?php echo $sub+10;?></div>
                             </div>
+																		</div>
+																
+                            
+                            
+                            
                         </div>
                         </div>
-                        </div>
-                        <h3 class="text-title mb-4">Payment Details</h3>
+                        <div class="grid_pay">
+													<h3 class="text-title mb-4">Payment Details</h3>
                         <div class="grid row">
+													
                             <div class="col-12"><p>Please use your Order ID as the payment reference. Your order won't be shipped until the funds have cleared in our account.</p></div>
                             <div class="col-12">
-                                <div class="form-groups">
+															<div class="control-group">
+    <label class="control control--radio">Cash On Delivery
+      <input type="radio" name="radio" checked="checked"/>
+      <div class="control__indicator"></div>
+    </label>
+    <label class="control control--radio">online Pyament
+      <input type="radio" name="radio"/>
+      <div class="control__indicator"></div>
+    </label>
+    <label class="control control--radio">PayPal
+      <input type="radio" name="radio2" />
+      <div class="control__indicator"></div>
+    </label>
+   
+  </div>
+                                <!--<div class="form-groups">
                                     <div class="input-view-flat input-gray-shadow form-group">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" id="cash-on-payment" name="pmode" value="Cash On Delivery" checked="checked"/><span class="form-check-icon"></span>
@@ -237,7 +364,7 @@ $payment = new Payment;
                                             <label class="form-check-label" for="paypal-payment">PayPal</label>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <!--<div class="col-12">
                                 <div class="input-view-flat input-gray-shadow form-group">
@@ -252,6 +379,7 @@ $payment = new Payment;
                                 <button class="btn-wider btn btn-theme"  id="onlinepay" type="button" name="bplace_order" onclick="onlinepayment()">Online Payment</button>
                             </div>
                         </div>
+													</div>
                     </div>
                 </div>
             </form>
