@@ -772,7 +772,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
 
 <!-- *********************************shop******************************************************* -->
  <script>
-    function addcart(id)
+function addcart(id)
 {
   if(id)
   {

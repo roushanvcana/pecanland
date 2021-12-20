@@ -66,6 +66,7 @@ class ecommerce extends database
 	    	"product_id"=>$proid,
 	    	"product_nm"=>$productnm,
 	    	"price"=>$price,
+        "img"=>$data['img'],
 	    	"add_dt"=>date('Y-m-d'),
 	    	"user"=>$userid,
 	    	"quantity"=>$quantity,
