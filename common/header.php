@@ -183,12 +183,12 @@
               <div class="elementor-element elementor-element-d81d66f toggle-icon--cart-solid elementor-widget__width-auto elementor-menu-cart--items-indicator-bubble elementor-menu-cart--show-divider-yes elementor-menu-cart--show-remove-button-yes elementor-menu-cart--buttons-inline elementor-widget elementor-widget-woocommerce-menu-cart" data-id="d81d66f" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="woocommerce-menu-cart.default">
                 <div class="elementor-widget-container">
                   <div class="elementor-menu-cart__wrapper">
-                    <div class="elementor-menu-cart__container elementor-lightbox" aria-expanded="false">
+                  <!--   <div class="elementor-menu-cart__container elementor-lightbox" aria-expanded="false">
                       <div class="elementor-menu-cart__main" aria-expanded="false">
                         <div class="elementor-menu-cart__close-button"></div>
                         <div class="widget_shopping_cart_content"></div>
                       </div>
-                    </div>
+                    </div> -->
 
                     <div class="elementor-menu-cart__toggle elementor-button-wrapper" onclick="location.href='shop-cart.php'"> <a id="elementor-menu-cart__toggle_button" href="shop-cart.php"  class="elementor-button elementor-size-sm"> <span class="elementor-button-text"><span class="woocommerce-Price-amount amount">
                       <!-- onclick="getCartDetails(); return false" -->
