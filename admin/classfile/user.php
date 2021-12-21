@@ -11,14 +11,14 @@
             $link = $_SERVER['PHP_SELF'];
             $link_array = explode('/', $link);
             $this->page = $page = end($link_array);
-            if (in_array("admin", $link_array)) 
+            if (in_array("admin", $link_array))
             {
-                if ($_SESSION['user_id'] != true && $page == "admin") 
+                if ($_SESSION['user_id'] != true && $page == "admin")
                 {
                     echo "<script>location.href='index.php';</script>";
-                } 
+                }
                 else
-                if ($_SESSION['user_id'] != true) 
+                if ($_SESSION['user_id'] != true)
                 {
                         if (file_exists("login.php"))
                             echo "<script>location.href='login.php';</script>";
@@ -28,7 +28,7 @@
             }
             else if(in_array($this->page, $this->restricted_page))
             {
-                if ($_SESSION['user_id'] != true) 
+                if ($_SESSION['user_id'] != true)
                 {
                         if (file_exists("sign-in.php"))
                             echo "<script>location.href='sign-in.php';</script>";
@@ -210,13 +210,13 @@
                         $error_array['otp'] = $message;
                     }
                 }
-              
+
                 echo json_encode($error_array);
-               
+
             }
             else
             echo 0;
-          
+
         }
 
         public function otp_verification()
@@ -231,7 +231,7 @@
             else {
                 return FALSE;
             }
-            
+
         }
 
         public function new_password()
@@ -242,13 +242,13 @@
             $res=$this->selectdata($sql1);
             if($res!=FALSE){
                 return TRUE;
-               
+
             }
             else {
                 return FALSE;
-         
+
             }
-            
+
         }
         public function login_email()
         {
@@ -269,13 +269,13 @@
                         $error_array['otp'] = $message;
                     }
                 }
-              
+
                 echo json_encode($error_array);
-               
+
             }
             else
            {
-              
+
             $insert=$this->insertdata('user_details',$email);
         		if($insert)
                 {
@@ -292,23 +292,23 @@
                             $error_array['otp'] = $message;
                         }
                     }
-                  
+
                     echo json_encode($error_array);
-                   
+
 
                }
 
            }
-          
+
         }
         public function getorder()
   {
       $userid=$this->user_id;
       $sql = "select * from order_details where userid='$userid'";
-  
-     
+
+
       $orderList = $this->selectdata($sql);
-     
+
       $orderList = $orderList==FALSE?FALSE:$orderList['total_row'];
       return $orderList;
   }
@@ -316,10 +316,10 @@
   {
       $userid=$this->user_id;
       $sql = "select order_details.*,user_details.id as userId,user_details.fname,user_details.lname,user_details.email,user_details.phone,user_details.gender,user_details.address ,stock_details.product_name,stock_details.mrp,stock_details.sell_price,stock_details.unit,stock_details.color,product_order.totalprice,stock_details.image,stock_details.total_quantity from order_details join product_order on product_order.orderid = order_details.orderno join user_details on user_details.id=order_details.userid join stock_details on stock_details.id =product_order.productid where order_details.userid='$userid'";
-  
-     
+
+
       $order = $this->selectdata($sql);
-    
+
       return $order;
   }
    public function getLastorder()
@@ -334,15 +334,16 @@
       {
       $sql = "select order_details.*,user_details.id as userId,user_details.fname,user_details.lname,user_details.email,user_details.phone,user_details.gender,user_details.address ,stock_details.product_name,stock_details.mrp,stock_details.sell_price,stock_details.unit,stock_details.color,product_order.totalprice,stock_details.image,stock_details.total_quantity from order_details join product_order on product_order.orderid = order_details.orderno join user_details on user_details.id=order_details.userid join stock_details on stock_details.id =product_order.productid where order_details.userid='$userid' ORDER BY order_details.id limit 1;";
     }
-     
+
       $orderlist = $this->selectdata($sql);
-     
+
       $orderlist = $orderlist['total_row'];
       return $orderlist;
   }
 
-
   
+
+
    }
     $use = new user();
     ?>

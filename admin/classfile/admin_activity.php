@@ -118,12 +118,12 @@ class admin_activity extends database
 
 
     if (!(isset($_POST['tid']))) {
-      // for check stock item exists or not 
+      // for check stock item exists or not
       $stock_query = "select * from stock_details where product_name='" . $_POST['product_name'] . "' and product_type='" . $_POST['product_type'] . "'";
-       
+
 
       $getStocklist = $this->selectdata($stock_query);
-     
+
       $getproductQuantity = $getStocklist == FALSE ? FALSE : $getStocklist['single_row'];
       $totalQuantity = $getproductQuantity['total_quantity'] + $_POST['total_quantity'];
 
@@ -145,7 +145,7 @@ class admin_activity extends database
       }
 
       if ($ins) {
-       
+
         if ($_POST['product_type'] == 2 || $_POST['product_type'] == 3) {
           $tmpproductGroup = $this->gettableList('temrory_add_product');
           $tmpproductGroup = $tmpproductGroup == FALSE ? FALSE : $tmpproductGroup['total_row'];
@@ -265,13 +265,13 @@ class admin_activity extends database
 
   public function order_message()
   {
-    
+
     $data = array(
       "message" => $_POST['message'],
       "status" => $_POST['payment_status']
     );
     $id = $_POST['id'];
- 
+
     $ins = $this->updatedata('order_details', $data, "where id='$id'");
     if ($ins) {
       $str = "Message sent successfully";
@@ -279,6 +279,25 @@ class admin_activity extends database
       $str = "Failed";
     $_SESSION['msg'] = $str;
     $this->redirect_back();
+  }
+  public function contact()
+  {
+      $data = array(
+          "fname" => $_POST['fname'],
+          "lname" => $_POST['lname'],
+          "email" => $_POST['email'],
+          "message" => $_POST['message'],
+          "phone" => $_POST['phone'],
+        );
+
+      $ins = $this->insertdata('contact_details',$data);
+      if ($ins) {
+          $str = "Details Send successfully";
+      } else {
+          $str = "Faild";
+      }
+
+      //$this->redirect_back();
   }
 }
 $adm = new admin_activity();

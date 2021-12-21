@@ -1,4 +1,11 @@
-<?php include "common/header.php" ?>
+<?php include ("common/header.php");
+include('admin/login_verify.php');
+
+$com = new common();
+if (isset($_REQUEST['contact'])) {
+    $obj->contact();
+} ?>
+ ?>
 
 <main class="site-main post-837 page type-page status-publish hentry" role="main" style="margin: 0 0 5rem 0;">
 	<div class="page-content">
@@ -52,13 +59,13 @@
 
 											<div class="elementor-form-fields-wrapper elementor-labels-">
 												<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
-													<label for="form-field-name" class="elementor-field-label elementor-screen-only">First Name</label>
-													<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="First Name">
+													<label for="fname" class="elementor-field-label elementor-screen-only">First Name</label>
+													<input size="1" type="text" name="fname" id="form-field-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="First Name">
 												</div>
 
 												<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
-													<label for="form-field-name" class="elementor-field-label elementor-screen-only">Last Name</label>
-													<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Last Name">
+													<label for="lname" class="elementor-field-label elementor-screen-only">Last Name</label>
+													<input size="1" type="text" name="lname" id="form-field-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Last Name">
 												</div>
 
 												<div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_f058bb6 elementor-col-50 elementor-field-required">
@@ -67,17 +74,17 @@
 												<!-- <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_12bafb5 elementor-col-50 elementor-field-required">
 					<label for="form-field-field_12bafb5" class="elementor-field-label elementor-screen-only">Address</label>
 
-				<input size="1" type="text" name="form_fields[field_12bafb5]" id="form-field-field_12bafb5" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Address" required="required" aria-required="true">			
+				<input size="1" type="text" name="form_fields[field_12bafb5]" id="form-field-field_12bafb5" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Address" required="required" aria-required="true">
 			</div>
 			 -->
 												<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
-													<label for="form-field-email" class="elementor-field-label elementor-screen-only">Email</label><input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Email" required="required" aria-required="true">
+													<label for="email" class="elementor-field-label elementor-screen-only">Email</label><input size="1" type="email" name="email" id="email" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Email" required="required" aria-required="true">
 												</div>
 												<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
-													<label for="form-field-message" class="elementor-field-label elementor-screen-only">Subject</label><textarea class="elementor-field-textual elementor-field  elementor-size-lg" name="form_fields[message]" id="form-field-message" rows="6" placeholder="Subject"></textarea>
+													<label for="form-field-message" class="elementor-field-label elementor-screen-only">Subject</label><textarea class="elementor-field-textual elementor-field  elementor-size-lg" name="message" id="message" rows="6" placeholder="Subject"></textarea>
 												</div>
 												<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-													<button type="submit" class="elementor-button elementor-size-sm">
+													<button type="submit" class="elementor-button elementor-size-sm" name="contact">
 														<span>
 															<span class=" elementor-button-icon">
 															</span>
@@ -180,4 +187,3 @@
 </main>
 
 <?php include "common/footer.php" ?>
-
