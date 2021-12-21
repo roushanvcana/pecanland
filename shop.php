@@ -64,7 +64,7 @@ $productList = $use_act->getallproduct();?>
 													$id=$pro['id'];
 									?>
 											<li class="product type-product post-1558 status-publish first instock product_cat-uncategorized has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
-												<a href="../product/beef-steak/index.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+												<a href="product-detail.php?product_id=<?php echo $pro['id'] ?>">
 													<span class="onsale">Sale!</span>
 												<img width="300" height="263" src="admin/upload/product/<?php echo $pro['image']?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" />
 													<h2 class="woocommerce-loop-product__title"><?php echo $pro['product_name'] ?></h2>

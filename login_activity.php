@@ -8,17 +8,17 @@ class login_activity extends database
       $this->us=new user();
       $this->com=new common();
     }
-    public function saveCategory()  
+    public function saveCategory()
     {
-     
+
       $data = array(
         "category" => $_POST['category'],
         "status" => $_POST['status'],
         "cip" => $this->ipAddress(),
         "cby" => $_SESSION['user_id']
-      
+
       );
-      
+
       $ban='';
       //if($this->com->folder_exist('upload/category'))
       //{
@@ -26,7 +26,7 @@ class login_activity extends database
         if($ban)
           $data['image']=$ban;
       //}
-       
+
       if(!(isset($_POST['tid'])))
       {
          $ins=$this->insertdata('category',$data);
@@ -60,5 +60,8 @@ class login_activity extends database
       else
         return FALSE;
     }
-   
+
+
+
+
   }

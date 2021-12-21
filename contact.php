@@ -1,11 +1,14 @@
 <?php include ("common/header.php");
 include('admin/login_verify.php');
+//
+
+
 
 $com = new common();
 if (isset($_REQUEST['contact'])) {
     $obj->contact();
 } ?>
- ?>
+
 
 <main class="site-main post-837 page type-page status-publish hentry" role="main" style="margin: 0 0 5rem 0;">
 	<div class="page-content">
@@ -50,7 +53,7 @@ if (isset($_REQUEST['contact'])) {
 								</div>
 								<div class="elementor-element elementor-element-86fe6e7 elementor-button-align-start elementor-widget elementor-widget-form" data-id="86fe6e7" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="form.default">
 									<div class="elementor-widget-container">
-										<form class="elementor-form" method="post" name="New Form">
+										<form class="" method="post" action="">
 											<input type="hidden" name="post_id" value="837" />
 											<input type="hidden" name="form_id" value="86fe6e7" />
 											<input type="hidden" name="referer_title" value="Contact" />
@@ -69,7 +72,7 @@ if (isset($_REQUEST['contact'])) {
 												</div>
 
 												<div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_f058bb6 elementor-col-50 elementor-field-required">
-													<label for="form-field-field_f058bb6" class="elementor-field-label elementor-screen-only">Phone</label><input size="1" type="tel" name="form_fields[field_f058bb6]" id="form-field-field_f058bb6" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Phone" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+													<label for="phone" class="elementor-field-label elementor-screen-only">Phone</label><input size="1" type="tel" name="phone" id="form-field-field_f058bb6" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Phone" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
 												</div>
 												<!-- <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_12bafb5 elementor-col-50 elementor-field-required">
 					<label for="form-field-field_12bafb5" class="elementor-field-label elementor-screen-only">Address</label>
@@ -83,13 +86,10 @@ if (isset($_REQUEST['contact'])) {
 												<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
 													<label for="form-field-message" class="elementor-field-label elementor-screen-only">Subject</label><textarea class="elementor-field-textual elementor-field  elementor-size-lg" name="message" id="message" rows="6" placeholder="Subject"></textarea>
 												</div>
-												<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-													<button type="submit" class="elementor-button elementor-size-sm" name="contact">
-														<span>
-															<span class=" elementor-button-icon">
-															</span>
-															<span class="elementor-button-text">Send Now</span>
-														</span>
+												<div class="">
+													<button type="submit" class=" elementor-size-sm" name="contact">
+
+													Send Now
 													</button>
 												</div>
 											</div>

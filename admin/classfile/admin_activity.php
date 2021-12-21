@@ -296,8 +296,6 @@ class admin_activity extends database
       } else {
           $str = "Faild";
       }
-
-      //$this->redirect_back();
-  }
+    }
 }
 $adm = new admin_activity();

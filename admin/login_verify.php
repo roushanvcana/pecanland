@@ -10,7 +10,7 @@ class login extends database
 		$user="$_POST[temail]";
 		$pass= md5($_POST['tpass']);
 		$sql="select * from user_details where email='$user' and password='$pass' and type='admin' and status='Active'";
-		
+
 		$res=$this->selectdata($sql);
 		if($res!=FALSE)
 		{
@@ -49,7 +49,7 @@ class login extends database
 		    $_SESSION['loginid']=$res['id'];
 		    $_SESSION['type']=$res['type'];
 		    echo "<script> location.href='my-account.php'; </script>";
-			
+
 		}
 	    else
 	    {
@@ -75,11 +75,11 @@ class login extends database
         		);
         		$ins=$this->insertdata('user_details',$ins_data);
         		if($ins)
-				
+
                 {
                    //$upd=$this->updatedata("epin_details",array("status"=>"used","used_by"=>$ins,"used_dt"=>date('Y-m-d'))," epin='$epin'");
                     $str="Thank you for register with us";
-                  
+
                    /*$payid=$this->nextpayment($pos,$ins);
                    if($payid!=FALSE)
                         $this->makepayment($payid,"joining",850);
@@ -94,14 +94,14 @@ class login extends database
 	        }
 	        else
 	           $str="The given Email is aleady registered";
-          
+
         $this->redirect_back();
 	}
 		//check level
 	public function check_level($refid)
 	{
 	    $sql="select * from user_details where refered_id='$refid' and status='Active' and type='user'";
-		$res=$this->selectdata($sql);  
+		$res=$this->selectdata($sql);
 		if($res!=FALSE)
 		{
 		    foreach($res['total_row'] as $row)
@@ -114,7 +114,7 @@ class login extends database
     	        {
     	              $nxtlevel1=2;
     	              $sql1="select * from user_details where refer_by='$refid' and status='Active' and type='user'";
-		              $res1=$this->selectdata($sql1); 
+		              $res1=$this->selectdata($sql1);
         	          $count1=$res1['count'];
         	          $amt=50;
         	          $this->makepayment($uid,"referal",$amt);
@@ -149,14 +149,14 @@ class login extends database
 	{
 	    $payid=0;
 	    $sql="select * from user_details where postion<'$pos' and status='Active' and type='user' order by postion desc";
-		$res=$this->selectdata($sql);  
+		$res=$this->selectdata($sql);
 		if($res!=FALSE)
 		{
 		   foreach($res['total_row'] as $row)
 		   {
 		       $uid=$row['id'];
 		       $sql="select * from transaction_details where user_id='$uid' and trans_for='joining'";
-        	   $res1=$this->selectdata($sql);  
+        	   $res1=$this->selectdata($sql);
         	   if($res1!=FALSE)
         	   {
         	       $count=$res1['count'];
@@ -172,7 +172,7 @@ class login extends database
         	    $payid=$uid;
 		   }
 		   return $payid;
-		} 
+		}
 		else
 		    return FALSE;
 	}
@@ -180,20 +180,20 @@ class login extends database
 	{
 	    $pos=0;
 	    $sql="select * from user_details where type='user' order by postion desc limit 1";
-		$res=$this->selectdata($sql);  
+		$res=$this->selectdata($sql);
 		if($res!=FALSE)
 		{
 		    $data=$res['single_row'];
 		    $pos=$data['postion'];
 		    return $pos+1;
-		} 
+		}
 		else
 		    return $pos+1;
 	}
 	public function checkepin($epin)
 	{
 	    $sql="select * from epin_details where epin='$epin' and status='unused'";
-		$res=$this->selectdata($sql);  
+		$res=$this->selectdata($sql);
 		if($res==FALSE)
 		    return TRUE;
 		else
@@ -202,7 +202,7 @@ class login extends database
 	public function checkemail($email)
 	{
 	    $sql="select * from user_details where email='$email'";
-		$res=$this->selectdata($sql);  
+		$res=$this->selectdata($sql);
 		if($res==FALSE)
 		    return FALSE;
 		else
@@ -211,7 +211,7 @@ class login extends database
 	public function checkusername($usernm)
 	{
 	    $sql="select * from user_details where email='$usernm'";
-		$res=$this->selectdata($sql);  
+		$res=$this->selectdata($sql);
 		if($res==FALSE)
 		    return FALSE;
 		else
@@ -228,13 +228,31 @@ class login extends database
 	    else
 	        return FALSE;
 	}
-}//end of class
+	public function contact()
+  {
+      $data = array(
+          "fname" => $_POST['fname'],
+          "lname" => $_POST['lname'],
+          "email" => $_POST['email'],
+          "message" => $_POST['message'],
+          "phone" => $_POST['phone'],
+        );
 
-	$obj=new login();
+      $ins = $this->insertdata('contact_details',$data);
+      if ($ins) {
+          $str = "Details Send successfully";
+      } else {
+          $str = "Faild";
+      }
+    }
+
+}
+//end of class
+
+ $obj=new login();
 	$str="";
 	if(isset($_REQUEST["blogin"]))
 	{
        $str=$obj->signin();
 	}
-	
 ?>

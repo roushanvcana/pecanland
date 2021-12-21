@@ -1,5 +1,14 @@
-<?php include('common/header.php');?>
+<?php include('common/header.php');
+$categoryList = $use_act->getallcategory();
 
+
+    $id=$_GET['product_id'];
+    $product= $use_act->getproduct($id);
+
+
+$relatedproduct = $use_act->getrelatedproduct($id);
+
+?>
 <style>
 .preview {
   display: -webkit-box;
@@ -290,49 +299,49 @@ ul.tabs li.active {
 				</div>
 			</div>
 		</section>
-	
+
 		<div class="container">
 		<div class="card">
 			<div class="container-fliud">
 				<div class="wrapper row">
 					<div class="preview col-md-6">
-						
+
 						<div class="preview-pic tab-content">
-						  <div class="tab-pane active" id="pic-1"><img src="wp-content/uploads/2021/07/MicrosoftTeams-image-15.jpg" /></div>
-						  <div class="tab-pane" id="pic-2"><img src="wp-content/uploads/2021/07/MicrosoftTeams-image-13.jpg" /></div>
+						  <div class="tab-pane active" id="pic-1"><img src="admin/upload/product/<?php echo $product['image']?>" /></div>
+						  <!-- <div class="tab-pane" id="pic-2"><img src="wp-content/uploads/2021/07/MicrosoftTeams-image-13.jpg" /></div>
 						  <div class="tab-pane" id="pic-3"><img src="wp-content/uploads/2021/07/MicrosoftTeams-image-14.jpg" /></div>
-						  <div class="tab-pane" id="pic-4"><img src="wp-content/uploads/2021/07/MicrosoftTeams-image-46.jpg" /></div>
-						  
+						  <div class="tab-pane" id="pic-4"><img src="wp-content/uploads/2021/07/MicrosoftTeams-image-46.jpg" /></div> -->
+
 						</div>
-						<ul class="preview-thumbnail nav nav-tabs">
-						  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="wp-content/uploads/2021/07/MicrosoftTeams-image-15.jpg" /></a></li>
+						<!-- <ul class="preview-thumbnail nav nav-tabs">
+						  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="admin/upload/product/<?php echo $pro['image']?>"  /></a></li>
 						  <li><a data-target="#pic-2" data-toggle="tab"><img src="wp-content/uploads/2021/07/MicrosoftTeams-image-13.jpg" /></a></li>
 						  <li><a data-target="#pic-3" data-toggle="tab"><img src="wp-content/uploads/2021/07/MicrosoftTeams-image-14.jpg" /></a></li>
 						  <li><a data-target="#pic-4" data-toggle="tab"><img src="wp-content/uploads/2021/07/MicrosoftTeams-image-46.jpg" /></a></li>
-						</ul>
-						
+						</ul> -->
+
 					</div>
 					<div class="details col-md-6">
-						<h2 class="product-title">Fresh Bread</h2>
+						<h2 class="product-title"><?php echo $product['product_name'];?></h2>
 						<div class="rating">
-							<div class="stars">
+							<!-- <div class="stars">
 								<span class="fa fa-star checked"></span>
 								<span class="fa fa-star checked"></span>
 								<span class="fa fa-star checked"></span>
 								<span class="fa fa-star"></span>
 								<span class="fa fa-star"></span>
-							</div>
-							<span class="review-no">41 reviews</span>
+							</div> -->
+							<!-- <span class="review-no">41 reviews</span> -->
 						</div>
-						<p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
-						<h4 class="price">current price: <span>$180</span></h4>
-						<p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
-						
+						<p class="product-description"><?php echo $product['short_description'];?></p>
+						<h4 class="price">current price: <span>$<?php echo $product['mrp'];?></span></h4>
+						<!-- <p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p> -->
+
 						<div class="action">
 							<div class="quantity">
 							<input type="number"  class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric">
 								</div>
-							<button class="add-to-cart btn btn-default" type="button">add to cart</button>
+							<button class="add-to-cart btn btn-default" type="button"  onclick="addcart('<?php echo $id; ?>')">add to cart</button>
 <!--							<button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>-->
 						</div>
 					</div>
@@ -345,14 +354,14 @@ ul.tabs li.active {
 				<div class="col-lg-12">
 					<ul class="tabs">
   <li class="active" rel="tab1">Description</li>
-  <li rel="tab2">Additional Information</li>
+  <!-- <li rel="tab2">Additional Information</li> -->
   <li rel="tab3">Review For Fresh Bread</li>
 </ul>
 <div class="tab_container">
   <h3 class="d_active tab_drawer_heading" rel="tab1">Description</h3>
   <div id="tab1" class="tab_content">
   <h4>Description</h4>
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <p><?php echo $product['long_description'];?> </p>
   </div>
   <!-- #tab1 -->
   <h3 class="tab_drawer_heading" rel="tab2">Additional Information</h3>
@@ -364,16 +373,64 @@ ul.tabs li.active {
   <h3 class="tab_drawer_heading" rel="tab3">Review For Fresh Bread</h3>
   <div id="tab3" class="tab_content">
   <h4>Review For Fresh Bread</h4>
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <p>
+      <div class="pro_review">
+
+                                                 <div class="review_details">
+
+                                                     <div class="review_info"  >
+
+
+
+
+
+                                                         <h3 style="color:#9fcb22;"><i class="fa fa-user" ></i>&nbsp;sanoj kumar</h3>
+
+                                                         <div class="rating_send">
+
+                                                            <h5 style="color:#9fcb22;"> ashirwadfurnitures67@gmail.com </h5>
+
+                                                         </div>
+
+                                                     </div>
+
+                                                     <div class="review_date">
+
+                                                         <span>2021-02-18 10:17:53</span>
+
+                                                     </div>
+
+                                                     <p>In the mood for roasted pistachios and dried fruit? Nuts.com offers a wide assortment of trail mixes on their website, including blueberries, chocolate-covered espresso beans, and crunchy hazelnuts. </p>
+
+                                                 </div>
+
+                                             </div>
+      <div id="review_form_wrapper" class="col-md-3" >
+    			<div id="review_form">
+    										<div id="respond" class="comment-respond">
+    				<h3 id="reply-title" class="comment-reply-title"></h3>
+    									<form action="" method="post" id="commentform" class="comment-form">
+    																		<input id="hidden" name="product_id" type="hidden" value="<?php echo $product['id'];?>" size="30" aria-required="true" >								<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label>  <input type="text" value="" size="30" aria-required="true" name="name"/> </p>
+    <p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required="true" /></p>
+    												<p class="comment-form-comment"><label for="comment">Your Review</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>
+    						<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit" /> <input type='hidden' name='comment_post_ID' value='703' id='comment_post_ID' />
+    <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+    </p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="7375b71156" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="30"/></p>					</form>
+    							</div><!-- #respond -->
+    						</div>
+    		</div>
+
+
+    </p>
   </div>
   <!-- #tab3 -->
-  
+
 </div>
-				
+
 				</div>
 			</div>
 		</div>
-	
+
 <!-- .tab_container -->
 </div>
 	</div>
@@ -458,39 +515,39 @@ $( document ) . ready( function () {
 } );
 </script> -->
 <script>
- 
+
     $(".tab_content").hide();
     $(".tab_content:first").show();
 
   /* if in tab mode */
     $("ul.tabs li").click(function() {
-		
+
       $(".tab_content").hide();
-      var activeTab = $(this).attr("rel"); 
-      $("#"+activeTab).fadeIn();		
-		
+      var activeTab = $(this).attr("rel");
+      $("#"+activeTab).fadeIn();
+
       $("ul.tabs li").removeClass("active");
       $(this).addClass("active");
 
 	  $(".tab_drawer_heading").removeClass("d_active");
 	  $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
-	  
+
     });
 	/* if in drawer mode */
 	$(".tab_drawer_heading").click(function() {
-      
+
       $(".tab_content").hide();
-      var d_activeTab = $(this).attr("rel"); 
+      var d_activeTab = $(this).attr("rel");
       $("#"+d_activeTab).fadeIn();
-	  
+
 	  $(".tab_drawer_heading").removeClass("d_active");
       $(this).addClass("d_active");
-	  
+
 	  $("ul.tabs li").removeClass("active");
 	  $("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
     });
-	
-	
+
+
 	$('ul.tabs li').last().addClass("tab_last");
-	
+
 </script>
