@@ -29,9 +29,10 @@
 <link href="admin/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
         <link href="admin/assets/css/order.css" rel="stylesheet" type="text/css" />
         <link href="admin/assets/css/profile.css" rel="stylesheet" type="text/css" /> -->
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+
+<!--<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>-->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
   <link href="//db.onlinewebfonts.com/c/84ad68dec7abcb4d87a97c105ad56a46?family=ITC+Flora+Std" rel="stylesheet" type="text/css" />
 
 
