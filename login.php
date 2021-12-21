@@ -203,7 +203,7 @@ if (isset($_REQUEST['signin'])) {
                     <label>
                         <span>Last Name</span>
                         <input type="text" name="lname" type="text" placeholder="Last name" />
-                    </label><br>
+                    </label>
                 </div>
                 <div class="col-md-12">
                     <label>
