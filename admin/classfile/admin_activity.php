@@ -280,22 +280,6 @@ class admin_activity extends database
     $_SESSION['msg'] = $str;
     $this->redirect_back();
   }
-  public function contact()
-  {
-      $data = array(
-          "fname" => $_POST['fname'],
-          "lname" => $_POST['lname'],
-          "email" => $_POST['email'],
-          "message" => $_POST['message'],
-          "phone" => $_POST['phone'],
-        );
 
-      $ins = $this->insertdata('contact_details',$data);
-      if ($ins) {
-          $str = "Details Send successfully";
-      } else {
-          $str = "Faild";
-      }
-    }
 }
 $adm = new admin_activity();

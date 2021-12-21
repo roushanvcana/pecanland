@@ -1,6 +1,14 @@
 <?php include('common/header.php');
 $categoryList = $use_act->getallcategory();
+include('admin/login_verify.php');
+//
 
+
+
+$com = new common();
+if (isset($_REQUEST['review'])) {
+    $obj->review();
+}
 
     $id=$_GET['product_id'];
     $product= $use_act->getproduct($id);
@@ -409,13 +417,13 @@ ul.tabs li.active {
     			<div id="review_form">
     										<div id="respond" class="comment-respond">
     				<h3 id="reply-title" class="comment-reply-title"></h3>
-    									<form action="" method="post" id="commentform" class="comment-form">
+    									<form action="" method="post"  >
     																		<input id="hidden" name="product_id" type="hidden" value="<?php echo $product['id'];?>" size="30" aria-required="true" >								<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label>  <input type="text" value="" size="30" aria-required="true" name="name"/> </p>
     <p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required="true" /></p>
     												<p class="comment-form-comment"><label for="comment">Your Review</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>
-    						<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit" /> <input type='hidden' name='comment_post_ID' value='703' id='comment_post_ID' />
-    <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-    </p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="7375b71156" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="30"/></p>					</form>
+    							<button type="submit" class=" elementor-size-sm" name="review">Review</button>
+
+  </p>					</form>
     							</div><!-- #respond -->
     						</div>
     		</div>

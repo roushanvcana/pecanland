@@ -245,7 +245,20 @@ class login extends database
           $str = "Faild";
       }
     }
-
+		public function review()
+	  {
+	      $data = array(
+	          "name" => $_POST['name'],
+	         "email" => $_POST['email'],
+	         "comment" => $_POST['comment'],
+	        );
+          $ins = $this->insertdata('review_details',$data);
+	      if ($ins) {
+	          $str = "Details Send successfully";
+	      } else {
+	          $str = "Faild";
+	      }
+	    }
 }
 //end of class
 
