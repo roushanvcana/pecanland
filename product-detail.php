@@ -227,7 +227,12 @@ ul.tabs li.active {
 	padding: 20px;
 	display: none;
 }
-
+.tab_content p {
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 22px;
+}
 .tab_drawer_heading { display: none; }
 
 @media screen and (max-width: 480px) {
@@ -253,7 +258,8 @@ ul.tabs li.active {
 		background-color: #666;
 		color: #fff;
 	}
-}
+
+	}
 </style>
 
 <div data-elementor-type="product-archive" data-elementor-id="961" class="elementor elementor-961 elementor-location-archive product" data-elementor-settings="[]">
@@ -345,19 +351,19 @@ ul.tabs li.active {
 <div class="tab_container">
   <h3 class="d_active tab_drawer_heading" rel="tab1">Description</h3>
   <div id="tab1" class="tab_content">
-  <h2>Description</h2>
+  <h4>Description</h4>
     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
   </div>
   <!-- #tab1 -->
   <h3 class="tab_drawer_heading" rel="tab2">Additional Information</h3>
   <div id="tab2" class="tab_content">
-  <h2>Additional Information</h2>
+  <h4>Additional Information</h4>
     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
   </div>
   <!-- #tab2 -->
   <h3 class="tab_drawer_heading" rel="tab3">Review For Fresh Bread</h3>
   <div id="tab3" class="tab_content">
-  <h2>Review For Fresh Bread</h2>
+  <h4>Review For Fresh Bread</h4>
     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
   </div>
   <!-- #tab3 -->
