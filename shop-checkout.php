@@ -58,7 +58,7 @@ $payment = new Payment;
 	.control-group {
   display: inline-block;
   vertical-align: top;
- 
+
 }
 .control {
   display: block;
@@ -197,7 +197,7 @@ $payment = new Payment;
          <section class="section">
             <form class="container" action="#" method="POST">
                 <div class="cols-xl row">
-									
+
                     <div class="col-lg-6">
 											<div class="grid_box">
                         <h2 class="text-title mb-5">Billing details</h2>
@@ -311,11 +311,11 @@ $payment = new Payment;
                                     }
                                 }
                             ?>
-																	
+
 																	 <div class="col-lg-4">
 																		<div class="order-subtotal">
                                 <div class="order-line-title">Sub Total</div>
-                                <div class="order-line-total">$<?php echo $sub;?></div>
+                                <div class="order-line-total">$<?php  echo isset($sub) ? $sub:0;?></div>
                             </div>
 																		</div>
 																		<div class="col-lg-4">
@@ -328,19 +328,19 @@ $payment = new Payment;
 																		<div class="separator-line"></div>
                             <div class="order-total">
                                 <div class="order-line-title">Total</div>
-                                <div class="order-line-total">$<?php echo $sub+10;?></div>
+                                <div class="order-line-total">$<?php echo isset($sub) ? $sub+10 : 0;?></div>
                             </div>
 																		</div>
-																
-                            
-                            
-                            
+
+
+
+
                         </div>
                         </div>
                         <div class="grid_pay">
 													<h3 class="text-title mb-4">Payment Details</h3>
                         <div class="grid row">
-													
+
                             <div class="col-12"><p>Please use your Order ID as the payment reference. Your order won't be shipped until the funds have cleared in our account.</p></div>
                             <div class="col-12">
 								<div class="control-group">
