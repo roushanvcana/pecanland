@@ -81,7 +81,7 @@
         <section class="mb-0 section pb-5">
             <div class="container">
                 <div class="row">
-                   
+
                         <table class="table table-hover">
                             <thead>
                                 <tr>
@@ -95,7 +95,7 @@
                             <tbody>
                             <?php
                             if(isset($use->user_id) && $use->user_id!="")
-                            {   
+                            {
                                 $cartlist=$ecom->getcart_details();
                                 if($cartlist!=FALSE)
                                 {
@@ -117,18 +117,18 @@
                                             <a class="thumbnail pull-left" href="#"> <img class="media-object" src="admin/upload/product/<?php echo $list['img']; ?>" style="width: 72px; height: 72px;"> </a>
                                             <div class="media-body">
                                                 <h4 class="media-heading"><a href="#"><?php echo $productnm; ?></a></h4>
-                                                
+
                                             </div>
                                         </div>
                                     </td>
                                      <td class="col-sm-1 col-md-1 text-center"><strong>$<?php echo $price?></strong></td>
-                                   
+
                                     <input type="hidden" name="<?php echo $t2; ?>" value="<?php echo $list['totalprice']; ?>" id="tot<?php echo $t2; ?>">
                                     <td class="col-sm-1 col-md-1" style="text-align: center">
                                        <input class="form-control" min="1" type="text" name="<?php echo $t1; ?>" id="<?php echo $t1; ?>" value="<?php echo $qty; ?>" onchange="calculate('<?php echo $t1; ?>','<?php echo $price; ?>','<?php echo $t2; ?>');" />
                                     </td>
                                     <td class="col-sm-1 col-md-1 text-center"><strong>$<?php echo $total?></strong></td>
-                                 
+
                                     <td class="col-sm-1 col-md-1">
                                         <button type="button" class="btn btn-danger" onclick="location.href='shop-cart.php?cart_id=<?php echo $list['id']; ?>'">
                                             <span class="glyphicon glyphicon-remove"></span> Remove
@@ -146,8 +146,8 @@
                             if(isset($_SESSION['cart']))
                             {
                                 $sub=0;
-                                foreach($_SESSION['cart'] as $list) 
-                                { 
+                                foreach($_SESSION['cart'] as $list)
+                                {
                                     $productnm=$list['productnm'];
                                     $qty=$list['quantity'];
                                     $total=$list['price'];
@@ -162,17 +162,17 @@
                                             <a class="thumbnail pull-left" href="#"> <img class="media-object" src="admin/upload/product/<?php echo $list['img']; ?>" style="width: 72px; height: 72px;"> </a>
                                             <div class="media-body">
                                                 <h4 class="media-heading"><a href="#"><?php echo $productnm; ?></a></h4>
-                                             
+
                                             </div>
                                         </div>
                                     </td>
                                     <td class="col-sm-1 col-md-1 text-center"><strong>$<?php echo $price?></strong></td>
-                                    
+
                                     <input type="hidden" name="<?php echo $t2; ?>" value="<?php echo $list['price']; ?>" id="tot<?php echo $t2; ?>">
                                     <td class="col-sm-1 col-md-1" style="text-align: center">
                                       <input class="form-control" min="1" name="<?php echo $t1; ?>" id="<?php echo $t1; ?>" type="text" value="<?php echo $qty;?>" onchange="calculate('<?php echo $t1; ?>','<?php echo $price; ?>','<?php echo $t2; ?>');"/>
                                     </td>
-                                   
+
                                     <td class="col-sm-1 col-md-1 text-center"><strong id="<?php echo $t2; ?>">$<?php echo $total;?></strong></td>
                                     <td class="col-sm-1 col-md-1">
                                         <button type="button" class="btn btn-danger" onclick="location.href='shop-cart.php?cart_id=<?php echo $list['cartid']; ?>'">
@@ -185,7 +185,7 @@
                                 }
                             }
                         }
-                    ?>  
+                    ?>
                                 <tr>
                                     <td>   </td>
                                     <td>   </td>
@@ -194,7 +194,7 @@
                                         <h5>Subtotal</h5>
                                     </td>
                                     <td class="text-right">
-                                        <h5><strong>$<?php echo $sub;?></strong></h5>
+                                        <h5><strong>$<?php echo isset($sub) ? $sub:0;?></strong></h5>
                                     </td>
                                 </tr>
                                 <tr>
@@ -216,7 +216,7 @@
                                         <h3>Total</h3>
                                     </td>
                                     <td class="text-right">
-                                        <h3><strong>$<?php echo $sub+10;?></strong></h3>
+                                        <h3><strong>$<?php echo isset($sub) ? $sub+10 : 0;?></strong></h3>
                                     </td>
                                 </tr>
                                 <tr>
@@ -236,7 +236,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                    
+
                 </div>
             </div>
 
