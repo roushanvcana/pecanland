@@ -113,7 +113,7 @@
 	border-radius: 0px;
 	padding: 20px 20px 50px 20px;
 	background-color: var( --e-global-color-3564bdd);
-	border-color: var( --e-global-color-3564bdd);
+	border-color: #9fcb22;
 }
 
 .elementor-961 .elementor-element.elementor-element-42feaab1.elementor-wc-products .attachment-woocommerce_thumbnail {
@@ -246,7 +246,7 @@
 		padding: 80px 20px 0px 20px;
 	}
 	.elementor-961 .elementor-element.elementor-element-42feaab1.elementor-wc-products ul.products {
-		grid-column-gap: 20px;
+		grid-column-gap: 0px;
 		grid-row-gap: 40px;
 	}
 	.elementor-961 .elementor-element.elementor-element-42feaab1.elementor-wc-products ul.products li.product .woocommerce-loop-product__title,

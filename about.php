@@ -46,7 +46,7 @@
 								<div class="elementor-element elementor-element-27f6f77 elementor-invisible elementor-widget elementor-widget-heading" data-id="27f6f77" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<h2 class="elementor-heading-title elementor-size-default">
-		    Strategic framework</h2>		</div>
+		    Our Strategic framework</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-e28ca1c elementor-invisible elementor-widget elementor-widget-text-editor" data-id="e28ca1c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">

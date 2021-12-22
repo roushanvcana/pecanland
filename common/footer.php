@@ -165,7 +165,8 @@
 
   <section class="elementor-section elementor-top-section elementor-element elementor-element-66a17a8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66a17a8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
    <div class="elementor-container elementor-column-gap-no">
-    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8374783 elementor-invisible" data-id="8374783" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+
+    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8374783 elementor-invisible" data-id="8374783" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
      <div class="elementor-widget-wrap elementor-element-populated">
       <div class="elementor-element elementor-element-c5e3561 elementor-widget elementor-widget-heading" data-id="c5e3561" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
        <div class="elementor-widget-container">
@@ -188,8 +189,9 @@
       </div>
      </div>
     </div>
-    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-06c3970 elementor-hidden-phone elementor-invisible" data-id="06c3970" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-     <div class="elementor-widget-wrap elementor-element-populated">
+
+    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-06c3970 elementor-hidden-phone elementor-invisible" data-id="06c3970" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated" style="padding: 0px 0px 0px 20rem;">
       <div class="elementor-element elementor-element-4f18b52 elementor-widget elementor-widget-heading" data-id="4f18b52" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
        <div class="elementor-widget-container">
         <h3 class="elementor-heading-title elementor-size-default">Useful Links</h3>
@@ -209,7 +211,8 @@
       </div>
      </div>
     </div>
-    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6ca03d2 elementor-hidden-phone elementor-invisible" data-id="6ca03d2" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+
+  <!--   <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6ca03d2 elementor-hidden-phone elementor-invisible" data-id="6ca03d2" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
      <div class="elementor-widget-wrap elementor-element-populated">
       <div class="elementor-element elementor-element-8c86a00 elementor-widget elementor-widget-heading" data-id="8c86a00" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
        <div class="elementor-widget-container">
@@ -229,9 +232,10 @@
        </div>
       </div>
      </div>
-    </div>
-    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-f3c9385 elementor-hidden-phone elementor-invisible" data-id="f3c9385" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
-     <div class="elementor-widget-wrap elementor-element-populated">
+    </div> -->
+
+    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f3c9385 elementor-hidden-phone elementor-invisible" data-id="f3c9385" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+     <div class="elementor-widget-wrap elementor-element-populated" style="padding: 0px 0px 0px 22rem">
       <div class="elementor-element elementor-element-70d6e6a elementor-widget elementor-widget-heading" data-id="70d6e6a" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
        <div class="elementor-widget-container">
         <h3 class="elementor-heading-title elementor-size-default">Opening Hours</h3>
@@ -249,6 +253,7 @@
       </div>
      </div>
     </div>
+
    </div>
   </section>
 
@@ -258,7 +263,7 @@
      <div class="elementor-widget-wrap elementor-element-populated">
       <div class="elementor-element elementor-element-6f71d5e elementor-invisible elementor-widget elementor-widget-text-editor" data-id="6f71d5e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
        <div class="elementor-widget-container">
-        <p>Copyright 2021. All Rights Reserved.</p>
+        <p>Designed By <a style="color: #6EA68B;" href="https://www.vcanaglobal.com/" target="_blank">Vcana Global, Inc</a>.Copyright 2021. All Rights Reserved.</p>
        </div>
       </div>
      </div>
