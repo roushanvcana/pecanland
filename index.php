@@ -197,8 +197,32 @@ $productList = $use_act->getallproduct();
                       </div>
                       <div class="elementor-element elementor-element-336a79c elementor-invisible elementor-widget elementor-widget-text-editor" data-id="336a79c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
                         <div class="elementor-widget-container">
-                          <p>We are a family business we engage in commercial production of nuts in 1994 when we acquired a property with about 400 Pecan Nut trees. Over the years we have acquired other properties and have increased planting Pecan Nut trees.</p>
-                          <p>In 2001 we started marketing operations in the US creating the company “M & D Pecanland, Inc.” which allowed us to import and export nuts and nut products between the two countries.</p>
+                            <div class="body">
+                <p style="color: #000;"><b>M & D Pecanland, Inc.</b> is all about Pecan Nuts. It is a family owned and operated American Corporation. I started helping in the family farm activities since I was a child. My first official position on the family business was at the age of 17 as a general manager in the Pecans Sheller Company “El Nogal de Aramberri” (The Aramberri’s pecan tree).</p>
+               <details>
+              <summary style="color: #007800;">
+              <span id="open" style="color: #007800;">Read More</span> 
+                <!-- <span id="close">Close</span> --> 
+             </summary>
+             <p style="color: #000;">
+         In 2001 we started marketing operations in the US creating the company <b>“M & D Pecanland, Inc.”</b> which allowed us to import and export nuts and nut products between the two countries.</p>
+
+         <p style="color: #000;">In 2015 we consolidated our operations in Mexico with the creation of a corporation registered as <b>“M & D Pecanland, Mexico SRL de CV“</b></p>
+
+         <p style="color: #000;">This website is dedicated to you, our customers and suppliers, with the main purpose of facilitating the selection and Order our products and services. And provide them with relevant information to help them obtain the maximum benefit from this magnificent product is the nut.</p>
+
+          <p style="color: #000;"> The menu at the superios part allow them to easily navigate between different options according to your needs.We hope “Heart to Heart” meet their expectations and enjoy our services.</p>
+            
+          </details>
+            </div>
+                          <!-- <p>We are a family business we engage in commercial production of nuts in 1994 when we acquired a property with about 400 Pecan Nut trees. Over the years we have acquired other properties and have increased planting Pecan Nut trees.</p>
+
+           <p>In 2001 we started marketing operations in the US creating the company <b>“M & D Pecanland, Inc.”</b> which allowed us to import and export nuts and nut products between the two countries....<a href="about.php">Know More</a></p> -->
+
+         <!--   <p>In 2015 we consolidated our operations in Mexico with the creation of a corporation registered as <b>"M & D Pecanland, Mexico SRL de CV".</b></p>
+
+           <p>This website is dedicated to you, our customers and suppliers, with the main purpose of facilitating the selection and Order our products and services. And provide them with relevant information to help them obtain the maximum benefit from this magnificent product is the nut.The menu at the superios part allow them to easily navigate between different options according to your needs.We hope “Heart to Heart” meet their expectations and enjoy our services.</p> -->
+
                           <!-- <p>In 2015 we consolidated our operations in Mexico with the creation of a corporation registered as “M & D Pecanland, Mexico SRL de CV“</p>
 				 <p>This website is dedicated to you, our customers and suppliers, with the main purpose of facilitating the selection and Order our products and services. And provide them with relevant information to help them obtain the maximum benefit from this magnificent product is the nut.</p>
 				 <p>The menu at the superios part allow them to easily navigate between different options according to your needs.</p>
@@ -207,12 +231,13 @@ $productList = $use_act->getallproduct();
                       </div>
                       <div class="elementor-element elementor-element-9338fbb elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="9338fbb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
                         <div class="elementor-widget-container">
-                          <div class="elementor-button-wrapper"> <a href="blog.php" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                          <div class="elementor-button-wrapper"> <a href="about.php" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                               <span class="elementor-button-content-wrapper">
                                 <span class="elementor-button-text">READ MORE</span>
                               </span> </a> </div>
                         </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
@@ -227,9 +252,9 @@ $productList = $use_act->getallproduct();
           <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d251b03" data-id="d251b03" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
             <div class="elementor-widget-wrap elementor-element-populated">
               <div class="elementor-element elementor-element-1e60812 elementor-invisible elementor-widget elementor-widget-heading" data-id="1e60812" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
-                <div class="elementor-widget-container">
+                <!-- <div class="elementor-widget-container">
                   <h3 class="elementor-heading-title elementor-size-default">Most Popular</h3>
-                </div>
+                </div> -->
               </div>
               <div class="elementor-element elementor-element-40e66f1 elementor-invisible elementor-widget elementor-widget-heading" data-id="40e66f1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
                 <div class="elementor-widget-container">
@@ -247,7 +272,10 @@ $productList = $use_act->getallproduct();
                           foreach ($productList as $pro) {
                               $id=$pro['id'];
                       ?>
-                        <li class="product type-product post-1558 status-publish first instock product_cat-uncategorized has-post-thumbnail sale shipping-taxable purchasable product-type-simple"> <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"> <img width="300" height="263" src="admin/upload/product/<?php echo $pro['image']?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" />
+                        <li class="product type-product post-1558 status-publish first instock product_cat-uncategorized has-post-thumbnail sale shipping-taxable purchasable product-type-simple"> <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                          <a href="product-detail.php?product_id=<?php echo $pro['id'] ?>">
+                       <img width="300" height="263" src="admin/upload/product/<?php echo $pro['image']?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" />
+                     </a>
                         <a  href="product-detail.php?product_id=<?php echo $pro['id'] ?>"> <h2 class="woocommerce-loop-product__title"><?php echo $pro['product_name'] ?></a></h2>
                           <div class="star-rating"><span style="width:0%">Rated <strong class="rating">0</strong> out of 5</span></div>
                           <span class="price" style="text-align:center;"><del aria-hidden="true"><span class="woocommerce-Price-amount amount">

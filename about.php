@@ -30,6 +30,7 @@
 		</div>
 							</div>
 		</section>
+
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-d5db04c elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d5db04c" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c26698a elementor-hidden-phone" data-id="c26698a" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
@@ -44,22 +45,25 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-27f6f77 elementor-invisible elementor-widget elementor-widget-heading" data-id="27f6f77" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">We Give The Lowest Price on Grocery Items</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">
+		    Our Strategic framework</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-e28ca1c elementor-invisible elementor-widget elementor-widget-text-editor" data-id="e28ca1c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Neque porro quisquam est aui dolorem iesum ruia dolor sit amet, consectetur, 
-						adipisci velit, sed quia non numua eius modi tempora incidunt ut labore et dolore magnam 
-					volutatem exercitationem ullam.</p>
-				<p>
-					Quis autem vel eum iure reprehenderit aui in ea voluptae velit esse quam nihil molestiae consequatur, 
-				vel illum rui dolorem eum fugiat quo voluptas excepteur.</p>						
+			<p>The Persona -Human Resources as a fundamental value in our organization. The Engage and focus to the consumer as the only chance to stay in the short and long term. The Constant quality and innovation to achieve a continuous improvement in the way of doing things.</p>
+
+				<p>The Accountability on Social responsibility to support humanity and environment.
+        And Never give up on our efforts to achieve the proposed objectives.</p>	
+           
+           <br>
+          
 			</div>
 				</div>
 					</div>
 		</div>
 							</div>
 		</section>
+
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-558d1eb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="558d1eb" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4c9d4e9" data-id="4c9d4e9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;navigation&quot;:&quot;both&quot;}">
@@ -70,11 +74,11 @@
 				</div>
 				<div class="elementor-element elementor-element-d276f67 elementor-invisible elementor-widget elementor-widget-heading" data-id="d276f67" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Our Vision</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">Our Mission</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-c100977 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="c100977" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-			<p>Neque porro quisquam est aui dolorem iesum ruia sit amet, consectetur, adipisci velit, sed quia non eius modi tempora incidunt ut labore et dolore ma volutatem exercitationem ullam.</p>						</div>
+			<p>Produce, commercialize and develop brands and supplies of products based on Pecan nuts, that meet the needs and expectations of consumers in the global marketplace, with a capable, innovative and accomplished team, achieving attractive profitability, in an environment of international competition, which ensures permanence and growth of the business, compensation appropriate to the associates, shareholders, and the fulfillment of the social and ecological responsibility</p>						</div>
 				</div>
 
 				<!-- <div class="elementor-element elementor-element-0ac5471 elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="0ac5471" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
@@ -99,11 +103,12 @@
 				</div>
 				<div class="elementor-element elementor-element-8ac0403 elementor-invisible elementor-widget elementor-widget-heading" data-id="8ac0403" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Our Goal</h2>		</div>
+			 <h2 class="elementor-heading-title elementor-size-default">Our Vision</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-b84d9d6 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="b84d9d6" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Neque porro quisquam est aui dolorem iesum ruia sit amet, consectetur, adipisci velit, sed quia non eius modi tempora incidunt ut labore et dolore ma volutatem exercitationem ullam.</p>						</div>
+				<p>We want to make our company an international company Operating in various countries. Exporting nutritious products to all over the world With a steady growth based on consumer preference for our brands.</p>				
+				</div>
 				</div>
 
 				<!-- <div class="elementor-element elementor-element-ce9ac9f elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="ce9ac9f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
@@ -143,6 +148,81 @@
 		</div>
 							</div>
 		</section>
+
+
+<!-- *************************Our History************************************ -->
+
+		<section class="elementor-section elementor-top-section elementor-element elementor-element-d5db04c elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d5db04c" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c26698a elementor-hidden-phone" data-id="c26698a" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4ddfc1c elementor-widget__width-initial elementor-absolute elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-image" data-id="4ddfc1c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;_position&quot;:&quot;absolute&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<img style="width: 60%;" src="wp-content/uploads/2021/07/three-walnuts.jpg" class="attachment-full size-full" alt="" loading="lazy" sizes="(max-width: 685px) 100vw, 685px" />															</div>
+				</div>
+					</div>
+		</div>
+
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-aee28d7" data-id="aee28d7" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-27f6f77 elementor-invisible elementor-widget elementor-widget-heading" data-id="27f6f77" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">
+		       Our History</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e28ca1c elementor-invisible elementor-widget elementor-widget-text-editor" data-id="e28ca1c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
+
+					<div class="body">
+                <p style="color: #000;"><b>M & D Pecanland, Inc.</b> is all about Pecan Nuts. It is a family owned and operated American Corporation. I started helping in the family farm activities since I was a child. My first official position on the family business was at the age of 17 as a general manager in the Pecans Sheller Company “El Nogal de Aramberri” (The Aramberri’s pecan tree).</p>
+               <details>
+              <summary style="color: #007800;">
+              <span id="open" style="color: #007800;">Read More</span> 
+                <!-- <span id="close">Close</span> --> 
+             </summary>
+             <p style="color: #000;">
+          My wife and I became formal pecan business owners when we bought my parents’ farm in 1997, and since then we’ve run a commercial production of pecans nuts. The farm has been in my family for four generations dating back to 1907 when my father’s grandfather bought the land. Some of the pecan trees in the farm are now more than 100 years old.</p>
+
+         <p style="color: #000;">We introduced the name M&D Pecanland in 2000 and registered as a corporation in 2001, now M&D Pecanland, Inc.</p>
+
+         <p style="color: #000;">We believe that throughout time, humanity has dedicated a great deal of time to the pursuit of a more efficient nutrition, because the human body development and energy levels depend on nutrition. With these in mind we are presenting to you a highly nutritional value option: The use of pecan nuts in our daily diet.</p>
+
+          <p style="color: #000;">We are ready to help you.Our sons, Daniel & Mauricio are now full time college students and our part time business consultants. Daniel (International Business) helped us with global marketing and e-commerce ideas. Mauricio (Culinary Arts) is collaborating with the web site, recipes and nutritional notes.</p>
+
+         <p style="color: #000;">My wife, Maria de Jesus, with a bachelor on IT science, MBA in Finance and more than 20 years of business management experience is in charge of the Finance and USA operations.I am responsible for the farm management and operations in Mexico. (BS in Mathematics and MBS in quality and production).</p>
+            
+          </details>
+            </div>
+				
+				<!-- <div class="elementor-widget-container">
+			<p>M & D Pecanland, Inc. is all about Pecan Nuts. It is a family owned and operated American Corporation. I started helping in the family farm activities since I was a child. My first official position on the family business was at the age of 17 as a general manager in the Pecans Sheller Company “El Nogal de Aramberri” (The Aramberri’s pecan tree).</p>
+
+      <p>My wife and I became formal pecan business owners when we bought my parents’ farm in 1997, and since then we’ve run a commercial production of pecans nuts. The farm has been in my family for four generations dating back to 1907 when my father’s grandfather bought the land. Some of the pecan trees in the farm are now more than 100 years old.</p>
+
+      <p>We introduced the name M&D Pecanland in 2000 and registered as a corporation in 2001, now M&D Pecanland, Inc.</p>
+
+      <p>We believe that throughout time, humanity has dedicated a great deal of time to the pursuit of a more efficient nutrition, because the human body development and energy levels depend on nutrition. With these in mind we are presenting to you a highly nutritional value option: The use of pecan nuts in our daily diet.</p>
+
+       <p>We are ready to help you.Our sons, Daniel & Mauricio are now full time college students and our part time business consultants. Daniel (International Business) helped us with global marketing and e-commerce ideas. Mauricio (Culinary Arts) is collaborating with the web site, recipes and nutritional notes.</p>
+
+       <p>My wife, Maria de Jesus, with a bachelor on IT science, MBA in Finance and more than 20 years of business management experience is in charge of the Finance and USA operations.</p>
+
+       <p>I am responsible for the farm management and operations in Mexico. (BS in Mathematics and MBS in quality and production).The Accountability on Social responsibility to support humanity and environment.
+        And Never give up on our efforts to achieve the proposed objectives.</p>	
+           
+           <br>
+           
+				</div> -->
+
+
+					</div>
+		</div>
+							</div>
+		</section>
+
+
+<!-- *************************Our History************************************ -->
+
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-c61c25c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c61c25c" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dc776bb" data-id="dc776bb" data-element_type="column" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">

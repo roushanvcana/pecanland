@@ -98,7 +98,7 @@ if (isset($_REQUEST['contact'])) {
 								</div>
 							</div>
 						</div>
-						<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a995193 elementor-invisible" data-id="a995193" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;,&quot;navigation&quot;:&quot;both&quot;}">
+						<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a995193 elementor-invisible" data-id="a995193" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;,&quot;navigation&quot;:&quot;both&quot;}" style="width: 60%;">
 							<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-39bf0b0 elementor-widget elementor-widget-heading" data-id="39bf0b0" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="heading.default">
 									<div class="elementor-widget-container">
@@ -107,18 +107,22 @@ if (isset($_REQUEST['contact'])) {
 								</div>
 								<div class="elementor-element elementor-element-5b20108 elementor-widget elementor-widget-text-editor" data-id="5b20108" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="text-editor.default">
 									<div class="elementor-widget-container">
-										<p>Aui dolorem iesum ruia dolor sit amet, consectetur.</p>
+										<h3>General Management, Human Resources, Processing Plant, and Sales</h3>
 									</div>
 								</div>
 								<div class="elementor-element elementor-element-8e89dfd elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="8e89dfd" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image-box.default">
 									<div class="elementor-widget-container">
 										<div class="elementor-image-box-wrapper">
-											<figure class="elementor-image-box-img">
-												<img width="42" height="75" src="wp-content/uploads/2021/07/Location-icon-2.png" class="attachment-full size-full" alt="" loading="lazy" />
-											</figure>
+											 <figure class="elementor-image-box-img">
+												<img width="30" height="30" src="wp-content/uploads/2021/07/email-icon2.png" class="attachment-full size-full" alt="" loading="lazy" />
+											</figure> 
 											<div class="elementor-image-box-content">
-												<h3 class="elementor-image-box-title">Location</h3>
-												<p class="elementor-image-box-description">M&D Pecanland Mexico Privada Andrés López 100 Zona Centro Aramberri, Nuevo León Mexico, CP 67940</p>
+												<h3 class="elementor-image-box-title">María de Jesús Álvarez Rosales</h3>
+												<a href="#">
+											   <p class="elementor-image-box-description"> 
+                                                MaryA@mdpecanland.com
+											   </p>
+												</a>
 											</div>
 										</div>
 									</div>
@@ -126,13 +130,20 @@ if (isset($_REQUEST['contact'])) {
 								<div class="elementor-element elementor-element-850d0bf elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="850d0bf" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image-box.default">
 									<div class="elementor-widget-container">
 										<div class="elementor-image-box-wrapper">
-											<figure class="elementor-image-box-img">
-												<img width="34" height="75" src="wp-content/uploads/2021/07/phone-icon2.png" class="attachment-full size-full" alt="" loading="lazy" />
-											</figure>
+											 <figure class="elementor-image-box-img">
+												<img width="30" height="30" src="wp-content/uploads/2021/07/phone-icon2.png" class="attachment-full size-full" alt="" loading="lazy" />
+											</figure> 
+
 											<div class="elementor-image-box-content">
-												<h3 class="elementor-image-box-title">Phone</h3>
-												<p class="elementor-image-box-description">0-589-96369-95823
-													0-825-63596-471254</p>
+												<h4 class="elementor-image-box-title" style="line-height: unset;">
+											  Operations, Agricultural Services and Purchasing
+												</h4>
+
+										       <h4 class="elementor-image-box-title">Daniel Rosas Decanini</h4>
+										       <a href="#">
+										       	<p class="elementor-image-box-description">DanielRD@mdpecanland.com</p>
+										       </a>
+												
 											</div>
 										</div>
 									</div>
@@ -140,18 +151,37 @@ if (isset($_REQUEST['contact'])) {
 								<div class="elementor-element elementor-element-7fcc08a elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="7fcc08a" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="image-box.default">
 									<div class="elementor-widget-container">
 										<div class="elementor-image-box-wrapper">
-											<figure class="elementor-image-box-img">
-												<img width="48" height="60" src="wp-content/uploads/2021/07/email-icon2.png" class="attachment-full size-full" alt="" loading="lazy" />
-											</figure>
+											 <figure class="elementor-image-box-img">
+												<img width="30" height="30" src="wp-content/uploads/2021/07/Location-icon-2.png" class="attachment-full size-full" alt="" loading="lazy" />
+											</figure> 
+
 											<div class="elementor-image-box-content">
-												<h3 class="elementor-image-box-title">Email</h3>
+												<h3 class="elementor-image-box-title">Corporate Address</h3>
 												<p class="elementor-image-box-description">
-													DanielRD@mdpecanland.com
-													MaryA@mdpecanland.com</p>
+													M&D Pecanland Mexico Privada Andrés López 100 Zona Centro Aramberri, Nuevo León Mexico, CP 67940</p>
+													 <a href="#">
+										       	<p class="elementor-image-box-description">www.mdpecanland.com</p>
+										       </a>
 											</div>
 										</div>
 									</div>
 								</div>
+
+								 <div style="display: block;margin-left: auto; margin-right: auto;">
+
+           	<a href="#">
+				 <img style="height: 50px;" src="wp-content/images/facebook.png" class="attachment-large size-large" alt=""loading="lazy" />&nbsp;&nbsp;&nbsp;&nbsp;
+					</a>
+          
+            <a href="#">
+           <img style="height: 50px;" src="wp-content/images/google-plus.png" class="attachment-large size-large" alt=""loading="lazy" />&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+          	<a href="#">
+           <img style="height: 50px;" src="wp-content/images/pinterest.png" class="attachment-large size-large" alt=""loading="lazy" />&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+           	<a href="#">
+           <img style="height: 50px;" src="wp-content/images/twitter.png" class="attachment-large size-large" alt=""loading="lazy" />&nbsp;&nbsp;&nbsp;&nbsp;</a>
+             </div>
 							</div>
 						</div>
 					</div>

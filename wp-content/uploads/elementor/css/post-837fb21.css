@@ -580,7 +580,7 @@ body
     width: 65%;
   }
   .elementor-837 .elementor-element.elementor-element-a995193 {
-    width: 35%;
+    width: 65%;
   }
 }
 @media (max-width: 1024px) {
@@ -671,7 +671,7 @@ body
     .elementor-image-box-title {
     margin-bottom: 15px;
     font-size: var(--e-global-typography-c0d35e7-font-size);
-    line-height: var(--e-global-typography-c0d35e7-line-height);
+   /* line-height: var(--e-global-typography-c0d35e7-line-height);*/
     letter-spacing: var(--e-global-typography-c0d35e7-letter-spacing);
   }
   .elementor-837
