@@ -34,7 +34,7 @@ $productList = $use_act->getallproduct();
               </div>
               <div class="elementor-element elementor-element-cd23b2e elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-button" data-id="cd23b2e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="button.default">
                 <div class="elementor-widget-container">
-                  <div class="elementor-button-wrapper"> <a href="blog.php" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">READ MORE</span> </span> </a> </div>
+                  <div class="elementor-button-wrapper"> <a href="about.php" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">READ MORE</span> </span> </a> </div>
                 </div>
               </div>
             </div>

@@ -201,7 +201,7 @@
                 <div class="elementor-widget-container">
                   <div class="elementor-author-box">
                     <div class="elementor-author-box__avatar"><a href="login.php">
-                    Login</a><a href="login.php">Signup</a></div>
+                    Login/signup</a><!--<a href="login.php">Signup</a>--></div>
                     <div class="elementor-author-box__text"> </div>
                   </div>
                 </div>
