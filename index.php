@@ -346,6 +346,19 @@ $productList = $use_act->getallproduct();
         </div>
       </section>
 
+      <section>
+        <div>
+           <!-- <p>This example displays a simple translate button, with no text.</p> -->
+               <!--  <p><a translate="no" target="_top" href="https://codepen.io/kimone0915/pen/mdRMWxz">
+          Edit this code</a></p> -->
+          <br>
+
+
+       
+        </div>
+        
+      </section>
+
       <section class="elementor-section elementor-top-section elementor-element elementor-element-292ebba elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="292ebba" data-element_type="section" data-settings="{&quot;navigation&quot;:&quot;both&quot;}">
         <div class="elementor-container elementor-column-gap-default">
           <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-09f4cf3" data-id="09f4cf3" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;navigation&quot;:&quot;both&quot;}">
@@ -418,5 +431,6 @@ $productList = $use_act->getallproduct();
     </div>
   </div>
 
+  
 
   <?php include "common/footer.php" ?>

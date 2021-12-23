@@ -49,6 +49,25 @@
       font-style: normal
     }
   </style>
+
+   <style>
+     .google-translate {
+    margin: 32px 0 0 20px;
+   }
+
+   div#\:0\.targetLanguage {
+    /*background: #9fcb22;*/
+    border-radius: 10px;
+      }
+
+      .goog-te-gadget-simple .goog-te-menu-value span {
+        font-size: 15px;
+        font-weight: 500;
+        color: #000;
+     }
+
+   </style>
+
 	<link rel='stylesheet'  href='wp-content/uploads/elementor/css/post-628b716.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='wp-content/plugins/woocommerce/assets/css/woocommerce-layoutad76.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='wp-content/plugins/woocommerce/assets/css/woocommercead76.css' type='text/css' media='all' />
@@ -120,9 +139,6 @@
                         <a href="contact.php" class="elementor-item">Contact</a>
                       </li>
 
-
-
-
                     </ul>
                   </nav>
                   <div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false"> <i class="eicon-menu-bar" aria-hidden="true" role="presentation"></i> <span class="elementor-screen-only">Menu</span> </div>
@@ -181,6 +197,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="elementor-element elementor-element-d81d66f toggle-icon--cart-solid elementor-widget__width-auto elementor-menu-cart--items-indicator-bubble elementor-menu-cart--show-divider-yes elementor-menu-cart--show-remove-button-yes elementor-menu-cart--buttons-inline elementor-widget elementor-widget-woocommerce-menu-cart" data-id="d81d66f" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="woocommerce-menu-cart.default">
                 <div class="elementor-widget-container">
                   <div class="elementor-menu-cart__wrapper">
@@ -233,6 +250,9 @@
       </div>
     <?php } ?>
      </div>
+    </div>
+      <div class="google-translate">
+      <div id="translation"></div>
     </div>
    </div>
   </section>
