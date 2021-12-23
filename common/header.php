@@ -68,6 +68,76 @@
 
    </style>
 
+<style> 
+.red_error {
+    color: red;
+    display: block;
+    width: 100% !important;
+    font-size: 19px;
+}
+
+.success_error {
+    color: green;
+    display: block;
+    width: 100% !important;
+    font-size: 19px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #141b77;
+    border-color: #141b77;
+    box-shadow: none;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #141b77;
+    border-color: #141b77;
+}
+.loader {
+    border: 5px solid #cacaca;
+    border-radius: 50%;
+    border-top: 5px solid #141B78;
+    border-bottom: 5px solid #141B78;
+    width: 25px;
+    height: 25px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+.preloader_box {
+    position: absolute;
+    width: 100%;
+    background: #a2a2a280;
+    top: 0;  
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999999;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  display:none;
+}
+.loader {
+    border: 7px solid #717171;
+    border-radius: 50%;
+    border-top: 7px solid #141B78;
+    border-bottom: 7px solid #141B78;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+  </style>
+  
 	<link rel='stylesheet'  href='wp-content/uploads/elementor/css/post-628b716.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='wp-content/plugins/woocommerce/assets/css/woocommerce-layoutad76.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='wp-content/plugins/woocommerce/assets/css/woocommercead76.css' type='text/css' media='all' />

@@ -171,6 +171,22 @@ if (isset($_REQUEST['signin'])) {
                                                                                                     echo $_COOKIE["tpass"];
                                                                                                 } ?>" />
             </label>
+
+          <div class="row form-group custom-control custom-checkbox">
+            <div class="col-md-6">
+                   
+         <input type="checkbox" class="custom-control-input" id="exampleCheck1" name="remember" value="remember" <?php if(!empty($_COOKIE["loginemail"])) { echo 'checked'; } ?>>
+          <label class="custom-control-label" for="exampleCheck1">Remember me</label>
+          </div>
+
+         <div class="col-md-6 forget" style="margin: 17px 0 0 0px;">
+           <div class="forget">
+         <a style='color: #333333; font-size: 20px; font-family: "ITC Flora Std", sans-serif;' class="forget-password" href="forget-password.php">Forgot Password?</a>  
+           </div>        
+   
+          </div>
+        
+                      </div> 
             <!-- <p class="forgot-pass">Forgot password?</p>-->
             <button type="submit" class="submit" name="submit">Sign In</button>
         </form>
