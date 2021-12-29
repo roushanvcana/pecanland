@@ -5,6 +5,13 @@ $order = $use->getorder_details();
 
 
 ?>
+<style>
+.comdsain{
+  padding: 60px;
+}
+</style>
+<div class="comdsain">
+</div>
 <div class="top_space">
 <div role="tablist">
     <!-- Order Details-->
@@ -70,7 +77,7 @@ $order = $use->getorder_details();
                                                 <th>Sr. number </th>
                                                 <th>Product Name </th>
                                                 <th> Color</th>
-                                               
+
                                                 <th>Quantity </th>
                                                 <th>Price </th>
                                             </tr>
@@ -119,7 +126,7 @@ $order = $use->getorder_details();
                                     <div class="col-md-12">
                                         <div class="well">
                                             <h4>Your order status:</h4>
-                                           
+
                                             <div class="order-status">
                                                 <div class="order-status-timeline">
                                                     <!-- class names: c0 c1 c2 c3 and c4 -->

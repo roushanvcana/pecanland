@@ -22,19 +22,19 @@
 <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> -->
 <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<!-- <link href="admin/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<!-- <link href="admin/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />--
         <link href="admin/assets/animate.css/animate.min.css" rel="stylesheet" type="text/css" />
         <link href="admin/assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
         <link href="admin/assets/slick/slick.css" rel="stylesheet" type="text/css" />
 <link href="admin/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
-        <link href="admin/assets/css/order.css" rel="stylesheet" type="text/css" />
+
         <link href="admin/assets/css/profile.css" rel="stylesheet" type="text/css" /> -->
 <!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
 
 <!--<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>-->
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
   <link href="//db.onlinewebfonts.com/c/84ad68dec7abcb4d87a97c105ad56a46?family=ITC+Flora+Std" rel="stylesheet" type="text/css" />
-
+  <link href="admin/assets/css/order.css" rel="stylesheet" type="text/css" />
 
   <link rel='stylesheet' id='cb70d11b8-css' href='wp-content/uploads/essential-addons-elementor/cb70d11b8.mine957.css?ver=1637233755' type='text/css' media='all' />
   <link rel='stylesheet' id='hello-elementor-css' href='wp-content/themes/hello-elementor/style.min8066.css?ver=2.4.1' type='text/css' media='all' />
@@ -68,7 +68,7 @@
 
    </style>
 
-<style> 
+<style>
 .red_error {
     color: red;
     display: block;
@@ -107,7 +107,7 @@
     position: absolute;
     width: 100%;
     background: #a2a2a280;
-    top: 0;  
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -137,7 +137,7 @@
   100% { transform: rotate(360deg); }
 }
   </style>
-  
+
 	<link rel='stylesheet'  href='wp-content/uploads/elementor/css/post-628b716.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='wp-content/plugins/woocommerce/assets/css/woocommerce-layoutad76.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='wp-content/plugins/woocommerce/assets/css/woocommercead76.css' type='text/css' media='all' />
