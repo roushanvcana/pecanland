@@ -8,7 +8,7 @@ class useractivity extends database
     {
         $this->com=new common();
         $this->us=new user();
-        
+
     }
     public function getallproduct()
     {
@@ -41,14 +41,14 @@ class useractivity extends database
     public function getrelatedproduct($id)
     {
          $sql=" SELECT stock_details.*,category.id from stock_details JOIN category on category.id =stock_details.category_id where stock_details.category_id='$id'";
-         
+
          $relatedproduct=$this->selectdata($sql);
          if($relatedproduct!=FALSE)
             return $relatedproduct['total_row'];
          else
             return FALSE;
     }
-   
+
     public function getproduct($id)
     {
          $sql="SELECT stock_details.* ,category.id,category from stock_details join category on category.id = stock_details.category_id where stock_details.id='$id'";
@@ -60,9 +60,9 @@ class useractivity extends database
     }
 
 
-    public function profile()  
+    public function profile()
     {
-     
+
       $data = array(
         "name" => $_POST['name'],
         "email" => $_POST['temail'],
@@ -74,9 +74,9 @@ class useractivity extends database
         "gender" => $_POST['gender'],
         "cip" => $this->ipAddress(),
         "cby" => $_SESSION['user_id']
-      
+
       );
-      
+
       // $ban='';
       //if($this->com->folder_exist('upload/category'))
       // //{
@@ -84,8 +84,8 @@ class useractivity extends database
       //   if($ban)
       //     $data['image']=$ban;
       // //}
-       
-  
+
+
         $id=$_POST['tid'];
         $ins=$this->updatedata('user_details',$data,"where id='$id'");
         if($ins)
@@ -99,7 +99,15 @@ class useractivity extends database
         $this->redirect_back();
     }
 
-   
+    public function reviews($id)
+    {
+         $sql="select * from review_details where product_id='$id'";
+         $reviews=$this->selectdata($sql);
+         if($reviews!=FALSE)
+            return $reviews['total_row'];
+         else
+            return FALSE;
+    }
 
 
 }

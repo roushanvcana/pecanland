@@ -17,6 +17,8 @@ if (isset($_REQUEST['review'])) {
 
 $relatedproduct = $use_act->getrelatedproduct($id);
 
+$reviews = $use_act->reviews($id);
+
 ?>
 
 
@@ -430,18 +432,25 @@ ul.tabs li.active {
   <h4>Review For Fresh Bread</h4>
     <p>
       <div class="pro_review">
+        <?php
+        $i = 1;
+        if ($reviews!= FALSE) {
+        foreach ($reviews as $pro) {
+            $ids=$pro['id'];
+        ?>
 <div class="review_details">
 <div class="review_info"  >
-<h3 style="color:#9fcb22;"><i class="fa fa-user" ></i>&nbsp;sanoj kumar</h3>
+<h3 style="color:#9fcb22;"><i class="fa fa-user" ></i>&nbsp;<?php echo $pro['name']?></h3>
 <div class="rating_send">
-<h5 style="color:#9fcb22;"> ashirwadfurnitures67@gmail.com </h5>
+<h5 style="color:#9fcb22;"><?php echo $pro['email']?></h5>
 </div>
  </div>
 <div class="review_date">
-<span>2021-02-18 10:17:53</span>
+<span><?php echo $pro['created_at']?> </span>
 </div>
-<p>In the mood for roasted pistachios and dried fruit? Nuts.com offers a wide assortment of trail mixes on their website, including blueberries, chocolate-covered espresso beans, and crunchy hazelnuts. </p>
+<p><?php echo $pro['comment']?> </p>
 </div>
+	<?php }}?>
 </div>
 <div id="review_form_wrapper" class="col-md-3" >
 <div id="review_form">
@@ -469,7 +478,7 @@ ul.tabs li.active {
 			</div>
 		</div>
 <div class="cpontain">
-dqad
+
 <!-- .tab_container -->
 </div>
 
