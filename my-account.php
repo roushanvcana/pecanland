@@ -356,7 +356,7 @@ $order = $use->getorder_details();
                 <div id="tab6c">
                   <div class="tab-pane">
                     <div class="myaccount-content">
-                      <h3>Account Details</h3>
+                      <h3>Personal Details</h3>
                       <div class="account-details-form">
                       <form action="" method="post" id="signup">
                           <div class="row">

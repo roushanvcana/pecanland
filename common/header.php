@@ -253,16 +253,11 @@
                 if (isset($use->user_id) && $use->user_id != "") {
                   $cart = $ecom->getcart_details();
                 ?>
-              <div class="elementor-element elementor-element-c4d6fef elementor-author-box--layout-image-left elementor-widget__width-auto elementor-widget elementor-widget-author-box" data-id="c4d6fef" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="author-box.default">
+                <div class="elementor-element elementor-element-c4d6fef elementor-author-box--layout-image-left elementor-widget__width-auto elementor-widget elementor-widget-author-box" data-id="c4d6fef" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;}" data-widget_type="author-box.default">
                 <div class="elementor-widget-container">
                   <div class="elementor-author-box">
-                    <div class="elementor-author-box__avatar">
-                       <div class="elementor-author-box">
-                          <div class="elementor-author-box__avatar"><a href="my-account.php">
-                          My Account</a></div>
-                          <div class="elementor-author-box__text"> </div>
-                        </div>
-                     </div>
+                    <div class="elementor-author-box__avatar"><a href="my-account.php">
+                    My Account</a><!--<a href="login.php">Signup</a>--></div>
                     <div class="elementor-author-box__text"> </div>
                   </div>
                 </div>
@@ -320,10 +315,10 @@
       </div>
     <?php } ?>
      </div>
-    </div>
-      <div class="google-translate">
+   </div><div id="google_translate_element" style="float:left; padding-left:2px"></div>
+      <!-- <div class="google-translate">
       <div id="translation"></div>
-    </div>
+    </div> -->
    </div>
   </section>
  </div>

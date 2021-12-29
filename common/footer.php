@@ -861,66 +861,32 @@ j(document).ready(function(){
 });
 </script>
 
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=google_translate"></script>
 
 <script>
-function google_translate (){
-    var opt = {
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-        pageLanguage: "en"
-    };
-    new google.translate.TranslateElement( opt, "translation" );
-}
 
-/*
-Display the scrollable list of languages.
-Related to the size of current browser.
-*/
-addEventListener( "load", function(){
-    if ( document.querySelector(".goog-te-menu-frame") ) {
 
-        document.getElementById( "translation" ).addEventListener( "click", function(){
-            if ( this.id === "translation" ) scrollableLanguagesList();
-        });
-        addEventListener( "resize", function(){
-            if ( "none" !== document.querySelector(".goog-te-menu-frame").style.display ) scrollableLanguagesList();
-        });
 
-    }
-});
 
-function scrollableLanguagesList (){
-    var
-     iframe = document.querySelector( ".goog-te-menu-frame" ),
-     doc = iframe.contentWindow.document,
-     div = doc.body.children[ 0 ],
-     table = div.children[ 0 ],
-     width = div.dataset.width || parseInt( div.style.width ),
-     rect, diff;
 
-    if ( ! div.dataset.width ) div.dataset.width = width;
-
-    if ( innerWidth < width ) {
-        rect = table.getBoundingClientRect();
-        width = rect.right - rect.left;
-        diff = width - innerWidth;
-
-        div.style.width = ( width - diff - 24 ) + "px";
-        div.style.padding = "4px 0 1em 4px";
-        div.style.overflowX = "scroll";
-    }
-    else {
-        div.style.width = "auto";
-        div.style.padding = "4px";
-        div.style.overflowX = "visible";
-    }
-
-    rect = div.getBoundingClientRect();
-    iframe.style.width = ( rect.right - rect.left ) + "px";
-    iframe.style.height = ( rect.bottom - rect.top ) + "px";
-}
 </script>
 
+<style>
+/* div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:nth-of-type(1), div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:nth-of-type(2), div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:nth-of-type(3){display:none;} */
+
+  /* div#google_translate_element div.goog-te-gadget-simple { background-color:#9fcb22; border:1px solid #9fcb22;}
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value {color:white;font-weight:3px}
+div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value::after{content:"lang";background-color: #9fcb22;}
+
+div#google_translate_element div.goog-te-gadget-simple img:nth-of-type(1) {display:none;} */
+
+</style>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
