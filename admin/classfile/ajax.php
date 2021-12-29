@@ -10,25 +10,25 @@
    $config =new config();
    $com=new common();
 
-    if($_REQUEST['action'] == 'getsubCategory'){        
+    if($_REQUEST['action'] == 'getsubCategory'){
         $catid = $_POST['categoryID'];
         $sql="select * from sub_category where category_id='$catid'";
         $categoryList= $db->selectdata($sql);
         if($categoryList!=FALSE)
         {
           foreach($categoryList['total_row'] as $cat)
-        
+
             echo  "<option value='".$cat['id']."'>".$cat['name']."</option>";
         }
         else
           echo 0;
     }
 
-    else if($_REQUEST['action'] == 'getproductlist'){      
-       
+    else if($_REQUEST['action'] == 'getproductlist'){
+
         $sql="select * from product_details where product_type=1";
         $productList=$db->selectdata($sql);
-        $productList=$productList==FALSE?FALSE:$productList['total_row']; 
+        $productList=$productList==FALSE?FALSE:$productList['total_row'];
         $plist = array();
         foreach($productList as $value){
             $plist[] = array(
@@ -41,14 +41,14 @@
         echo json_encode($plist);
     }
     else if($_REQUEST['action'] == 'temprorayadd_product'){
-        
-        $data = array(          
+
+        $data = array(
             "product_id" => $_POST['product_id'],
             "product_quantity" => $_POST['product_qty'],
-            "product_unit" => $_POST['product_unit'],                     
-            "cstatus" => 1,       
+            "product_unit" => $_POST['product_unit'],
+            "cstatus" => 1,
             "cip" => 1,
-            "cby" => $_SESSION['user_id']          
+            "cby" => $_SESSION['user_id']
           );
 
         $ins= $db->insertdata('temrory_add_product',$data);
@@ -58,30 +58,30 @@
            echo $str= 2;
     }
 
-    else if($_REQUEST['action'] == 'temprorylist'){    
-       
+    else if($_REQUEST['action'] == 'temprorylist'){
+
         if(!empty($_POST['listId'])){
 
             $sql="SELECT tmp.id, product.product_name, product.mrp, product.sell_price,tmp.product_quantity, tmp.product_unit
-            FROM product_grouping as tmp 
-            INNER JOIN product_details as product 
+            FROM product_grouping as tmp
+            INNER JOIN product_details as product
             ON tmp.product_id = product.id where tmp.parent_id=".$_POST['listId']."
             ORDER BY tmp.id desc";
 
         }else{
-          
+
             $sql="SELECT tmp.id, product.product_name, product.mrp, product.sell_price,tmp.product_quantity, tmp.product_unit
-            FROM temrory_add_product as tmp 
-            INNER JOIN product_details as product 
-            ON tmp.product_id = product.id 
+            FROM temrory_add_product as tmp
+            INNER JOIN product_details as product
+            ON tmp.product_id = product.id
             ORDER BY tmp.id desc";
 
         }
 
        //echo $sql; die;
-        
+
         $productList=$db->selectdata($sql);
-        $productList=$productList==FALSE?FALSE:$productList['total_row']; 
+        $productList=$productList==FALSE?FALSE:$productList['total_row'];
         $plist = array();
         foreach($productList as $value){
             $plist[] = array(
@@ -90,21 +90,21 @@
                 "mrp" => $value['mrp'],
                 "sell_price" => $value['sell_price'],
                 "product_quantity" => $value['product_quantity'],
-                "product_unit" => $com->getArrayVal($com->unit(), $value['product_unit']) 
+                "product_unit" => $com->getArrayVal($com->unit(), $value['product_unit'])
             );
         }
 
         echo json_encode($plist);
     }
 
-    else if($_REQUEST['action'] == 'deletetemprorylist'){ 
-     
-       $id = $_POST['listID'];   
+    else if($_REQUEST['action'] == 'deletetemprorylist'){
+
+       $id = $_POST['listID'];
        if(!empty($_POST['productid'])){
         $del = $db->deletedata('product_grouping','id='.$id.'');
        }else{
         $del = $db->deletedata('temrory_add_product', 'id='.$id.'');
-       } 
+       }
 
        if($del){
         echo 1;
@@ -114,33 +114,33 @@
     }
 
     if ($_REQUEST['action'] == 'getquty'){
-        $sql = 'select id,total_quantity,product_name from stock_details where id="'.$_POST['stockid'].'"';       
-        $qty = $db->selectdata($sql);   
-        $qtyrow = $qty==FALSE?FALSE:$qty['single_row']; 
+        $sql = 'select id,total_quantity,product_name from stock_details where id="'.$_POST['stockid'].'"';
+        $qty = $db->selectdata($sql);
+        $qtyrow = $qty==FALSE?FALSE:$qty['single_row'];
         echo json_encode($qtyrow);
     }
     else if(isset($_POST['temail']))
-    {    
+    {
 		$query =$obj->checkusername($_POST['temail']);
-	    if($query!=FALSE)  
-		{   
-		    echo 1;  
-		}  
-		else  
-		{  
-			echo 2;  
-		} 
-    } 
+	    if($query!=FALSE)
+		{
+		    echo 1;
+		}
+		else
+		{
+			echo 2;
+		}
+    }
     else if(isset($_POST['action'])=="add_to_cart" && isset($_POST['product_id']))
     {
         $pro_id=$_POST['product_id'];
         $str=$ecom->add_cart($pro_id,1,1,1);
-    } 
+    }
     else if(isset($_POST['action']) && $_POST['action']=="get_cart_details")
-    { 
-      
+    {
+
         if(isset($use->user_id) && $use->user_id!="")
-        { 
+        {
             $cartlist=$ecom->getcart_details();
             if($cartlist!=FALSE)
             {
@@ -187,8 +187,8 @@
             if(isset($_SESSION['cart']))
             {
                 $sub=0;
-                foreach($_SESSION['cart'] as $list) 
-                { 
+                foreach($_SESSION['cart'] as $list)
+                {
                     $productnm=$list['productnm'];
                     $qty=$list['quantity'];
                     $price=$list['price'];
@@ -227,50 +227,50 @@
     }
     else if($_POST['action']=="send_otp")
     {
-       $str=$use->forget_password_mail();
+       $str=$obj->forget_password_mail();
     //  print_r($str);
-    
-       
-    return $str; 
 
-    } 
+
+    return $str;
+
+    }
     else if($_POST['action']=="verify_otp")
     {
-       $str=$use->otp_verification();
+       $str=$obj->otp_verification();
     //  print_r($str);
-    
-       
-    return $str; 
 
-    } 
+
+    return $str;
+
+    }
 
     else if($_POST['action']=="new_password")
     {
-       $str=$use->new_password();
-    
-    return $str; 
+       $str=$obj->new_password();
 
-    } 
+    return $str;
+
+    }
     else if($_POST['action']=="login_email")
     {
-       $str=$use->login_email();
+       $str=$obj->login_email();
     //  print_r($str);
-    
-       
-    return $str; 
 
-    } 
+
+    return $str;
+
+    }
 
     if ($_REQUEST['action'] == 'getimage'){
-        $sql = 'select * from category where id="'.$_POST['getid'].'" and image="'.$_POST['getImage'].'"';       
-        $image = $db->selectdata($sql);   
-        $getimage = $image==FALSE?FALSE:$image['single_row']; 
+        $sql = 'select * from category where id="'.$_POST['getid'].'" and image="'.$_POST['getImage'].'"';
+        $image = $db->selectdata($sql);
+        $getimage = $image==FALSE?FALSE:$image['single_row'];
         echo json_encode($getimage);
     }
     if ($_REQUEST['action'] == 'getsubimage'){
-        $sql = 'select * from sub_category where id="'.$_POST['getid'].'" and image="'.$_POST['getImage'].'"';       
-        $image = $db->selectdata($sql);   
-        $getimage = $image==FALSE?FALSE:$image['single_row']; 
+        $sql = 'select * from sub_category where id="'.$_POST['getid'].'" and image="'.$_POST['getImage'].'"';
+        $image = $db->selectdata($sql);
+        $getimage = $image==FALSE?FALSE:$image['single_row'];
         echo json_encode($getimage);
     }
     if ($_REQUEST['action'] == 'paystatus'){
@@ -283,6 +283,6 @@
 
 
 
-    
-   
+
+
 ?>

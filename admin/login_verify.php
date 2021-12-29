@@ -48,6 +48,7 @@ class login extends database
 		    $res=$res['single_row'];
 		    $_SESSION['loginid']=$res['id'];
 		    $_SESSION['type']=$res['type'];
+					// $res=$this->add_cart_db($_SESSION['cart']);
 		    echo "<script> location.href='my-account.php'; </script>";
 
 		}
@@ -65,12 +66,12 @@ class login extends database
 	        {
         		$ins_data=array(
         		    "fname"=>$_POST['fname'],
-					"lname"=>$_POST['lname'],
+				      	"lname"=>$_POST['lname'],
         		     "phone"=>$_POST['phone'],
         		    "email"=>$_POST['email'],
-					"password"=>md5($_POST['password']),
-					"type"=>'user',
-					"status"=>'Active'
+				      	"password"=>md5($_POST['password']),
+				      	"type"=>'user',
+				       	"status"=>'Active'
         		    //"ip_add"=>$this->ipAddress()
         		);
         		$ins=$this->insertdata('user_details',$ins_data);
@@ -245,21 +246,145 @@ class login extends database
           $str = "Faild";
       }
     }
-		public function review()
-	  {
-	      $data = array(
-	          "name" => $_POST['name'],
-	         "email" => $_POST['email'],
-	         "comment" => $_POST['comment'],
-	        );
-          $ins = $this->insertdata('review_details',$data);
-	      if ($ins) {
-	          $str = "Details Send successfully";
-	      } else {
-	          $str = "Faild";
-	      }
-	    }
-}
+
+
+			public function random_number()
+	{
+			$ran_num = rand(9999, 99999);
+			return $ran_num;
+	}
+
+				public function forget_password_mail()
+				{
+						$email = $_POST['email'];
+						$sql = "select * from user_details where email= '" . $email . "'";
+						$result = $this->selectdata($sql);
+						if ($result) {
+								$random_number = $this->random_number();
+								$otpp =  $this->updatedata('user_details',array("otp"=>$random_number),"where email='$email'");
+								$per_id = $result['single_row']['id'];
+								if ($random_number) {
+										$message = $random_number . ' OTP is valid for 5 min... ';
+										$mail = true;
+										if ($mail) {
+												$error_array['success'] = 'Check E-mail for OTP';
+												$error_array['status'] = 1;
+												$error_array['id'] =  $per_id;
+												$error_array['otp'] = $message;
+										}
+								}
+
+								echo json_encode($error_array);
+
+						}
+						else
+						echo 0;
+
+				}
+
+				public function otp_verification()
+				{
+						 $otp = $_POST['otp'];
+						$email=$_POST['email'];
+						$sql1 = "select * from user_details where otp = '$otp' and email='$email'";
+						$res=$this->selectdata($sql1);
+						if($res!=FALSE){
+								return TRUE;
+						}
+						else {
+								return FALSE;
+						}
+
+				}
+
+				public function new_password()
+				{
+						 $password = MD5($_POST['password']);
+						$email=$_POST['email'];
+						$sql1 =  $this->updatedata('user_details',array("password"=>$password),"where email='$email'");
+						$res=$this->selectdata($sql1);
+						if($res!=FALSE){
+								return TRUE;
+
+						}
+						else {
+								return FALSE;
+
+						}
+
+				}
+				public function login_email()
+				{
+						$email = $_POST['email'];
+						$sql = "select * from user_details where email= '" . $email . "'";
+						$result = $this->selectdata($sql);
+						if ($result) {
+								$random_number = $this->random_number();
+								$otpp =  $this->updatedata('user_details',array("otp"=>$random_number),"where email='$email'");
+								$per_id = $result['single_row']['id'];
+								if ($random_number) {
+										$message = $random_number . ' OTP is valid for 5 min... ';
+										$mail = true;
+										if ($mail) {
+												$error_array['success'] = 'Check E-mail for OTP';
+												$error_array['status'] = 1;
+												$error_array['id'] =  $per_id;
+												$error_array['otp'] = $message;
+										}
+								}
+
+								echo json_encode($error_array);
+
+						}
+						else
+					 {
+
+						$insert=$this->insertdata('user_details',$email);
+						if($insert)
+								{
+										$random_number = $this->random_number();
+										$otpp =  $this->updatedata('user_details',array("otp"=>$random_number),"where email='$email'");
+										$per_id = $insert['single_row']['id'];
+										if ($random_number) {
+												$message = $random_number . ' OTP is valid for 5 min... ';
+												$mail = true;
+												if ($mail) {
+														$error_array['success'] = 'Check E-mail for OTP';
+														$error_array['status'] = 1;
+														$error_array['id'] =  $per_id;
+														$error_array['otp'] = $message;
+												}
+										}
+
+										echo json_encode($error_array);
+
+
+							 }
+
+					 }
+
+				}
+
+
+				public function review()
+				{
+						$data = array(
+							"cstatus"=>1,
+							"product_id"=> $_POST['product_id'],
+              "name" => $_POST['name'],
+							 "email" => $_POST['email'],
+							 "comment" => $_POST['comment'],
+							);
+							$ins = $this->insertdata('review_details',$data);
+						if ($ins) {
+								$str = "Details Send successfully";
+						} else {
+								$str = "Faild";
+						}
+					}
+
+
+   }
 //end of class
 
  $obj=new login();

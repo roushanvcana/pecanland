@@ -191,116 +191,7 @@
             $ran_num = rand(9999, 99999);
             return $ran_num;
         }
-        public function forget_password_mail()
-        {
-            $email = $_POST['email'];
-            $sql = "select * from user_details where email= '" . $email . "'";
-            $result = $this->selectdata($sql);
-            if ($result) {
-                $random_number = $this->random_number();
-                $otpp =  $this->updatedata('user_details',array("otp"=>$random_number),"where email='$email'");
-                $per_id = $result['single_row']['id'];
-                if ($random_number) {
-                    $message = $random_number . ' OTP is valid for 5 min... ';
-                    $mail = true;
-                    if ($mail) {
-                        $error_array['success'] = 'Check E-mail for OTP';
-                        $error_array['status'] = 1;
-                        $error_array['id'] =  $per_id;
-                        $error_array['otp'] = $message;
-                    }
-                }
-
-                echo json_encode($error_array);
-
-            }
-            else
-            echo 0;
-
-        }
-
-        public function otp_verification()
-        {
-             $otp = $_POST['otp'];
-            $email=$_POST['email'];
-            $sql1 = "select * from user_details where otp = '$otp' and email='$email'";
-            $res=$this->selectdata($sql1);
-            if($res!=FALSE){
-                return TRUE;
-            }
-            else {
-                return FALSE;
-            }
-
-        }
-
-        public function new_password()
-        {
-             $password = MD5($_POST['password']);
-            $email=$_POST['email'];
-            $sql1 =  $this->updatedata('user_details',array("password"=>$password),"where email='$email'");
-            $res=$this->selectdata($sql1);
-            if($res!=FALSE){
-                return TRUE;
-
-            }
-            else {
-                return FALSE;
-
-            }
-
-        }
-        public function login_email()
-        {
-            $email = $_POST['email'];
-            $sql = "select * from user_details where email= '" . $email . "'";
-            $result = $this->selectdata($sql);
-            if ($result) {
-                $random_number = $this->random_number();
-                $otpp =  $this->updatedata('user_details',array("otp"=>$random_number),"where email='$email'");
-                $per_id = $result['single_row']['id'];
-                if ($random_number) {
-                    $message = $random_number . ' OTP is valid for 5 min... ';
-                    $mail = true;
-                    if ($mail) {
-                        $error_array['success'] = 'Check E-mail for OTP';
-                        $error_array['status'] = 1;
-                        $error_array['id'] =  $per_id;
-                        $error_array['otp'] = $message;
-                    }
-                }
-
-                echo json_encode($error_array);
-
-            }
-            else
-           {
-
-            $insert=$this->insertdata('user_details',$email);
-        		if($insert)
-                {
-                    $random_number = $this->random_number();
-                    $otpp =  $this->updatedata('user_details',array("otp"=>$random_number),"where email='$email'");
-                    $per_id = $insert['single_row']['id'];
-                    if ($random_number) {
-                        $message = $random_number . ' OTP is valid for 5 min... ';
-                        $mail = true;
-                        if ($mail) {
-                            $error_array['success'] = 'Check E-mail for OTP';
-                            $error_array['status'] = 1;
-                            $error_array['id'] =  $per_id;
-                            $error_array['otp'] = $message;
-                        }
-                    }
-
-                    echo json_encode($error_array);
-
-
-               }
-
-           }
-
-        }
+      
         public function getorder()
   {
       $userid=$this->user_id;
@@ -344,7 +235,7 @@
 
 
       //$this->redirect_back();
-  
+
 
 
    }

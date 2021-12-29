@@ -11,12 +11,15 @@ if (isset($_REQUEST['review'])) {
 }
 
     $id=$_GET['product_id'];
+
     $product= $use_act->getproduct($id);
 
 
 $relatedproduct = $use_act->getrelatedproduct($id);
 
 ?>
+
+
 <style>
 .preview {
   display: -webkit-box;
@@ -280,7 +283,11 @@ ul.tabs li.active {
 		color: #fff;
 	}
 
-	}
+}
+  .cpontain {
+      margin: 77px;
+  }
+
 </style>
 
 <!-- <div data-elementor-type="product-archive" data-elementor-id="961" class="elementor elementor-961 elementor-location-archive product" data-elementor-settings="[]">
@@ -423,45 +430,28 @@ ul.tabs li.active {
   <h4>Review For Fresh Bread</h4>
     <p>
       <div class="pro_review">
-
-                                                 <div class="review_details">
-
-                                                     <div class="review_info"  >
-
-
-
-
-
-                                                         <h3 style="color:#9fcb22;"><i class="fa fa-user" ></i>&nbsp;sanoj kumar</h3>
-
-                                                         <div class="rating_send">
-
-                                                            <h5 style="color:#9fcb22;"> ashirwadfurnitures67@gmail.com </h5>
-
-                                                         </div>
-
-                                                     </div>
-
-                                                     <div class="review_date">
-
-                                                         <span>2021-02-18 10:17:53</span>
-
-                                                     </div>
-
-                                                     <p>In the mood for roasted pistachios and dried fruit? Nuts.com offers a wide assortment of trail mixes on their website, including blueberries, chocolate-covered espresso beans, and crunchy hazelnuts. </p>
-
-                                                 </div>
-
-                                             </div>
-      <div id="review_form_wrapper" class="col-md-3" >
-    			<div id="review_form">
-    										<div id="respond" class="comment-respond">
-    				<h3 id="reply-title" class="comment-reply-title"></h3>
-    									<form action="" method="post"  >
-    																		<input id="hidden" name="product_id" type="hidden" value="<?php echo $product['id'];?>" size="30" aria-required="true" >								<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label>  <input type="text" value="" size="30" aria-required="true" name="name"/> </p>
+<div class="review_details">
+<div class="review_info"  >
+<h3 style="color:#9fcb22;"><i class="fa fa-user" ></i>&nbsp;sanoj kumar</h3>
+<div class="rating_send">
+<h5 style="color:#9fcb22;"> ashirwadfurnitures67@gmail.com </h5>
+</div>
+ </div>
+<div class="review_date">
+<span>2021-02-18 10:17:53</span>
+</div>
+<p>In the mood for roasted pistachios and dried fruit? Nuts.com offers a wide assortment of trail mixes on their website, including blueberries, chocolate-covered espresso beans, and crunchy hazelnuts. </p>
+</div>
+</div>
+<div id="review_form_wrapper" class="col-md-3" >
+<div id="review_form">
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title"></h3>
+<form action="" method="post"  >
+    																		<input id="hidden" name="product_id" type="hidden" value="<?php echo $id;?>" size="30" aria-required="true" >								<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label>  <input type="text" value="" size="30" aria-required="true" name="name"/> </p>
     <p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required="true" /></p>
     												<p class="comment-form-comment"><label for="comment">Your Review</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>
-    							<button type="submit" class=" elementor-size-sm" name="review">Review</button>
+    							<button type="submit"  name="review">Review</button>
 
   </p>					</form>
     							</div><!-- #respond -->
@@ -478,12 +468,12 @@ ul.tabs li.active {
 				</div>
 			</div>
 		</div>
-
+<div class="cpontain">
+dqad
 <!-- .tab_container -->
 </div>
-	</div>
-</div>
 
+</main>
 
 <?php include('common/footer.php');?>
 
